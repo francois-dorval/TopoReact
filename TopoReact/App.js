@@ -20,6 +20,9 @@ class HomeScreen extends React.Component {
         <Text>Home Screen</Text>
 
         <SecteurMenu navigation={this.props.navigation} name='Cube' />
+                <SecteurMenu navigation={this.props.navigation} name='Impératrice' />
+                <SecteurMenu navigation={this.props.navigation} name='Impérator' />
+
 
       </View>
     );

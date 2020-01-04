@@ -14,7 +14,7 @@ module.exports = class SecteurMenu extends React.Component {
       <View style={{alignItems: 'center'}}>
 
         <TouchableHighlight
-                onPress={() => navigate('Secteur', {name: 'Jane'})}
+                onPress={() => navigate('Secteur', {name: this.props.name})}
 
 
                                 >

@@ -8,9 +8,11 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 module.exports = class SecteurScreen extends React.Component {
   render() {
+      const { navigation } = this.props;
+
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>SecteurScreen {this.props.name}</Text>
+        <Text>SecteurScreen {navigation.getParam('name')}</Text>
       </View>
     );
   }
