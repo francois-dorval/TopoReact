@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="893a2c2e-0269-47e7-8391-12a720e2e88f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/InfoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/MenuActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/SecteurActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/secteur/ListeSubSecteurAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/secteur/ListeVoieAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/activity/secteur/SubSecteurButtonClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/dao/SecteurDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/fragment/PdfReaderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/fragment/SecteurFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/model/Secteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/model/SubSecteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/model/Voie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/util/ErrorPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/util/ImageFromAsset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/util/JsonFileLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/util/OnSwipeTouchListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/util/VoieDaoStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/widget/SubSecteurButtonWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/java/com/github/dorval/francois/topo/plougastel/widget/VoieWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/drawable/bloc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/drawable/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/drawable/mybutton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/drawable/spash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/drawable/splash_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/font/space_toaster_roman.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/activity_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/activity_secteur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/fragment_pdf_reader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/fragment_secteur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/widget_subsecteur_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/layout/widget_voie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/menu/toolbar_empty_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/menu/toolbar_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/values-v16/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TopoPlougastel/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/fonts/Space_Toaster_Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/09.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/16.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/21.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/22.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/24.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/25.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/26.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/27.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/28.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/29.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/30.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/31.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/32.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/33.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/34.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/35.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/36.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/37.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/38.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/39.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/40.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/41.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/42.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/43.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/44.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/45.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/46.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/47.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/48.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/49.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/51.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/52.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/53.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/54.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/55.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/56.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/57.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/58.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/59.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/60.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/61.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/62.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/63.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/64.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/65.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/66.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/67.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/68.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/69.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/70.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/71.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/72.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/73.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/74.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/75.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/76.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/77.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/78.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/79.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/80.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/81.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/82.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/83.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/84.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/85.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/86.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/87.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/88.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/89.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/90.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/91.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/92.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/93.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/94.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/95.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/pdf/96.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/NV_S1B7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1/secteur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1_1/secteur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/NEIZVRAN1_2/secteur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/secteurs/NEIZVRAN/secteur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/InfoActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/MenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/SecteurActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/SplashActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/secteur/ListeSubSecteurAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/secteur/ListeVoieAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/secteur/SubSecteurButtonClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/dao/SecteurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/fragment/PdfReaderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/fragment/SecteurFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/model/Secteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/model/SubSecteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/model/Voie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/util/ErrorPopup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/util/ImageFromAsset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/util/JsonFileLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/util/OnSwipeTouchListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/util/VoieDaoStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/widget/SubSecteurButtonWidget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/github/dorval/francois/kerlouantopo/widget/VoieWidget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/bloc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/mybutton.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/spash_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/splash_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/font/space_toaster_roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_secteur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_pdf_reader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_secteur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/widget_subsecteur_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/widget_voie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/menu/toolbar_empty_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/menu/toolbar_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-v16/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/splash_background.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="133" />
+    <option name="y" value="47" />
+    <option name="width" value="1400" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dorval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dorval" type="462c0819:PsiDirectoryNode" />
+              <item name="francois" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dorval" type="462c0819:PsiDirectoryNode" />
+              <item name="francois" type="462c0819:PsiDirectoryNode" />
+              <item name="kerlouantopo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dorval" type="462c0819:PsiDirectoryNode" />
+              <item name="francois" type="462c0819:PsiDirectoryNode" />
+              <item name="kerlouantopo" type="462c0819:PsiDirectoryNode" />
+              <item name="widget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kerlouan" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Kerlouan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="893a2c2e-0269-47e7-8391-12a720e2e88f" name="Default Changelist" comment="" />
+      <created>1577048540332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577048540332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3039677" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.31099194" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info active="true" anchor="right" id="Preview" order="3" visible="true" weight="0.32952252" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dorval/francois/kerlouantopo/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/splash_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
