@@ -1,0 +1,190 @@
+{
+  "description": "Les secteurs de Plou",
+  "nom": "Plougastel",
+  "image": "map.png",
+  "subsecteurs": [
+    {
+      "description": "Plein ouest, accessible à marée haute. Peu de blocs, mais leurs qualités et la vue sur le port de Tresseny et le phare de l'île Vierge font de ce secteur un must.",
+      "nom": "Cube",
+      "id": "cube",
+      "image": "map.png",
+      "subsecteurs": [
+        {
+          "description": "Secteur 1, quelques blocs, dont probablement un des projets les plus monstrueux de Kerlouan...amateur de 8c, à vos doigts/ongles/ventouse, le numéro 20, au pré...nom de I Santa Ignacio vous attend. A vous de le renommer quand il sera dompté, par contre il va falloir un jeu de tendon hydraulique.",
+          "nom": "Grande Face",
+          "id": "grande_face",
+
+          "image": "map.jpg",
+          "gps": "<a href='http://maps.google.com/maps?q=loc:48.6475852,-4.4329331 (coordonnées bloc 1)'>Coordonnées bloc 1</a>",
+          "voies": [
+            {
+              "id": "1",
+              "cotation": "4",
+              "nom": "Poëme",
+              "photo": "NV_S1B1.jpg"
+            },
+            {
+              "id": "2",
+              "cotation": "7a+",
+              "nom": "Buvette des cimes",
+              "photo": "NV_S1B2.jpg"
+            },
+            {
+              "id": "3",
+              "cotation": "5",
+              "nom": "Blank",
+              "photo": "NV_S1B2.jpg"
+            },
+            {
+              "id": "4",
+              "cotation": "6a",
+              "nom": "Watson",
+              "commentaire": "Départ assis",
+              "photo": "NV_S1B2.jpg"
+            },
+            {
+              "id": "5",
+              "cotation": "5",
+              "nom": "Ik",
+              "photo": "NV_S1B5.jpg"
+            },
+            {
+              "id": "6",
+              "cotation": "4",
+              "nom": "Aloha",
+              "photo": "NV_S1B5.jpg"
+            },
+            {
+              "id": "7",
+              "cotation": "5",
+              "nom": "Laine tricoté",
+              "photo": "NV_S1B7.jpg"
+            },
+            {
+              "id": "8",
+              "cotation": "6a",
+              "nom": "Hop",
+              "photo": "NV_S1B7.jpg"
+            },
+            {
+              "id": "9",
+              "cotation": "6c",
+              "nom": "Petites Lutins",
+              "commentaire": "Départ assis",
+              "photo": "NV_S1B7.jpg"
+            },
+            {
+              "id": "10",
+              "cotation": "6a",
+              "nom": "Royaume de meuf",
+              "photo": "NV_S1B10.jpg"
+            },
+            {
+              "id": "11",
+              "cotation": "6c",
+              "nom": "Stafilox",
+              "photo": "NV_S1B11.jpg"
+            },
+            {
+              "id": "12",
+              "cotation": "5c",
+              "nom": "Zoreilles",
+              "photo": "NV_S1B11.jpg"
+            },
+            {
+              "id": "14",
+              "cotation": "6a",
+              "nom": "Yaw",
+              "photo": "NV_S1B14.jpg"
+            },
+            {
+              "id": "15",
+              "cotation": "4",
+              "nom": "Marche",
+              "photo": "NV_S1B14.jpg"
+            },
+            {
+              "id": "16",
+              "cotation": "6a",
+              "nom": "Paralysie Facile",
+              "photo": "NV_S1B17.jpg"
+            },
+            {
+              "id": "17",
+              "cotation": "5c",
+              "nom": "Activités Perverses",
+              "photo": "NV_S1B17.jpg"
+            },
+            {
+              "id": "18",
+              "nom": "Projet",
+              "photo": "NV_S1B18.jpg"
+            },
+            {
+              "id": "19",
+              "cotation": "6a",
+              "nom": "Antérieur droit",
+              "photo": "NV_S1B18.jpg"
+            },
+            {
+              "id": "20",
+              "cotation": "6b",
+              "nom": "AD bas",
+              "photo": "NV_S1B18.jpg"
+            },
+            {
+              "id": "21",
+              "nom": "Projet",
+              "photo": "NV_S1B18.jpg"
+            }
+          ],
+          "subsecteurs": [
+            {
+              "description": "Plein ouest, accessible à marée haute. Peu de blocs, mais leurs qualités et la vue sur le port de Tresseny et le phare de l'île Vierge font de ce secteur un must.",
+              "nom": "toit",
+              "id": "toit",
+              "voies": [
+                {
+                  "id": "1",
+                  "cotation": "4",
+                  "nom": "Poëme",
+                  "photo": "NV_S1B1.jpg"
+                },
+                {
+                  "id": "2",
+                  "cotation": "7a+",
+                  "nom": "Buvette des cimes",
+                  "photo": "NV_S1B2.jpg"
+                },
+                {
+                  "id": "3",
+                  "cotation": "5",
+                  "nom": "Blank",
+                  "photo": "NV_S1B2.jpg"
+                },
+                {
+                  "id": "4",
+                  "cotation": "6a",
+                  "nom": "Watson",
+                  "commentaire": "Départ assis",
+                  "photo": "NV_S1B2.jpg"
+                },
+
+                {
+                  "id": "21",
+                  "nom": "Projet",
+                  "photo": "NV_S1B18.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grande_face",
+      "nom": "Face"
+    }
+  ]
+}
+

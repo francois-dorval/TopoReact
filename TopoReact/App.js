@@ -18,9 +18,10 @@ class HomeScreen extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Home Screen</Text>
+          <SecteurMenu navigation={this.props.navigation} name='cube' path='cube/grande_face' />
 
-        <SecteurMenu navigation={this.props.navigation} name='Cube' />
-                <SecteurMenu navigation={this.props.navigation} name='Impératrice' />
+        <SecteurMenu navigation={this.props.navigation} name='cube toit' path='cube/grande_face/toit' />
+                <SecteurMenu navigation={this.props.navigation} name='imperatrice' path='imperatrice/fer_acheval/luzules/etc'/>
                 <SecteurMenu navigation={this.props.navigation} name='Impérator' />
 
 
