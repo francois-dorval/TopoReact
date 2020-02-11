@@ -73,8 +73,11 @@ module.exports = class SecteurScreen extends React.Component {
                 }
 
 
-                {(data.voies || []) .map(voie => {
+                {(data.voies || []) .map(voie =>
+                
+                {
                     return (
+
                         <Text> {voie.nom}</Text>
                     );
                 })}
