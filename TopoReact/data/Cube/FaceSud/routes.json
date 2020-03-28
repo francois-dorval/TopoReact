@@ -1,0 +1,65 @@
+[
+	  {
+		      "number": 25,
+		          "name": "P'tite Tête",
+			      "description": "",
+			          "quotation": 3,
+				      "equipment": "e"
+				        },
+					  {
+						      "number": 26,
+						          "name": "P'Tit Doigt",
+							      "description": "",
+							          "quotation": 3,
+								      "equipment": "e"
+								        },
+									  {
+										      "number": 27,
+										          "name": "La Nonne",
+											      "description": "Eviter le petit surplomb",
+											          "quotation": 3,
+												      "equipment": "e"
+												        },
+													  {
+														      "number": 28,
+														          "name": "L'évèque",
+															      "description": "Passer droit dans le surplomb",
+															          "quotation": 4,
+																      "equipment": "e"
+																        },
+																	  {
+																		      "number": 29,
+																		          "name": "La Sans Nom",
+																			      "description": "",
+																			          "quotation": 4,
+																				      "equipment": "e"
+																				        },
+																					  {
+																						      "number": 30,
+																						          "name": "Le Petit Toit",
+																							      "description": "",
+																							          "quotation": "4+",
+																								      "equipment": "e"
+																								        },
+																									  {
+																										      "number": 31,
+																										          "name": "Zébulon",
+																											      "description": "",
+																											          "quotation": 5,
+																												      "equipment": "e"
+																												        },
+																													  {
+																														      "number": 32,
+																														          "name": "Fol de Moi",
+																															      "description": "",
+																															          "quotation": 4,
+																																      "equipment": "e"
+																																        },
+																																	  {
+																																		      "number": 33,
+																																		          "name": "Glop Pas Glop",
+																																			      "description": "",
+																																			          "quotation": 4,
+																																				      "equipment": "e"
+																																				        }
+]

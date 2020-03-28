@@ -1,0 +1,30 @@
+[
+	  {
+		      "number": 36,
+		          "name": "La Dalle",
+			      "description": "",
+			          "quotation": "L1:6a/L2:4+",
+				      "equipment": "c"
+				        },
+					  {
+						      "number": 37,
+						          "name": "La Pucelle",
+							      "description": "On vous laisse seul juge",
+							          "quotation": "L1:5+/L2:4",
+								      "equipment": "c"
+								        },
+									  {
+										      "number": 38,
+										          "name": "Grand Large",
+											      "description": "Pour compliquer \"la pucelle",
+											          "quotation": "6a",
+												      "equipment": "c"
+												        },
+													  {
+														      "number": 39,
+														          "name": "Trou de Godille",
+															      "description": "",
+															          "quotation": "6a",
+																      "equipment": "e"
+																        }
+]

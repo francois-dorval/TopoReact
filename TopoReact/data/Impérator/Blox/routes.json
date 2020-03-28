@@ -1,0 +1,44 @@
+[
+	  {
+		      "number": 15,
+		          "name": "Destin d'un Desperado",
+			      "description": "",
+			          "quotation": 5,
+				      "equipment": "b"
+				        },
+					  {
+						      "number": 16,
+						          "name": "Le Sacre",
+							      "description": "Un jeté",
+							          "quotation": "6c+",
+								      "equipment": "b"
+								        },
+									  {
+										      "number": 17,
+										          "name": "Crux Universalis",
+											      "description": "",
+											          "quotation": "?",
+												      "equipment": "b"
+												        },
+													  {
+														      "number": 18,
+														          "name": "En attendant Godoffe",
+															      "description": "Un jeté",
+															          "quotation": "?",
+																      "equipment": "b"
+																        },
+																	  {
+																		      "number": 19,
+																		          "name": "Titania",
+																			      "description": "",
+																			          "quotation": "4+",
+																				      "equipment": "b"
+																				        },
+																					  {
+																						      "number": 20,
+																						          "name": "Le Z",
+																							      "description": "",
+																							          "quotation": "4+",
+																								      "equipment": "b"
+																								        }
+]

@@ -1,0 +1,79 @@
+[
+	  {
+		      "number": 13,
+		          "name": "Obélix",
+			      "description": "Départ costaud, plaisr ensuite. Le relais se trouve sur une petite vire herbeuse",
+			          "quotation": "6b+",
+				      "equipment": "e"
+				        },
+					  {
+						      "number": 14,
+						          "name": "Idéfix",
+							      "description": "Idem",
+							          "quotation": "6a+",
+								      "equipment": "e"
+								        },
+									  {
+										      "number": 15,
+										          "name": "Black Girl",
+											      "description": "",
+											          "quotation": 4,
+												      "equipment": "c"
+												        },
+													  {
+														      "number": 16,
+														          "name": "Bactériologix",
+															      "description": "En continuité",
+															          "quotation": "6a",
+																      "equipment": "e"
+																        },
+																	  {
+																		      "number": 17,
+																		          "name": "J'y va t'y",
+																			      "description": "Engagé",
+																			          "quotation": "L1:4+/L2:4",
+																				      "equipment": "e"
+																				        },
+																					  {
+																						      "number": 18,
+																						          "name": "Les abeilles",
+																							      "description": "Equipé dans L1",
+																							          "quotation": "L1:5+/L2:6a NE",
+																								      "equipment": "c"
+																								        },
+																									  {
+																										      "number": 19,
+																										          "name": "Le Marais",
+																											      "description": "Jusqu'au sommet, la plus belle du secteur. Faites deux rappels à la descente",
+																											          "quotation": "6b",
+																												      "equipment": "e"
+																												        },
+																													  {
+																														      "number": 20,
+																														          "name": "La Marie",
+																															      "description": "Sur le file de l'arête",
+																															          "quotation": "L1:6a+/L2:4+",
+																																      "equipment": "e"
+																																        },
+																																	  {
+																																		      "number": 21,
+																																		          "name": "La Directissime",
+																																			      "description": "Un peu gazeux et à bras",
+																																			          "quotation": "L1:6a/L2:6b",
+																																				      "equipment": "e"
+																																				        },
+																																					  {
+																																						      "number": 22,
+																																						          "name": "Variante Directissime",
+																																							      "description": "Pour conserver des cartouches en vue du 6b",
+																																							          "quotation": "L1:5+/L2:6a NE",
+																																								      "equipment": "e"
+																																								        },
+																																									  {
+																																										      "number": 35,
+																																										          "name": "La traversée des Acrobates",
+																																											      "description": "Ne pas oublier la parade...",
+																																											          "quotation": "7b/c",
+																																												      "equipment": "t"
+																																												        }
+]

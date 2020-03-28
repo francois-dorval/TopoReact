@@ -1,0 +1,23 @@
+[
+	  {
+		      "number": 34,
+		          "name": "Croquette",
+			      "description": "Partir du bas",
+			          "quotation": "5+",
+				      "equipment": "e"
+				        },
+					  {
+						      "number": 35,
+						          "name": "La Tête du Chien",
+							      "description": "Pilier Mythique",
+							          "quotation": "5+",
+								      "equipment": "e"
+								        },
+									  {
+										      "number": 36,
+										          "name": "Guili Guili",
+											      "description": "",
+											          "quotation": 3,
+												      "equipment": "c"
+												        }
+]

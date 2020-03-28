@@ -1,0 +1,7 @@
+for D in `find . -type d`
+do
+    echo $D 
+    touch $D/index.json
+    touch $D/voies.json
+done
+

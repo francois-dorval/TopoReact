@@ -1,0 +1,30 @@
+ [
+	   {
+		       "number": 13,
+		           "name": "Le Dièdre Blanc",
+			       "description": "",
+			           "quotation": "4+",
+				       "equipment": "e"
+				         },
+					   {
+						       "number": 14,
+						           "name": "La Crotte",
+							       "description": "",
+							           "quotation": "4+",
+								       "equipment": "e"
+								         },
+									   {
+										       "number": 15,
+										           "name": "Le Rige",
+											       "description": "",
+											           "quotation": 4,
+												       "equipment": "e"
+												         },
+													   {
+														       "number": 16,
+														           "name": "La Reine Maka",
+															       "description": "Restez bien dans la fissure",
+															           "quotation": "4+",
+																       "equipment": "e"
+																         }
+ ]

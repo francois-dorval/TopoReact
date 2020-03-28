@@ -1,0 +1,44 @@
+[
+	  {
+		      "number": 1,
+		          "name": "La Mariton",
+			      "description": "Rester bien dans la dalle pour voir",
+			          "quotation": "6c+",
+				      "equipment": "e"
+				        },
+					  {
+						      "number": 2,
+						          "name": "La Variante Mariton",
+							      "description": "Plus simple mais sans les points",
+							          "quotation": "6b",
+								      "equipment": "c"
+								        },
+									  {
+										      "number": 3,
+										          "name": "Glups",
+											      "description": "Pas de bloc au départ. Variante de sortie équipée sur la gauche (6c+)",
+											          "quotation": "6b",
+												      "equipment": "e"
+												        },
+													  {
+														      "number": 4,
+														          "name": "Vas-y mon gars",
+															      "description": "Sans la fissure, finesse et engagement",
+															          "quotation": "6b",
+																      "equipment": "e"
+																        },
+																	  {
+																		      "number": 5,
+																		          "name": "La Fissure",
+																			      "description": "",
+																			          "quotation": "3+",
+																				      "equipment": "c"
+																				        },
+																					  {
+																						      "number": 6,
+																						          "name": "Le Dièdre Vert",
+																							      "description": "En 4 si vous utilisez la fissure",
+																							          "quotation": "5+",
+																								      "equipment": "e"
+																								        }
+]

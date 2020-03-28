@@ -1,0 +1,23 @@
+[
+	  {
+		      "number": 26,
+		          "name": "Léo Nain",
+			      "description": "",
+			          "quotation": "6a",
+				      "equipment": "c"
+				        },
+					  {
+						      "number": 27,
+						          "name": "La Magnonne",
+							      "description": "Prévoir boussole, bivouac et crampons (et un second qui puisse suivre)",
+							          "quotation": 5,
+								      "equipment": "c"
+								        },
+									  {
+										      "number": 28,
+										          "name": "La Crécerelle",
+											      "description": "",
+											          "quotation": 5,
+												      "equipment": "c"
+												        }
+]

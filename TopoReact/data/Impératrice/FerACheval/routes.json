@@ -1,0 +1,86 @@
+[
+	  {
+		      "number": 23,
+		          "name": "Microbiologix",
+			      "description": "Départ avec parade indispensable",
+			          "quotation": "6c",
+				      "equipment": "e"
+				        },
+					  {
+						      "number": 24,
+						          "name": "La Paquita",
+							      "description": "Idem",
+							          "quotation": "L1:6c/2:6a+",
+								      "equipment": "e"
+								        },
+									  {
+										      "number": 25,
+										          "name": "Zona",
+											      "description": "Idem",
+											          "quotation": "6c+",
+												      "equipment": "e"
+												        },
+													  {
+														      "number": 26,
+														          "name": "Les Luzules",
+															      "description": "Idem. La classique du secteur",
+															          "quotation": "L1:5/L2:6a+/L2':5",
+																      "equipment": "e"
+																        },
+																	  {
+																		      "number": 27,
+																		          "name": "Apollo XI",
+																			      "description": "Départ tonique",
+																			          "quotation": "L1:6a/L2:4+",
+																				      "equipment": "e"
+																				        },
+																					  {
+																						      "number": 28,
+																						          "name": "Le Fer à Cheval",
+																							      "description": "",
+																							          "quotation": "L1:5+/L2:4+",
+																								      "equipment": "e"
+																								        },
+																									  {
+																										      "number": 29,
+																										          "name": "Variante des frangins",
+																											      "description": "Toute une histoire : celles des Descorps",
+																											          "quotation": "L1:6a/L2:4+",
+																												      "equipment": "e"
+																												        },
+																													  {
+																														      "number": 30,
+																														          "name": "Adoigtracourcix",
+																															      "description": "Passage à doigts",
+																															          "quotation": "6b+",
+																																      "equipment": "e"
+																																        },
+																																	  {
+																																		      "number": 31,
+																																		          "name": "La Diagonale",
+																																			      "description": "",
+																																			          "quotation": "5+",
+																																				      "equipment": "e"
+																																				        },
+																																					  {
+																																						      "number": 32,
+																																						          "name": "Demi-Portion",
+																																							      "description": "",
+																																							          "quotation": "L1:6a/L2:4",
+																																								      "equipment": "e"
+																																								        },
+																																									  {
+																																										      "number": 33,
+																																										          "name": "Blanco",
+																																											      "description": "C'est la fêtes des géants",
+																																											          "quotation": "6b+",
+																																												      "equipment": "e"
+																																												        },
+																																													  {
+																																														      "number": 34,
+																																														          "name": "Les Bruyères",
+																																															      "description": "",
+																																															          "quotation": 5,
+																																																      "equipment": "c"
+																																																        }
+]

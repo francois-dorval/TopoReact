@@ -1,0 +1,23 @@
+	[
+		  {
+			      "number": 40,
+			          "name": "Les feuilles mortes",
+				      "description": "",
+				          "quotation": 5,
+					      "equipment": "c"
+					        },
+						  {
+							      "number": 41,
+							          "name": "Pilly",
+								      "description": "",
+								          "quotation": 5,
+									      "equipment": "c"
+									        },
+										  {
+											      "number": 42,
+											          "name": "P'tite Pose",
+												      "description": "",
+												          "quotation": "5+",
+													      "equipment": "c"
+													        }
+	]
