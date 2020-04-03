@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="" />
+    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/Cube/FaceNord1/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Cube/FaceNord2/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Cube/FaceOuest/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Cube/FaceSud/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Cube/Langle/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Cube/PilierChien/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/Blox/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/DalleDeCoeur/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/DiedreNoir/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/LX/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/LeLierre/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/Mgnonne/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impératrice/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cube/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impérator/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/FerACheval/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/FerACheval/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/FeuillesMortes/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/FeuillesMortes/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/GrandToit/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/GrandToit/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/Initiation1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/Initiation1/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/Initiation2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/Initiation2/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/JyVaTy/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/JyVaTy/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/LeFennec/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/LeFennec/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/TrouDeGodille/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/TrouDeGodille/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/voies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Serpent/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Serpent/index.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +66,9 @@
     <option name="height" value="833" />
   </component>
   <component name="ProjectId" id="1Vfuiv7nKMxqRI1ew6Knr6a8ah1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,23 +78,23 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/Serpent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components" />
-      <recent name="$PROJECT_DIR$/constants" />
-      <recent name="$PROJECT_DIR$/assets/secteurs/Impérator" />
-      <recent name="$PROJECT_DIR$/assets/secteurs" />
-      <recent name="$PROJECT_DIR$/screens" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/secteurs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/Serpent" />
+      <recent name="$PROJECT_DIR$/data/Cube/Langle" />
+      <recent name="$PROJECT_DIR$/data/Cube/PilierChien" />
+      <recent name="$PROJECT_DIR$/data/Cube/FaceSud" />
+      <recent name="$PROJECT_DIR$/data/Cube/FaceOuest" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -100,6 +131,7 @@
       <workItem from="1580820493250" duration="2000" />
       <workItem from="1581453461539" duration="1317000" />
       <workItem from="1585943903852" duration="2000" />
+      <workItem from="1585943935206" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -108,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578178351536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout images">
+      <created>1585944073538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585944073538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,13 +155,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="ajout images" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1578781220096">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1585944073358">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1578781220096" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1585944073358" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1581453986580">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -131,10 +171,34 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1581454416944" />
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1585945390290">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1585945390290" />
+    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1585945390288">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1585945390288" />
+    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1585945390286">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1585945390286" />
+    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1585945390289">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585945390289" />
+    <state x="322" y="97" key="SettingsEditor" timestamp="1585944477776">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1585944477776" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1580067980802">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1580067980802" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585944075107">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1585944075107" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1581453949386">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -147,9 +211,9 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1578778982101" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1580067806551">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1585944645044">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1580067806551" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1585944645044" />
   </component>
 </project>
