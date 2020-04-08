@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Cube/FaceNord1/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Cube/FaceNord2/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Cube/FaceOuest/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Cube/FaceSud/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Cube/Langle/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Cube/PilierChien/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/Blox/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/DalleDeCoeur/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/DiedreNoir/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/LX/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/LeLierre/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impérator/Mgnonne/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Impératrice/secteur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/secteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/secteur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/SecteurData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cube/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impérator/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/FerACheval/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/FerACheval/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/FeuillesMortes/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/FeuillesMortes/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/GrandToit/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/GrandToit/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/Initiation1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/Initiation1/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/Initiation2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/Initiation2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/JyVaTy/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/JyVaTy/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/LeFennec/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/LeFennec/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/TrouDeGodille/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/TrouDeGodille/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Impératrice/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Serpent/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Serpent/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/read-data-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/__snapshots__/App-test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +24,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -78,7 +71,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/Serpent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../arkea/node-sandbox" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,11 +83,11 @@
       <recent name="$PROJECT_DIR$/assets/secteurs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/assets/secteurs" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/data/Serpent" />
       <recent name="$PROJECT_DIR$/data/Cube/Langle" />
-      <recent name="$PROJECT_DIR$/data/Cube/PilierChien" />
-      <recent name="$PROJECT_DIR$/data/Cube/FaceSud" />
-      <recent name="$PROJECT_DIR$/data/Cube/FaceOuest" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -131,7 +124,11 @@
       <workItem from="1580820493250" duration="2000" />
       <workItem from="1581453461539" duration="1317000" />
       <workItem from="1585943903852" duration="2000" />
-      <workItem from="1585943935206" duration="2646000" />
+      <workItem from="1585943935206" duration="3739000" />
+      <workItem from="1586030457061" duration="2945000" />
+      <workItem from="1586242295534" duration="18000" />
+      <workItem from="1586288408411" duration="3377000" />
+      <workItem from="1586373602100" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585944073538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout images">
+      <created>1585946603914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585946603914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,18 +163,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="ajout images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1585944073358">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1585946603810">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1585944073358" />
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1581453986580">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1585946603810" />
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586290753372">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1581453986580" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581454416944">
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1586290753372" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586289107183">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1581454416944" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586289107183" />
     <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1585945390290">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -195,18 +199,26 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1580067980802" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585944075107">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585946605031">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1585944075107" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1585946605031" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1581453949386">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1581453949386" />
-    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1580068157179">
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586033065840">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1580068157179" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1586033065840" />
+    <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586288426871">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
+    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1586375522640">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1586375522640" />
     <state x="497" y="208" key="run.anything.popup" timestamp="1578778982101">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

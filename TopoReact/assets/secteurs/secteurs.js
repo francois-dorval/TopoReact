@@ -4,6 +4,7 @@ const Secteurs =
 {
   "description": "Les secteurs de Plou",
   "nom": "Plougastel",
+  "id":"plou",
   "image": "map.png",
   "subsecteurs": [
     {
@@ -186,9 +187,10 @@ const Secteurs =
       ]
     },
     {
-      "id": "grande_face",
+      "id": "grandea_face",
       "nom": "Face"
     }
   ]
 }
 
+export default Secteurs

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {StyleSheet, Dimensions} from "react-native";
+import {StyleSheet, Dimensions,Image, FlatList} from "react-native";
 import {theme} from "galio-framework";
 import {argonTheme, tabs} from "../constants/";
 
@@ -21,24 +21,29 @@ module.exports = class SecteurMenu extends React.Component {
 
     render() {
         const {navigate} = this.props.navigation;
+        console.log("this.props "+JSON.stringify(this.props))
+        const id=this.props.id
+        const name=this.props.name
 
-        const litem=
-        {
-            title: this.props.name,
-                image: 'https://images.unsplash.com/photo-1519368358672-25b03afee3bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2004&q=80',
-            cta: 'View article'
-        }
+        console.log("thiiis "+id+" - "+name)
+
 
         return (
             <View style={{alignItems: 'center'}}>
+                {/*<Image*/}
+                {/*    source={require('../assets/images/robot-prod.png')}*/}
+                {/*    style={{width: 400, height: 400}}*/}
+                {/*/>*/}
 
 
-                {/*<Button color="info" style={styles.button} onPress={() => navigate('Secteur', {name: this.props.name, path: this.props.path})}*/}
-                {/*          title={this.props.name}>{this.props.name}</Button>*/}
+
+
+                <Button color="info" style={styles.button} onPress={() => navigate('Secteur', {name: this.props.name, id: this.props.id})}
+                          title={this.props.name}>{this.props.name}</Button>
 
 
 
-                <Card item={litem}></Card>
+                {/*<Card item={litem}></Card>*/}
 
             </View>
         );

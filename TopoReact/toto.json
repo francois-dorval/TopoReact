@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "state": {
+      "routeName": "Secteur",
+      "key": "id-1586291166079-3",
+      "params": {
+        "name": "Face"
+      }
+    },
+    "actions": {}
+  },
+  "id": "cube",
+  "name": "Cube"
+}

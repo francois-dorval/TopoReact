@@ -2,71 +2,61 @@ import React from 'react';
 import _ from 'lodash'
 
 import {
-    View, Text, TouchableHighlight,
+    View, Text
 } from 'react-native';
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
 import SecteurMenu from "../components/SecteurMenu";
+import SecteurData from '../util/SecteurData';
 
 
 module.exports = class SecteurScreen extends React.Component {
-
-    getSubsectorPath(path, subsecteur) {
-        return path+"/"+subsecteur.nom;
-    }
-
-
-    getData(path) {
-        var data = require('../assets/secteurs/secteurs.json');
-        console.log("--" + data.subsecteurs.length)
-        if (!path){
-            return {}
-        }
-        let split = path.split("/");
-        for (var i = 0; i < split.length; i++) {
-            var subsecteur = split[i];
-            if (data.subsecteurs) {
-                for (var j = 0; j < data.subsecteurs.length; j++) {
-
-                    console.log("subs " + data.subsecteurs[j].id);
-                }
-
-                data = _.find(data.subsecteurs, function (o) {
-                    return (o.id = subsecteur)
-                });
-                console.log("newdata" + JSON.stringify(data));
-
-            } else {
-                console.log("canot find subs of" + split[i])
+    static navigationOptions = ({ navigation }) => {
+        function getTitle(){
+            try{
+               return `${navigation.state.params.name}`
+            } catch (e) {
+                return "Topo"
             }
-            //0  console.log("data.nom" +data["nom"]);
         }
-        return data;
-    }
+        const {state} = navigation;
+        return {
+            title: getTitle(),
+        };
+    };
 
     render() {
         const {navigation} = this.props;
+        let secteur = navigation.getParam('id');
+        if (!secteur) {
+            secteur = "plou";
+        }
+        console.log('secteurid::', secteur);
 
-        var secteur = navigation.getParam('path');
-        console.log('secteur:', secteur);
-        // var toto = path.join('../assets/secteurs/',secteur,'/secteur.json');
-        //  var customData = require(toto);
-        var data = this.getData(secteur);
+        let data = SecteurData.getData(secteur);
+        //navigation.setOptions({ title: data.id })
 
-        return (
 
+    return (
 
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text>SecteurScreen {navigation.getParam('name')}</Text>
                 <Text> {navigation.getParam('path')}</Text>
+
+                {/*<FlatList*/}
+                {/*    data={Profiles}*/}
+                {/*    keyExtractor={(item, index) => item.id}*/}
+                {/*    renderItem={({item}) => (*/}
+                {/*        <View>*/}
+                {/*            <Image source={item.src} />*/}
+                {/*        </View>*/}
+                {/*    )}*/}
+                {/*/>*/}
                 <Text> {data.description}</Text>
 
                 {
                     (data.subsecteurs || []) .map(subsecteur => {
-                    var moumoute = this.getSubsectorPath(navigation.getParam('path'), subsecteur)
                     return (
                        // <Text> {moumoute}</Text>
-                        <SecteurMenu navigation={this.props.navigation} name={subsecteur.nom} path={moumoute}/>
+                        <SecteurMenu navigation={this.props.navigation} id={subsecteur.id} name={subsecteur.nom} />
 
                     );
                 })
