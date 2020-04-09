@@ -1,11 +1,11 @@
 import React from 'react';
 
-import {StyleSheet, Dimensions,Image, FlatList} from "react-native";
+import {StyleSheet, Dimensions, Image, FlatList} from "react-native";
 import {theme} from "galio-framework";
 import {argonTheme, tabs} from "../constants/";
 
 
-import {Button,  Card, Select, Icon, Input, Header, Switch} from "../components/";
+import {Button, Card, Select, Icon, Input, Header, Switch} from "../components/";
 
 const {width} = Dimensions.get("screen");
 
@@ -21,11 +21,11 @@ module.exports = class SecteurMenu extends React.Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        console.log("this.props "+JSON.stringify(this.props))
-        const id=this.props.id
-        const name=this.props.name
+        console.log("this.props " + JSON.stringify(this.props))
+        const id = this.props.id
+        const name = this.props.name
 
-        console.log("thiiis "+id+" - "+name)
+        console.log("thiiis " + id + " - " + name)
 
 
         return (
@@ -36,11 +36,12 @@ module.exports = class SecteurMenu extends React.Component {
                 {/*/>*/}
 
 
-
-
-                <Button color="info" style={styles.button} onPress={() => navigate('Secteur', {name: this.props.name, id: this.props.id})}
-                          title={this.props.name}>{this.props.name}</Button>
-
+                <Button color="info" style={styles.button} onPress={() => navigate({
+                    routeName: 'Secteur',
+                    params: {name: this.props.name, id: this.props.id},
+                    key: 'Secteur' + this.props.id
+                })}
+                        title={this.props.name}>{this.props.name}</Button>
 
 
                 {/*<Card item={litem}></Card>*/}

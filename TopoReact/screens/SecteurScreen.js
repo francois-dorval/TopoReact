@@ -26,19 +26,21 @@ module.exports = class SecteurScreen extends React.Component {
     render() {
         const {navigation} = this.props;
         let secteur = navigation.getParam('id');
-        if (!secteur) {
-            secteur = "plou";
-        }
+        // if (!secteur) {
+        //     secteur = "plou";
+        // }
         console.log('secteurid::', secteur);
 
         let data = SecteurData.getData(secteur);
         //navigation.setOptions({ title: data.id })
 
-
+        function getDescription() {
+            return "deeesc"
+        }
     return (
 
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-                <Text>SecteurScreen {navigation.getParam('name')}</Text>
+                {/*<Text>SecteurScreen {navigation.getParam('name')}</Text>*/}
                 <Text> {navigation.getParam('path')}</Text>
 
                 {/*<FlatList*/}
@@ -46,29 +48,35 @@ module.exports = class SecteurScreen extends React.Component {
                 {/*    keyExtractor={(item, index) => item.id}*/}
                 {/*    renderItem={({item}) => (*/}
                 {/*        <View>*/}
-                {/*            <Image source={item.src} />*/}
+                {/*            <Image source={item.imga} />*/}
                 {/*        </View>*/}
                 {/*    )}*/}
                 {/*/>*/}
+
+
+
+                {/*<Text> {JSON.stringify(data.name)}</Text>*/}
+
                 <Text> {data.description}</Text>
+
 
                 {
                     (data.subsecteurs || []) .map(subsecteur => {
+                        console.log('display button '+subsecteur.secteur.id+" - "+subsecteur.secteur.name)
                     return (
-                       // <Text> {moumoute}</Text>
-                        <SecteurMenu navigation={this.props.navigation} id={subsecteur.id} name={subsecteur.nom} />
+                        <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id} name={subsecteur.secteur.name} />
 
                     );
                 })
                 }
 
 
-                {(data.voies || []) .map(voie =>
+                {(data.routes || []) .map(voie =>
                 
                 {
                     return (
 
-                        <Text> {voie.nom}</Text>
+                        <Text> {voie.name}/{voie.quotation}</Text>
                     );
                 })}
 

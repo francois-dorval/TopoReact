@@ -1,4 +1,5 @@
 node_modules/**/*
+assets/images/secteurs/*
 .expo/*
 npm-debug.*
 *.jks
