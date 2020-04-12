@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash'
 
 import {
-    View, Text, Image, ScrollView
+    View, Text, Image, ScrollView, StyleSheet
 } from 'react-native';
 import SecteurMenu from "../components/SecteurMenu";
 import Voie from "../components/Voie";
@@ -36,18 +36,12 @@ module.exports = class SecteurScreen extends React.Component {
         return (
             <ScrollView>
 
-                <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-                    <Text> {navigation.getParam('path')}</Text>
-
+                <View style={styles.scView}>
                     <Text> {data.description}</Text>
 
-                    <Image
-                              resizeMode="contain"
-
-                              source={data.img}/>
+                    <Image style={styles.secteurImage} source={data.img}/>
                     {
                         (data.subsecteurs || []).map(subsecteur => {
-                            console.log('display button ' + subsecteur.secteur.id + " - " + subsecteur.secteur.name)
                             return (
                                 <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id}
                                              name={subsecteur.secteur.name}/>
@@ -58,10 +52,9 @@ module.exports = class SecteurScreen extends React.Component {
                 </View>
                 <View>
 
-                    {(data.routes || []).map(voie => {
+                    {(data.routes || []).map((voie, index) => {
                         return (
-                            <Voie data={voie}></Voie>
-                            // <Text> {voie.name}/{voie.quotation}</Text>
+                            <Voie data={voie} key={index}></Voie>
                         );
                     })}
 
@@ -72,3 +65,21 @@ module.exports = class SecteurScreen extends React.Component {
         );
     }
 }
+
+
+const styles = StyleSheet.create(
+    {
+        scView: {
+            marginLeft: 20,
+            marginTop: 20,
+            marginRight: 20
+        },
+        secteurImage: {
+            resizeMode: "contain",
+            flex: 1,
+            width: "100%",
+            //height: 1000,
+        }
+
+
+    });

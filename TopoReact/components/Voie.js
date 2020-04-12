@@ -24,22 +24,46 @@ module.exports = class Voie extends React.Component {
         console.log("this.props " + JSON.stringify(this.props))
         const data = this.props.data
 
+        function getImage(){
+            console.log("image "+data.equipment);
+            if (data.equipment === "c") {
+                return require('../assets/images/coinceur_1.png')
+            }else if (data.equipment === "t"){
+                return require('../assets/images/traversee.png')
+            }else if (data.equipment === "b"){
+                return require('../assets/images/bloc.png')
+            }else if (data.equipment === "e"){
+                return require('../assets/images/spit_1.png')
+            }
+        }
 
         return (
 
             <View style={styles.mainContainer}>
+
+                <View style={styles.verticalContainer}>
+                    <Text style={styles.routeNumber}>
+                        {data.number}
+                    </Text>
+                </View>
                 <View style={styles.textContainer}>
+
                     <Text style={styles.routeName} numberOfLines={1}>
                         {data.name}
                     </Text>
+
+                    <Text style={styles.routeDescription} numberOfLines={2}>
+                        {data.description}
+                    </Text>
+                </View>
+                <View style={styles.verticalContainer}>
                     <Text style={styles.routeQuotation} numberOfLines={1}>
                         {data.quotation}
                     </Text>
                 </View>
+
                 <View>
-                    <Text style={styles.routeDescription} numberOfLines={2}>
-                        {data.description}
-                    </Text>
+                    <Image style={styles.equipement} source={getImage()}></Image>
                 </View>
             </View>
 
@@ -51,47 +75,71 @@ module.exports = class Voie extends React.Component {
     }
 }
 
+
+const DEBUGCOLORS = {
+    //dbg1: 'powderblue',
+    //dbg2: 'green',
+    dbg1: '#00000000',
+    dbg2: '#00000000',
+    black: '#00000000',
+    // your colors
+}
 const styles = StyleSheet.create(
     {
         mainContainer: {
             flex: 1,
-            flexDirection: 'column',
-            alignItems:'stretch',
-            //backgroundColor: 'green'
-
+            flexDirection: 'row',
+            alignItems: 'stretch',
+            backgroundColor: DEBUGCOLORS.dbg2,
+            alignContent: 'center',
+            padding: "1%"
         },
 
         textContainer: {
             flex: 1,
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-           // backgroundColor: 'powderblue'
+            flexDirection: 'column',
+            //justifyContent: 'space-between',
+            backgroundColor: DEBUGCOLORS.dbg1
 
+        },
+        verticalContainer: {
+            backgroundColor: DEBUGCOLORS.dbg1,
+            flexDirection: 'column',
+            justifyContent: "center"
+        },
+        routeNumber: {
+            fontSize: 18,
+            fontStyle: 'italic',
+            backgroundColor: DEBUGCOLORS.dbg2,
+            margin: "3%",
+            textAlign: 'center'
         },
         routeName: {
             //flex: 1,
             fontSize: 18,
             fontWeight: '500',
-
             marginBottom: 2
         }
         ,
         routeQuotation: {
-            fontSize: 18,
+            fontSize: 20,
             fontWeight: "bold",
+            alignItems: "center"
 
         },
         routeDescription: {
             color: '#999999',
             fontSize: 12,
+        },
+        equipement: {
+          //  margin:"1%",
+            flex: 1,
+            width: 50,
+            height: 50,
+            resizeMode: 'contain'
         }
-        ,
-        row: {
-            alignItems: 'center',
-            backgroundColor: 'white',
-            flexDirection: 'row',
-            padding: 5
-        }
+
+
         ,
 // cellImage: {
 //     backgroundColor: '#dddddd',

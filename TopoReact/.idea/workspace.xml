@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/coinceur_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spit_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Impérator/DalleDeVerre/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/robot-dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/robot-prod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/secteur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/secteur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Voie.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Cube/FaceNord1/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cube/FaceNord1/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Cube/FaceOuest/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cube/FaceOuest/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Cube/FaceSud/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cube/FaceSud/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impérator/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Impératrice/ArbreFoudroye/routes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +138,7 @@
       <workItem from="1586411976067" duration="15000" />
       <workItem from="1586461986057" duration="4015000" />
       <workItem from="1586498421619" duration="15000" />
-      <workItem from="1586695897486" duration="4045000" />
+      <workItem from="1586695897486" duration="12463000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -170,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586697099737</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="component voie">
+      <created>1586699967999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586699967999</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,13 +201,14 @@
     <MESSAGE value="début navigation ok" />
     <MESSAGE value="génération data ok" />
     <MESSAGE value="génération data  + image" />
-    <option name="LAST_COMMIT_MESSAGE" value="génération data  + image" />
+    <MESSAGE value="component voie" />
+    <option name="LAST_COMMIT_MESSAGE" value="component voie" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586697099591">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586699967860">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586697099591" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586699967860" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586290753372">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -221,10 +241,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1580067980802" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586697101400">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586700010241">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1586697101400" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1586700010241" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -241,10 +261,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1586696560366" />
-    <state x="497" y="208" key="run.anything.popup" timestamp="1586463175576">
+    <state x="497" y="208" key="run.anything.popup" timestamp="1586723514307">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586463175576" />
+    <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586723514307" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1586696712441">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -255,7 +275,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/components/Voie.js</url>
-          <line>53</line>
+          <line>86</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
