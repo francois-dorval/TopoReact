@@ -2,9 +2,10 @@ import React from 'react';
 import _ from 'lodash'
 
 import {
-    View, Text, Image
+    View, Text, Image, ScrollView
 } from 'react-native';
 import SecteurMenu from "../components/SecteurMenu";
+import Voie from "../components/Voie";
 import SecteurData from '../util/SecteurData';
 
 
@@ -27,48 +28,47 @@ module.exports = class SecteurScreen extends React.Component {
     render() {
         const {navigation} = this.props;
         let secteur = navigation.getParam('id');
-        // if (!secteur) {
-        //     secteur = "plou";
-        // }
-        console.log('secteurid::', secteur);
+
+        console.log('secteur id ', secteur);
 
         let data = SecteurData.getData(secteur);
 
-        //navigation.setOptions({ title: data.id })
-
-        function getDescription() {
-            return "deeesc"
-        }
-
         return (
+            <ScrollView>
 
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-                <Text> {navigation.getParam('path')}</Text>
+                <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+                    <Text> {navigation.getParam('path')}</Text>
 
-                <Text> {data.description}</Text>
+                    <Text> {data.description}</Text>
 
-                <Image source={data.img}/>
-                {
-                    (data.subsecteurs || []).map(subsecteur => {
-                        console.log('display button ' + subsecteur.secteur.id + " - " + subsecteur.secteur.name)
+                    <Image
+                              resizeMode="contain"
+
+                              source={data.img}/>
+                    {
+                        (data.subsecteurs || []).map(subsecteur => {
+                            console.log('display button ' + subsecteur.secteur.id + " - " + subsecteur.secteur.name)
+                            return (
+                                <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id}
+                                             name={subsecteur.secteur.name}/>
+                            );
+                        })
+                    }
+
+                </View>
+                <View>
+
+                    {(data.routes || []).map(voie => {
                         return (
-                            <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id}
-                                         name={subsecteur.secteur.name}/>
-
+                            <Voie data={voie}></Voie>
+                            // <Text> {voie.name}/{voie.quotation}</Text>
                         );
-                    })
-                }
+                    })}
 
 
-                {(data.routes || []).map(voie => {
-                    return (
+                </View>
+            </ScrollView>
 
-                        <Text> {voie.name}/{voie.quotation}</Text>
-                    );
-                })}
-
-
-            </View>
         );
     }
 }
