@@ -1,15 +1,15 @@
 const fs = require('fs'),
     path = require('path'),
     _ = require('lodash'),
- fsExtra = require('fs-extra')
+    fsExtra = require('fs-extra')
 
-const IMAGE_DIR="./assets/images/secteurs/"
+const IMAGE_DIR = "./assets/images/secteurs/"
 
 function parseRoutes(filename) {
     try {
         return JSON.parse(fs.readFileSync(filename, 'utf8'));
     } catch (e) {
-       // console.log("probleme parsing routes " + filename)
+        // console.log("probleme parsing routes " + filename)
     }
 }
 
@@ -17,7 +17,7 @@ function parseSecteur(filename) {
     try {
         return JSON.parse(fs.readFileSync(filename, 'utf8'));
     } catch (e) {
-     //   console.log("probleme parsing secteur " + filename)
+        //   console.log("probleme parsing secteur " + filename)
     }
 }
 
@@ -28,13 +28,13 @@ function parseSecteur(filename) {
  */
 function parseSubSecteurs(filename) {
     try {
-        let result =[]
+        let result = []
 
         var res = fs.readdirSync(filename).map(function (child) {
             return dirTree(filename + '/' + child);
         });
-        if (res){
-            for (var i=0;i<res.length;i++){
+        if (res) {
+            for (var i = 0; i < res.length; i++) {
                 if (res[i]) {
                     result.push(res[i])
                 }
@@ -46,6 +46,19 @@ function parseSubSecteurs(filename) {
     }
 }
 
+function replaceRequirePattern(string) {
+
+    function replaceAll (string, search, replacement) {
+        return string.replace(new RegExp(search, 'g'), replacement);
+    };
+
+
+    let result =replaceAll(string,"\"BEGINREQUIREIMGTOREMOVE", "require ('../images/secteurs/");
+    result = replaceAll(result, "ENDREQUIREIMGTOREMOVE\"", "')");
+    return result;
+}
+
+
 /**
  * copie une image dans les assets
  * @param secteur
@@ -54,11 +67,12 @@ function parseSubSecteurs(filename) {
  */
 function manageImage(secteur, filePath, id) {
     if (fs.existsSync(filePath)) {
-        let fileName=id+"_"+path.basename(filePath)
-        fs.copyFile(filePath, IMAGE_DIR+fileName, (err) => {
+        console.log("found " + filePath)
+        let fileName = id + "_" + path.basename(filePath)
+        fs.copyFile(filePath, IMAGE_DIR + fileName, (err) => {
             if (err) throw err;
         });
-        secteur.img='require '+fileName
+        secteur.img = 'BEGINREQUIREIMGTOREMOVE' + fileName + 'ENDREQUIREIMGTOREMOVE';
     }
 
 }
@@ -84,31 +98,46 @@ function dirTree(filename) {
     var stats = fs.lstatSync(filename)
 
     if (stats.isDirectory()) {
-        let secteur={}
-        let id=(Math.random() + 1).toString(36).substring(7);
-        secteur.id=id;
+        let secteur = {}
+        let id = (Math.random() + 1).toString(36).substring(7);
+        secteur.id = id;
         manageImages(secteur, filename, id)
         _.merge(secteur, parseSecteur(filename + '/' + "index.json"))
-        secteur.routes=parseRoutes(filename + '/' + "routes.json")
-        secteur.subsecteurs=parseSubSecteurs(filename )
-
-        return {secteur:secteur};
+        secteur.routes = parseRoutes(filename + '/' + "routes.json")
+        secteur.subsecteurs = parseSubSecteurs(filename)
+        return {secteur: secteur};
 
     } else {
-
         return null;
     }
-
     return secteur;
+}
+
+
+function printValues(obj) {
+    for (var key in obj) {
+        if (typeof obj[key] === "object") {
+            printValues(obj[key]);
+        } else {
+            console.log(obj[key]);
+        }
+    }
 }
 
 if (module.parent == undefined) {
     fsExtra.emptyDirSync(IMAGE_DIR)
-    let result=dirTree(process.argv[2])
+    let result = dirTree(process.argv[2])
 
-    let secteursAsJs="const Secteurs ="+JSON.stringify(result, null, 2)+";export default Secteurs;"
+    let resultString = JSON.stringify(result, null, 2);
+    ////////////
+    //console.log(printValues(result))
+    ////////////
+    resultString = replaceRequirePattern(resultString);
 
-    fs.writeFile('./assets/secteurs/secteurs2.js', secteursAsJs, function (err) {
+
+    let secteursAsJs = "const Secteurs =" + resultString + ";export default Secteurs;"
+
+    fs.writeFile('./assets/secteurs/secteurs.js', secteursAsJs, function (err) {
         if (err) return console.log(err);
 
     });

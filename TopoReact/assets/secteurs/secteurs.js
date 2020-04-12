@@ -1,18 +1,18 @@
 const Secteurs ={
   "secteur": {
-    "id": "wj7rc",
+    "id": "9tm5e",
     "name": "Plou",
     "subsecteurs": [
       {
         "secteur": {
-          "id": "tc26li",
+          "id": "2vjaq",
           "name": "Le Cube",
           "description": "De Brest, prendre la RN 165 en direction de Quimper, juste après le pont de\nl’Iroise, prendre la sortie Kéraliou. Au STOP prendre à droite, puis la 1ère à gauche\n(petite route étroite et raide). 150 m après le virage à droite, se garer sur le petit parking.\nLe chemin d’accès vers le Cube se situe juste en face du parking, celui du Serpent 500 m plus loin en prenant à gauche, puis à droite, puis de nouveau à gauche\naprès la deuxième maison.",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "g8s8l",
-                "imga": require ('../images/secteurs/g8s8l_secteur.jpg'),
+                "id": "d7kmv",
+                "img": require ('../images/secteurs/d7kmv_secteur.jpg'),
                 "name": "Face Nord 1",
                 "heigth": "25m",
                 "orientation": "N",
@@ -73,8 +73,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "o6l62",
-                "img": "require o6l62_secteur.jpg",
+                "id": "7kk2p",
+                "img": require ('../images/secteurs/7kk2p_secteur.jpg'),
                 "name": "Face Nord 2",
                 "heigth": "25m",
                 "orientation": "N",
@@ -114,8 +114,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "5dvjk",
-                "img": "require 5dvjk_secteur.png",
+                "id": "1424m",
+                "img": require ('../images/secteurs/1424m_secteur.png'),
                 "name": "Face Ouest",
                 "heigth": "20m",
                 "orientation": "O",
@@ -183,8 +183,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "lzp1yk",
-                "img": "require lzp1yk_secteur.png",
+                "id": "5zx23l",
+                "img": require ('../images/secteurs/5zx23l_secteur.png'),
                 "name": "Face Sud",
                 "heigth": "10m",
                 "orientation": "S",
@@ -259,8 +259,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "zdn88",
-                "img": "require zdn88_secteur.png",
+                "id": "hn26q",
+                "img": require ('../images/secteurs/hn26q_secteur.png'),
                 "name": "L'Angle",
                 "heigth": "25m",
                 "orientation": "N/NO",
@@ -314,8 +314,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "nwu1w",
-                "img": "require nwu1w_secteur.jpg",
+                "id": "il4n9",
+                "img": require ('../images/secteurs/il4n9_secteur.jpg'),
                 "name": "Pilier du Chien",
                 "heigth": "6m",
                 "orientation": "N",
@@ -351,14 +351,14 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "j36gm",
+          "id": "q878m",
           "name": "Impérator",
           "description": "Description",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "7t46m",
-                "img": "require 7t46m_secteur.jpg",
+                "id": "vpm8ml",
+                "img": require ('../images/secteurs/vpm8ml_secteur.jpg'),
                 "name": "Bloc",
                 "description": "Au pied de la dalle de cœur, orienté NE/SO, vous trouverez des pas de bloc en dalle\nfine ou en jetés furieux.\nAttention CHUTE DANGEREUSE : CRASH-PAD ET PARADE OBLIGATOIRE",
                 "routes": [
@@ -410,8 +410,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "cgqbw",
-                "img": "require cgqbw_secteur.png",
+                "id": "nd45of",
+                "img": require ('../images/secteurs/nd45of_secteur.png'),
                 "name": "Dalle de Coeur",
                 "heigth": "18m",
                 "orientation": "NE",
@@ -450,8 +450,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "6p4c",
-                "img": "require 6p4c_secteur.jpg",
+                "id": "0lq9e",
+                "img": require ('../images/secteurs/0lq9e_secteur.jpg'),
                 "routes": [
                   {
                     "number": 1,
@@ -529,8 +529,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "764hi",
-                "img": "require 764hi_secteur.png",
+                "id": "tope1",
+                "img": require ('../images/secteurs/tope1_secteur.png'),
                 "name": "Le Dièdre Noir",
                 "heigth": "35m",
                 "orientation": "O",
@@ -577,8 +577,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "kovc6",
-                "img": "require kovc6_secteur.png",
+                "id": "tsh7v",
+                "img": require ('../images/secteurs/tsh7v_secteur.png'),
                 "name": "L'X",
                 "heigth": "20m",
                 "orientation": "NNE",
@@ -618,8 +618,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "4d2e0k",
-                "img": "require 4d2e0k_secteur.png",
+                "id": "tixwt",
+                "img": require ('../images/secteurs/tixwt_secteur.png'),
                 "name": "Le Lierre",
                 "heigth": "25m",
                 "orientation": "SO",
@@ -700,8 +700,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "eacyc",
-                "img": "require eacyc_secteur.png",
+                "id": "856f9",
+                "img": require ('../images/secteurs/856f9_secteur.png'),
                 "name": "La Magnonne",
                 "heigth": "35m",
                 "orientation": "NNO",
@@ -737,15 +737,15 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "bvvg2g",
-          "img": "require bvvg2g_secteur.png",
+          "id": "maamj",
+          "img": require ('../images/secteurs/maamj_secteur.png'),
           "name": "Impératrice",
           "description": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» et au 2ème rond point prendre en face vers\n«Toull Ar Rohou».\nLes alentours offrent de nombreuses possibilités de Parking, sachant que de\nnombreux chemins permettent d’accéder aux sites. Le plus commode se situe de suite\nà droite après la patte d’oie ; le chemin d’accès étant 50 m plus bas.",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "7s343",
-                "img": "require 7s343_secteur.png",
+                "id": "ztgu4",
+                "img": require ('../images/secteurs/ztgu4_secteur.png'),
                 "name": "Arbre Foudroyé ",
                 "heigth": "8m",
                 "orientation": "NO",
@@ -785,8 +785,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "urxu4",
-                "img": "require urxu4_secteur.png",
+                "id": "gljz5",
+                "img": require ('../images/secteurs/gljz5_secteur.png'),
                 "name": "Fer à Cheval",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -881,8 +881,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "36xxz",
-                "img": "require 36xxz_secteur.png",
+                "id": "o1z0p",
+                "img": require ('../images/secteurs/o1z0p_secteur.png'),
                 "name": "Feuilles mortes",
                 "heigth": "20m",
                 "orientation": "SO",
@@ -915,8 +915,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "70vsr",
-                "img": "require 70vsr_secteur.png",
+                "id": "a1pn8",
+                "img": require ('../images/secteurs/a1pn8_secteur.png'),
                 "name": "Grand Toit",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -1012,8 +1012,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "zotzr",
-                "img": "require zotzr_secteur.jpg",
+                "id": "nsd34",
+                "img": require ('../images/secteurs/nsd34_secteur.jpg'),
                 "name": "Initiation 1",
                 "heigth": "20m",
                 "orientation": "SE",
@@ -1081,8 +1081,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "njaji",
-                "img": "require njaji_secteur.jpg",
+                "id": "opdy",
+                "img": require ('../images/secteurs/opdy_secteur.jpg'),
                 "name": "Initiation 2",
                 "heigth": "20m",
                 "orientation": "SE",
@@ -1136,8 +1136,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "i8n63",
-                "img": "require i8n63_secteur.png",
+                "id": "d3k2y",
+                "img": require ('../images/secteurs/d3k2y_secteur.png'),
                 "name": "J'y va t'y",
                 "heigth": "40m",
                 "orientation": "NO",
@@ -1226,8 +1226,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "e60ue",
-                "img": "require e60ue_secteur.png",
+                "id": "wdlpz",
+                "img": require ('../images/secteurs/wdlpz_secteur.png'),
                 "name": "Le Fennec",
                 "heigth": "12m",
                 "orientation": "NNE",
@@ -1274,8 +1274,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "qzp02f",
-                "img": "require qzp02f_secteur.jpg",
+                "id": "0qm35",
+                "img": require ('../images/secteurs/0qm35_secteur.jpg'),
                 "name": "Trou de Godille",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -1318,8 +1318,8 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "k7efr",
-          "img": "require k7efr_secteur.jpg",
+          "id": "z7cyb",
+          "img": require ('../images/secteurs/z7cyb_secteur.jpg'),
           "name": "Le Serpent",
           "heigth": "20m",
           "orientation": "NE",
