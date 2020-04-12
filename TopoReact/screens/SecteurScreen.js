@@ -38,13 +38,15 @@ module.exports = class SecteurScreen extends React.Component {
 
                 <View style={styles.scView}>
                     <Text> {data.description}</Text>
+                    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
 
                     <Image style={styles.secteurImage} source={data.img}/>
+                        </View>
                     {
-                        (data.subsecteurs || []).map(subsecteur => {
+                        (data.subsecteurs || []).map((subsecteur, index) => {
                             return (
                                 <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id}
-                                             name={subsecteur.secteur.name}/>
+                                             name={subsecteur.secteur.name} key={index}/>
                             );
                         })
                     }
@@ -76,7 +78,7 @@ const styles = StyleSheet.create(
         },
         secteurImage: {
             resizeMode: "contain",
-            flex: 1,
+         //   flex: 1,
             width: "100%",
             //height: 1000,
         }
