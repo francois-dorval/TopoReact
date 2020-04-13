@@ -13,19 +13,17 @@ const {width} = Dimensions.get("screen");
 import {
     View, Text, TouchableHighlight,
 } from 'react-native';
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
 
 
 module.exports = class SecteurMenu extends React.Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        console.log("this.props " + JSON.stringify(this.props))
+        //console.log("this.props " + JSON.stringify(this.props))
         const id = this.props.id
         const name = this.props.name
 
-        console.log("thiiis " + id + " - " + name)
+        console.log("SecteurMenu " + id + " - " + name)
 
 
         return (
@@ -36,15 +34,11 @@ module.exports = class SecteurMenu extends React.Component {
                 {/*/>*/}
 
 
-                <Button color="info" style={styles.button} onPress={() => navigate({
-                    routeName: 'Secteur',
-                    params: {name: this.props.name, id: this.props.id},
-                    key: 'Secteur' + this.props.id
-                })}
+                <Button color="info" style={styles.button} onPress={() => this.props.navigation.push('Secteur',
+                    {name: this.props.name, id: this.props.id})}
                         title={this.props.name}>{this.props.name}</Button>
 
 
-                {/*<Card item={litem}></Card>*/}
 
             </View>
         );

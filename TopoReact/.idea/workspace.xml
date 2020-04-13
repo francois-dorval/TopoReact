@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
+    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="move data test">
+      <change afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/secteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord2/secteur.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/secteur.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord2/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord2/secteur.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_test/script" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Voie.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
@@ -41,6 +39,12 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -80,17 +84,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/Plougastel" />
+      <recent name="$PROJECT_DIR$/assets/secteurs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/__tests__" />
       <recent name="$PROJECT_DIR$/assets/secteurs" />
       <recent name="$PROJECT_DIR$/assets/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/data/Plougastel" />
-      <recent name="$PROJECT_DIR$/assets/secteurs" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -136,7 +141,8 @@
       <workItem from="1586461986057" duration="4015000" />
       <workItem from="1586498421619" duration="15000" />
       <workItem from="1586695897486" duration="13412000" />
-      <workItem from="1586755043086" duration="817000" />
+      <workItem from="1586755043086" duration="6191000" />
+      <workItem from="1586783324025" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -208,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586755339636</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="move data test">
+      <created>1586756024657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586756024657</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,17 +235,22 @@
     <MESSAGE value="génération data  + image" />
     <MESSAGE value="component voie" />
     <MESSAGE value="ajout bloc + trav" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout bloc + trav" />
+    <MESSAGE value="move data test" />
+    <option name="LAST_COMMIT_MESSAGE" value="move data test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586755339434">
+    <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586758193241">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586755339434" />
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586755993899">
+    <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1586758193241" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586756024352">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1586755993899" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586756024352" />
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586783675675">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1586783675675" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586498435194">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -265,10 +283,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1580067980802" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586725987504">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586756026090">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1586725987504" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1586756026090" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -281,25 +299,25 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
-    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1586696560366">
+    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1586780264471">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1586696560366" />
+    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1586780264471" />
     <state x="497" y="208" key="run.anything.popup" timestamp="1586723514307">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586723514307" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1586726180102">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1586758025091">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1586726180102" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1586758025091" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/components/Voie.js</url>
-          <line>86</line>
+          <line>84</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

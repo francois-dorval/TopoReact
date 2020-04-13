@@ -13,8 +13,6 @@ const {width} = Dimensions.get("screen");
 import {
     View, Text, TouchableHighlight,
 } from 'react-native';
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
 
 
 module.exports = class Voie extends React.Component {

@@ -10,28 +10,22 @@ import SecteurData from '../util/SecteurData';
 
 
 module.exports = class SecteurScreen extends React.Component {
-    static navigationOptions = ({navigation}) => {
-        function getTitle() {
-            try {
-                return `${navigation.state.params.name}`
-            } catch (e) {
-                return "Topo"
-            }
-        }
-
-        const {state} = navigation;
-        return {
-            title: getTitle(),
-        };
-    };
 
     render() {
-        const {navigation} = this.props;
-        let secteur = navigation.getParam('id');
+        // console.log("---------")
+        // console.log("this.props " + JSON.stringify(this.props))
+
+        //const navigation = useNavigation();
+            //const { secteur } = route.params;
+        let secteur;
+        if (this.props && this.props.route && this.props.route.params){
+            secteur=this.props.route.params.id
+        }
 
         console.log('secteur id ', secteur);
 
         let data = SecteurData.getData(secteur);
+        console.log(data.description)
 
         return (
             <ScrollView>
@@ -45,8 +39,11 @@ module.exports = class SecteurScreen extends React.Component {
                     {
                         (data.subsecteurs || []).map((subsecteur, index) => {
                             return (
-                                <SecteurMenu navigation={this.props.navigation} id={subsecteur.secteur.id}
-                                             name={subsecteur.secteur.name} key={index}/>
+                                <SecteurMenu  id={subsecteur.secteur.id} name={subsecteur.secteur.name} navigation={this.props.navigation}
+
+                                    // navigation={this.props.navigation} id={subsecteur.secteur.id}
+                                    //          name={subsecteur.secteur.name} key={index}
+                                />
                             );
                         })
                     }

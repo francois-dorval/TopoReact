@@ -1,51 +1,54 @@
 import React from 'react';
-import { View, Text,  TouchableHighlight,
- } from 'react-native';
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+import {
+    View, Text, TouchableHighlight, DrawerLayoutAndroid
+} from 'react-native';
 
-import SecteurScreen from './screens/SecteurScreen';
+import {createStackNavigator} from '@react-navigation/stack';
+import {NavigationContainer} from '@react-navigation/native';
 
 import SecteurMenu from './components/SecteurMenu';
-
-
+import SecteurScreen from './screens/SecteurScreen'
 
 
 class HomeScreen extends React.Component {
-  render() {
-      const {navigate} = this.props.navigation;
+    render() {
+        const {navigate} = this.props.navigation;
 
+        return (
+            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+                <Text>Home Screen</Text>
+                <SecteurMenu navigation={this.props.navigation} id="plou"/>
+
+                {/*<SecteurMenu navigation={this.props.navigation} name='cube toit' path='cube/grande_face/toit' />*/}
+                {/*        <SecteurMenu navigation={this.props.navigation} name='imperatrice' path='imperatrice/fer_acheval/luzules/etc'/>*/}
+                {/*        <SecteurMenu navigation={this.props.navigation} name='Impérator' />*/}
+
+
+            </View>
+        );
+    }
+}
+
+
+const Stack = createStackNavigator();
+
+function getTitle(route) {
+    if (route && route.params && route.params.name) {
+        return route.params.name;
+    } else {
+        return "Topo Plougastel";
+    }
+}
+
+function App() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
-          <SecteurMenu navigation={this.props.navigation} id="plou" />
-
-        {/*<SecteurMenu navigation={this.props.navigation} name='cube toit' path='cube/grande_face/toit' />*/}
-        {/*        <SecteurMenu navigation={this.props.navigation} name='imperatrice' path='imperatrice/fer_acheval/luzules/etc'/>*/}
-        {/*        <SecteurMenu navigation={this.props.navigation} name='Impérator' />*/}
-
-
-      </View>
+        <NavigationContainer>
+            <Stack.Navigator>
+                <Stack.Screen name="Secteur" component={SecteurScreen} options={({route}) => ({title: getTitle(route)})}
+                />
+            </Stack.Navigator>
+        </NavigationContainer>
     );
-  }
 }
 
-
-
-const RootStack = createStackNavigator(
-  {
-    Home: HomeScreen,
-    Secteur: SecteurScreen,
-  },
-  {
-    initialRouteName: 'Secteur',
-  }
-);
-
-const AppContainer = createAppContainer(RootStack);
-
-export default class App extends React.Component {
-  render() {
-    return <AppContainer />;
-  }
-}
+export default App;
