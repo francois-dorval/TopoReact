@@ -25,6 +25,11 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.github.dorval.francois.topo.plougastel",
+      "versionCode": 1
+
     }
   }
 }
