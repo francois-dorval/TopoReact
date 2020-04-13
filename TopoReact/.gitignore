@@ -2,6 +2,7 @@ node_modules/**/*
 assets/images/secteurs/*
 .expo/*
 npm-debug.*
+./package-lock.json
 *.jks
 *.p8
 *.p12

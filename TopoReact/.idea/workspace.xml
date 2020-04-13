@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord1/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord1/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord2/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/FaceNord2/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/FaceNord2/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/Cube/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_test/script" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/data_test/script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +136,7 @@
       <workItem from="1586461986057" duration="4015000" />
       <workItem from="1586498421619" duration="15000" />
       <workItem from="1586695897486" duration="13412000" />
-      <workItem from="1586755043086" duration="289000" />
+      <workItem from="1586755043086" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -190,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586725986299</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajout bloc + trav">
+      <created>1586755339636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586755339636</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,14 +225,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="ajout bloc + trav" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586725986207">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586755339434">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586725986207" />
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586755334655">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586755339434" />
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1586755993899">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1586755334655" />
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1586755993899" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586498435194">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -235,6 +253,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585945390289" />
+    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog" timestamp="1586755953259">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog/67.27.1533.873@67.27.1533.873" timestamp="1586755953259" />
     <state x="322" y="97" key="SettingsEditor" timestamp="1585944477776">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
