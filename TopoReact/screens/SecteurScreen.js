@@ -4,6 +4,8 @@ import _ from 'lodash'
 import {
     View, Text, Image, ScrollView, StyleSheet
 } from 'react-native';
+import {Divider} from 'react-native-elements';
+
 import SecteurMenu from "../components/SecteurMenu";
 import Voie from "../components/Voie";
 import SecteurData from '../util/SecteurData';
@@ -16,10 +18,10 @@ module.exports = class SecteurScreen extends React.Component {
         // console.log("this.props " + JSON.stringify(this.props))
 
         //const navigation = useNavigation();
-            //const { secteur } = route.params;
+        //const { secteur } = route.params;
         let secteur;
-        if (this.props && this.props.route && this.props.route.params){
-            secteur=this.props.route.params.id
+        if (this.props && this.props.route && this.props.route.params) {
+            secteur = this.props.route.params.id
         }
 
         console.log('secteur id ', secteur);
@@ -32,14 +34,19 @@ module.exports = class SecteurScreen extends React.Component {
 
                 <View style={styles.scView}>
                     <Text> {data.description}</Text>
-                    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+                    <Divider style={{backgroundColor: 'blue'}}/>
 
-                    <Image style={styles.secteurImage} source={data.img}/>
-                        </View>
+                    <View style={{flex: 1, alignItems: "center", justifyContent: "center"}}>
+
+                        <Image style={styles.secteurImage} source={data.img}/>
+                    </View>
+                    {/*<Divider style={{backgroundColor: 'blue'}}/>;*/}
+
                     {
                         (data.subsecteurs || []).map((subsecteur, index) => {
                             return (
-                                <SecteurMenu  id={subsecteur.secteur.id} name={subsecteur.secteur.name} navigation={this.props.navigation}
+                                <SecteurMenu id={subsecteur.secteur.id} name={subsecteur.secteur.name}
+                                             navigation={this.props.navigation}
 
                                     // navigation={this.props.navigation} id={subsecteur.secteur.id}
                                     //          name={subsecteur.secteur.name} key={index}
@@ -75,7 +82,7 @@ const styles = StyleSheet.create(
         },
         secteurImage: {
             resizeMode: "contain",
-         //   flex: 1,
+            //   flex: 1,
             width: "100%",
             //height: 1000,
         }
