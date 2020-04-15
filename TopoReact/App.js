@@ -29,13 +29,13 @@ class HomeScreen extends React.Component {
 
 //const Stack = createDrawerNavigator();
 
-function getTitle(route) {
-    if (route && route.params && route.params.name) {
-        return route.params.name;
-    } else {
-        return "Topo Plougastel";
-    }
-}
+// function getTitle(route) {
+//     if (route && route.params && route.params.name) {
+//         return route.params.name;
+//     } else {
+//         return "Topo Plougastel";
+//     }
+// }
 
 // const DrawerContent = (props) => (
 //     <View>
@@ -60,7 +60,17 @@ const Drawer = createDrawerNavigator();
 
 const Stack = createStackNavigator();
 
+const someData="yaa"
+const someData1="yaaouuu"
 
+
+function getTitle(route){
+    if (route.params&&route.params.params&&route.params.params.name){
+        return route.params.params.name;
+    }else{
+        return "Topo Plougastel"
+    }
+}
 // const DrawerButton = (props) => {
 //     return (
 //         <View>
@@ -74,30 +84,52 @@ const Stack = createStackNavigator();
 //     );
 // };
 
+// function Root() {
+//     return (
+//
+//         <Stack.Navigator initialRouteName='Secteur'>
+//             <Stack.Screen name="Secteur"
+//                           component={SecteurScreen}
+//                           options={({  route }) => ({
+//
+//                               headerTitle: props => <Text>{getTitle(route)}</Text> ,
+//                               headerLeft: (navigation) => (
+//                                   <HamburgerButton navigation={navigation}/>
+//                               ),
+//
+//                           })
+//                           }
+//             />
+//         </Stack.Navigator>
+//
+//     );
+// }
+
 function Root() {
     return (
+            <Drawer.Navigator>
 
-        <Stack.Navigator initialRouteName='Secteur'>
-            <Stack.Screen name="Secteur"
-                          component={SecteurScreen}
-                          options={({  route }) => ({
-
-                              headerTitle: props => <Text>{getTitle(route)}</Text> ,
-                              headerLeft: (navigation) => (
-                                  <HamburgerButton navigation={navigation}/>
-                              ),
-
-                          })
+                <Drawer.Screen name="Impé"                               >
+                    {props => <SecteurScreen {...props} drawerSecteurId="gad28" />}
+                </Drawer.Screen>
 
 
-                          }
+                <Drawer.Screen name="Dalle de Verre"                               >
+                               {props => <SecteurScreen {...props} drawerSecteurId="l990g" />}
+                    </Drawer.Screen>
 
-                              />
-        </Stack.Navigator>
 
+                <Drawer.Screen name="Initiation 1"    >
+                               {props => <SecteurScreen {...props} drawerSecteurId="any1j" />}
+            </Drawer.Screen>
+
+
+
+
+                {/*<Drawer.Screen name="Root" component={Root}/>*/}
+            </Drawer.Navigator>
     );
 }
-
 
 
 
@@ -105,10 +137,21 @@ function Root() {
 export default function App() {
     return (
         <NavigationContainer>
-            <Drawer.Navigator>
-                <Drawer.Screen name="Home" component={HomeScreen}/>
-                <Drawer.Screen name="Root" component={Root}/>
-            </Drawer.Navigator>
+
+        <Stack.Navigator initialRouteName='Root'>
+            <Stack.Screen name="Root" component={Root}
+                          options={({ route }) => ({ title: getTitle(route) })}
+
+            />
+            <Stack.Screen name="DynamicSecteur" component={SecteurScreen}
+
+            />
+
+
+        </Stack.Navigator>
         </NavigationContainer>
+
     );
 }
+
+

@@ -12,15 +12,23 @@ import SecteurData from '../util/SecteurData';
 
 
 module.exports = class SecteurScreen extends React.Component {
+    static navigationOptions = ({ navigation }) => {
+        console.log("navigationOptions "+JSON.stringify(navigationOptions));
 
+        return {
+            title: navigation.getParam('Title', 'Default Title'),
+        };
+    };
     render() {
         // console.log("---------")
-        // console.log("this.props " + JSON.stringify(this.props))
+         console.log("SecteurScreen.props " + JSON.stringify(this.props))
 
         //const navigation = useNavigation();
         //const { secteur } = route.params;
         let secteur;
-        if (this.props && this.props.route && this.props.route.params) {
+         if (this.props.drawerSecteurId){
+             secteur = this.props.drawerSecteurId;
+         }else if (this.props && this.props.route && this.props.route.params) {
             secteur = this.props.route.params.id
         }
 

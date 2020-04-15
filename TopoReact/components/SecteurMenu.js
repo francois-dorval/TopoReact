@@ -23,7 +23,7 @@ module.exports = class SecteurMenu extends React.Component {
         const id = this.props.id
         const name = this.props.name
 
-        console.log("SecteurMenu " + id + " - " + name)
+       // console.log("SecteurMenu " + id + " - " + name)
 
 
         return (
@@ -34,12 +34,16 @@ module.exports = class SecteurMenu extends React.Component {
                 {/*/>*/}
 
 
-                <Button color="info" style={styles.button}
-                        onPress={() => this.props.navigation.navigate('Root', {screen: 'Secteur', params:
-                        {name: this.props.name, id: this.props.id}})}
-                            title={this.props.name}>{this.props.name}</Button>
+                {/*<Button color="info" style={styles.button}*/}
+                {/*        onPress={() => this.props.navigation.navigate('Root', {screen: 'Secteur', params:*/}
+                {/*        {name: this.props.name, id: this.props.id}})}*/}
+                {/*            title={this.props.name}>{this.props.name}</Button>*/}
 
 
+                <Button color="info" style={styles.button} onPress={() => navigate("DynamicSecteur",{name:this.props.name, id:this.props.id})}
+
+
+                        title={this.props.name}>{this.props.name}</Button>
 
                             </View>
                             );

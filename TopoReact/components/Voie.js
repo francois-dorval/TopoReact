@@ -19,11 +19,11 @@ module.exports = class Voie extends React.Component {
 
     render() {
         // const {navigate} = this.props.navigation;
-        console.log("this.props " + JSON.stringify(this.props))
+        //console.log("this.props " + JSON.stringify(this.props))
         const data = this.props.data
 
         function getImage(){
-            console.log("image "+data.equipment);
+           // console.log("image "+data.equipment);
             if (data.equipment === "c") {
                 return require('../assets/images/coinceur_1.png')
             }else if (data.equipment === "t"){

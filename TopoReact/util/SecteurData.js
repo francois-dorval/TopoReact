@@ -5,12 +5,12 @@ function SecteurData() {
 }
 
 function getSecteur(obj,  value) {
-    console.log("getSecteur "+obj.secteur.id);
+    //console.log("getSecteur "+obj.secteur.id);
     if (!obj){
         return null;
     }
     if (obj.secteur.id=== value) {
-        console.log("getSecteur "+value+" found "+obj.secteur.name);
+     //   console.log("getSecteur "+value+" found "+obj.secteur.name);
         return obj.secteur;
     }
     let subs = obj.secteur.subsecteurs;
@@ -27,7 +27,7 @@ function getSecteur(obj,  value) {
 
 
 SecteurData.getData=function(id){
-    console.log('getData::', id);
+   // console.log('getData::', id);
     if (!id){
         console.log('getData no id::'+Secteurs.secteur.name);
         return Secteurs.secteur;
