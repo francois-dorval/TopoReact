@@ -8,7 +8,7 @@
     "eject": "expo eject",
     "test": "jest --watchAll",
     "testDebug": "node --inspect --debug-brk node_modules/.bin/jest --watch --no-cache",
-    "createData": "node script/CreateAssets.js data/"
+    "createData": "node __script/CreateAssets.js __data/"
   },
   "jest": {
     "preset": "jest-expo"

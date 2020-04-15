@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    View, Text, TouchableHighlight, DrawerLayoutAndroid
+    View, Text,Button
 } from 'react-native';
 
 import {createDrawerNavigator} from '@react-navigation/drawer';
@@ -9,6 +9,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
+import HamburgerButton from './components/HamburgerButton'
 
 
 class HomeScreen extends React.Component {
@@ -59,16 +60,46 @@ const Drawer = createDrawerNavigator();
 
 const Stack = createStackNavigator();
 
+
+// const DrawerButton = (props) => {
+//     return (
+//         <View>
+//             <TouchableOpacity onPress={() => {props.navigation.navigate('DrawerOpen')}}>
+//                 <Image
+//                     source={require('./assets/images/bloc.png')}
+//                     style={styles.icon}
+//                 />
+//             </TouchableOpacity>
+//         </View>
+//     );
+// };
+
 function Root() {
     return (
 
         <Stack.Navigator initialRouteName='Secteur'>
-            <Stack.Screen name="Home" component={HomeScreen}/>
-            <Stack.Screen name="Secteur" component={SecteurScreen} options={({route}) => ({title: getTitle(route)})}/>
+            <Stack.Screen name="Secteur"
+                          component={SecteurScreen}
+                          options={({  route }) => ({
+
+                              headerTitle: props => <Text>{getTitle(route)}</Text> ,
+                              headerLeft: (navigation) => (
+                                  <HamburgerButton navigation={navigation}/>
+                              ),
+
+                          })
+
+
+                          }
+
+                              />
         </Stack.Navigator>
 
     );
 }
+
+
+
 
 
 export default function App() {

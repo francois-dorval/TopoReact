@@ -65,14 +65,17 @@ function replaceRequirePattern(string) {
  * @param filename
  * @param id
  */
-function manageImage(secteur, filePath, id) {
+function manageImage(secteur, filePath, id, attributeName) {
+    if (!attributeName){
+        attributeName="img"
+    }
     if (fs.existsSync(filePath)) {
         console.log("found " + filePath)
         let fileName = id + "_" + path.basename(filePath)
         fs.copyFile(filePath, IMAGE_DIR + fileName, (err) => {
             if (err) throw err;
         });
-        secteur.img = 'BEGINREQUIREIMGTOREMOVE' + fileName + 'ENDREQUIREIMGTOREMOVE';
+        secteur[attributeName] = 'BEGINREQUIREIMGTOREMOVE' + fileName + 'ENDREQUIREIMGTOREMOVE';
     }
 
 }
@@ -84,8 +87,10 @@ function manageImage(secteur, filePath, id) {
  * @param id
  */
 function manageImages(secteur, path, id) {
-    manageImage(secteur, path + "/secteur.png", id)
     manageImage(secteur, path + "/secteur.jpg", id)
+    manageImage(secteur, path + "/secteur.png", id)
+    manageImage(secteur, path + "/vignette.jpg", id, "vignette")
+
 }
 
 
