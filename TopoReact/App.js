@@ -9,7 +9,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
-import HamburgerButton from './components/HamburgerButton'
+import SecteurData from './util/SecteurData'
+import Voie from "./components/Voie";
 
 
 class HomeScreen extends React.Component {
@@ -109,24 +110,15 @@ function Root() {
     return (
             <Drawer.Navigator>
 
-                <Drawer.Screen name="Impé"                               >
-                    {props => <SecteurScreen {...props} drawerSecteurId="gad28" />}
-                </Drawer.Screen>
-
-
-                <Drawer.Screen name="Dalle de Verre"                               >
-                               {props => <SecteurScreen {...props} drawerSecteurId="l990g" />}
+                {(SecteurData.getSecteursData() || []).map((data, index) => {
+                    console.log('data '+data)
+                    return (
+                        <Drawer.Screen name={data.name} >
+                            {props => <SecteurScreen {...props} drawerSecteurId={data.id} />}
                     </Drawer.Screen>
 
-
-                <Drawer.Screen name="Initiation 1"    >
-                               {props => <SecteurScreen {...props} drawerSecteurId="any1j" />}
-            </Drawer.Screen>
-
-
-
-
-                {/*<Drawer.Screen name="Root" component={Root}/>*/}
+                    );
+                })}
             </Drawer.Navigator>
     );
 }

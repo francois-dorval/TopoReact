@@ -4,13 +4,17 @@ import _ from 'lodash'
 function SecteurData() {
 }
 
+
+function loog(data){
+
+}
 function getSecteur(obj,  value) {
-    //console.log("getSecteur "+obj.secteur.id);
+    //loog("getSecteur "+obj.secteur.id);
     if (!obj){
         return null;
     }
     if (obj.secteur.id=== value) {
-     //   console.log("getSecteur "+value+" found "+obj.secteur.name);
+     //   loog("getSecteur "+value+" found "+obj.secteur.name);
         return obj.secteur;
     }
     let subs = obj.secteur.subsecteurs;
@@ -25,14 +29,43 @@ function getSecteur(obj,  value) {
     return null;
 }
 
+function getSecteurs(obj) {
+    loog("getSecteurs "+obj.secteur.id);
+    let result=[]
+    if (!obj){
+        return null;
+    }
+    if (obj.secteur) {
+          loog("getSecteurs  found "+obj.secteur.name);
+        result.push( {id:obj.secteur.id, name:obj.secteur.name});
+    }
+
+    let subs = obj.secteur.subsecteurs;
+    loog("getSecteurs  subs "+subs.length);
+
+    if (subs && subs.length){
+        loog("getSecteurs  suuuuuuuubs "+subs.length);
+
+        for (var i=0;i<subs.length;i++){
+            result=result.concat( getSecteurs(subs[i]));
+        }
+    }
+    return result;
+}
+
 
 SecteurData.getData=function(id){
-   // console.log('getData::', id);
+   // loog('getData::', id);
     if (!id){
-        console.log('getData no id::'+Secteurs.secteur.name);
+        loog('getData no id::'+Secteurs.secteur.name);
         return Secteurs.secteur;
     }
     let data = getSecteur(Secteurs,  id);
     return data;
-}
+};
+
+
+SecteurData.getSecteursData=function(){
+    return getSecteurs(Secteurs)
+};
 module.exports=SecteurData;

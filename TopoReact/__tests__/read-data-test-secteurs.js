@@ -12,12 +12,13 @@ describe('go', () => {
  //   NavigationTestUtils.resetInternalState();
   });
 
-  it(`renders the loading screen`, () => {
-    let secteur = SecteurData.getData(  );
-    console.log("secteur "+secteur)
-    expect(secteur.id).toBeDefined();
+  it(`gets menu data`, () => {
+    let secteurs = SecteurData.getSecteursData();
+    console.log("secteurs "+JSON.stringify(secteurs))
+    //expect(secteur.id).toEqual("plou");
 
   });
+
 
 
 
