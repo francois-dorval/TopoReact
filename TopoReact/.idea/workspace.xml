@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/Hamburger_icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HamburgerButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HamburgerButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toto.json" beforeDir="false" afterPath="$PROJECT_DIR$/toto.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/index.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +75,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/__tests__" />
-      <recent name="$PROJECT_DIR$/components" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/secteurs" />
-      <recent name="$PROJECT_DIR$/assets/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/__tests__" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/Plougastel" />
+      <recent name="$PROJECT_DIR$/assets/secteurs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/secteurs" />
     </key>
   </component>
@@ -143,7 +137,7 @@
       <workItem from="1586846012067" duration="16000" />
       <workItem from="1586894479550" duration="5798000" />
       <workItem from="1586978879340" duration="10638000" />
-      <workItem from="1587008884356" duration="3448000" />
+      <workItem from="1587008884356" duration="3746000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -271,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586988892617</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="navigation mixte pourrie mais qui marche - drawer dynamique + menu">
+      <created>1587012359498</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587012359498</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,17 +301,18 @@
     <MESSAGE value="tentative hamburger" />
     <MESSAGE value="navigation mixte pourrie mais qui marche" />
     <MESSAGE value="navigation mixte pourrie mais qui marche - drawer dynamique" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigation mixte pourrie mais qui marche - drawer dynamique" />
+    <MESSAGE value="navigation mixte pourrie mais qui marche - drawer dynamique + menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation mixte pourrie mais qui marche - drawer dynamique + menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586758193241">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1586758193241" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1586988892521">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587012359297">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586988892521" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587012359297" />
     <state x="167" y="125" width="1333" height="675" maximized="true" key="DiffContextDialog" timestamp="1587010728896">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -371,10 +373,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586723514307" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587010733837">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587012554622">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587010733837" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587012554622" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
