@@ -1,5 +1,8 @@
 import Secteurs from '../assets/secteurs/secteurs';
 import _ from 'lodash'
+import { logger } from 'react-native-logs';
+
+let log = logger.createLogger();
 
 function SecteurData() {
 }
@@ -57,10 +60,13 @@ function getSecteurs(obj) {
 SecteurData.getData=function(id){
    // loog('getData::', id);
     if (!id){
-        loog('getData no id::'+Secteurs.secteur.name);
+        log.debug('getData no id::'+Secteurs.secteur.name);
         return Secteurs.secteur;
     }
     let data = getSecteur(Secteurs,  id);
+    if (!data){
+        log.error("no data found for "+id)
+    }
     return data;
 };
 

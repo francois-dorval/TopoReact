@@ -3,6 +3,11 @@ import {
     View, Text, Button
 } from 'react-native';
 
+import {
+    Icon
+} from 'native-base';
+
+
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
 
@@ -69,17 +74,10 @@ function getHeaderTitle(route) {
         route.state.routes[route.state.index].name
         : // If state doesn't exist, we need to default to `screen` param if available, or the initial screen
           // In our case, it's "Feed" as that's the first screen inside the navigator
-        route.params?.screen || 'Feed';
+        route.params?.screen || 'Topo Plougastel';
 
     console.log("routeName " + routeName);
-    switch (routeName) {
-        case 'Feed':
-            return 'News feed';
-        case 'Profile':
-            return 'My profile';
-        case 'Account':
-            return 'My account';
-    }
+
     return routeName;
 }
 
@@ -112,14 +110,16 @@ export default function App() {
                                   headerTitle: getHeaderTitle(route),
 
                                   headerLeft: () => (
-                                      <Button
+                                      // <Button onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
+                                      //     title="..."
+                                      //     color="#ccc"
+                                      // />)
 
-                                          onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())
+                                      <Icon name="menu" onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
 
-                                          }
-                                          title="..."
-                                          color="#ccc"
-                                      />)
+                                  />)
+
+
                               })}
 
 

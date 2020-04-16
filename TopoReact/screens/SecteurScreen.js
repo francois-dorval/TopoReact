@@ -30,25 +30,27 @@ module.exports = class SecteurScreen extends React.Component {
         console.log('secteur id ', secteur);
 
         let data = SecteurData.getData(secteur);
-        console.log(data.description)
+        let description = data.description?data.description:"";
 
         return (
             <ScrollView>
 
                 <View style={styles.scView}>
-                    <Text> {data.description}</Text>
+                    <Text> {description}</Text>
                     <Divider style={{backgroundColor: 'blue'}}/>
 
-                    <View style={{flex: 1, alignItems: "center", justifyContent: "center"}}>
+                    <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
 
                         <Image style={styles.secteurImage} source={data.img}/>
-                    </View>
                     {/*<Divider style={{backgroundColor: 'blue'}}/>;*/}
 
                     {
                         (data.subsecteurs || []).map((subsecteur, index) => {
                             return (
                                 <SecteurMenu id={subsecteur.secteur.id} name={subsecteur.secteur.name}
+                                             vignette={subsecteur.secteur.vignette}
+                                             shortDescription={subsecteur.secteur.shortDescription}
+
                                              navigation={this.props.navigation}
 
                                     // navigation={this.props.navigation} id={subsecteur.secteur.id}
@@ -57,6 +59,7 @@ module.exports = class SecteurScreen extends React.Component {
                             );
                         })
                     }
+                    </View>
 
                 </View>
                 <View>

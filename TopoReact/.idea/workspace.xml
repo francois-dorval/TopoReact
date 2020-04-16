@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Serpent/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Serpent/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/SecteurData.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/SecteurData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +148,8 @@
       <workItem from="1586846012067" duration="16000" />
       <workItem from="1586894479550" duration="5798000" />
       <workItem from="1586978879340" duration="10638000" />
-      <workItem from="1587008884356" duration="3746000" />
+      <workItem from="1587008884356" duration="6884000" />
+      <workItem from="1587037464573" duration="1802000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -272,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587012359498</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="navigation mixte pourrie mais qui marche - drawer dynamique + menu">
+      <created>1587012686536</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587012686536</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,10 +328,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1586758193241" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587012359297">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587012686460">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587012359297" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587012686460" />
     <state x="167" y="125" width="1333" height="675" maximized="true" key="DiffContextDialog" timestamp="1587010728896">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -345,14 +364,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1585944477776" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586981083181">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587042537886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1586981083181" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586988893977">
+    <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587012688492">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1586988893977" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587012688492" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -365,18 +384,18 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
-    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1587012046263">
+    <state x="478" y="199" width="849" height="526" key="find.popup" timestamp="1587042571341">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587012046263" />
+    <state x="478" y="199" width="849" height="526" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587042571341" />
     <state x="497" y="208" key="run.anything.popup" timestamp="1586723514307">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586723514307" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587012554622">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587037488935">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587012554622" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587037488935" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
