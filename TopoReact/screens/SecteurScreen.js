@@ -12,14 +12,9 @@ import SecteurData from '../util/SecteurData';
 
 
 module.exports = class SecteurScreen extends React.Component {
-    static navigationOptions = ({ navigation }) => {
-        console.log("navigationOptions "+JSON.stringify(navigationOptions));
 
-        return {
-            title: navigation.getParam('Title', 'Default Title'),
-        };
-    };
     render() {
+
         // console.log("---------")
          console.log("SecteurScreen.props " + JSON.stringify(this.props))
 

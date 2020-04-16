@@ -1,324 +1,173 @@
 {
-  "android": {
-    /*
-      The package name for your Android standalone app.
-      You make it up, but it needs to be unique on the Play Store.
+  "key": "Root-kTTjD-fIeU4N9Fhn0Fesi",
+  "name": "Root",
+  "state": {
+    "stale": false,
+    "routeNames":
 
-      stackoverflow.com/questions/6273892/android-package-name-convention
-
-      Reverse DNS notation unique name for your app.
-      For example, host.exp.exponent, where exp.host is our domain and Expo is our app.
-      The name may only contain lowercase and uppercase letters (a-z, A-Z),
-      numbers (0-9) and underscores (_). Each component of the name should start
-      with a lowercase letter.
-
-      ExpoKit: this is set in `android/app/build.gradle` as well as your
-      AndroidManifest.xml file (multiple places).
-    */
-    "package": STRING,
-
-    /*
-      Version number required by Google Play.
-      Increment by one for each release.
-      Must be an integer.
-      developer.android.com/studio/publish/versioning.html
-
-      ExpoKit: this is set in `android/app/build.gradle`.
-    */
-    "versionCode": NUMBER,
-
-    /*
-      The background color for your iOS app, behind any of your React views. Overrides the top-level `backgroundColor` key if it is present.
-    */
-    "backgroundColor": STRING,
-
-    /*
-      Local path or remote url to an image to use for your app's icon on Android.
-      If specified, this overrides the top-level "icon" key.
-
-      We recommend that you use a 1024x1024 png file.
-      Transparency is recommended for the Google Play Store.
-      This icon will appear on the home screen and within the Expo app.
-    */
-    "icon": STRING,
-
-    /*
-      Settings for an Adaptive Launcher Icon on Android.
-      https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive
-
-      ExpoKit: icons are saved in `android/app/src/main/res/mipmap-<RESOLUTION>-v26`
-      and the "backgroundColor" is set in `android/app/src/main/res/values/colors.xml`.
-    */
-    "adaptiveIcon": {
-      /*
-        Local path or remote url to an image to use for
-        the foreground of your app's icon on Android.
-
-        We recommend that you use a 1024x1024 png file,
-        leaving at least the outer 1/6 transparent on each side.
-        If specified, this overrides the top-level "icon" and the "android.icon" keys.
-        This icon will appear on the home screen.
-      */
-      "foregroundImage": STRING,
-
-      /*
-        Color to use as the background for your app's Adaptive Icon on Android.
-        Defaults to white (#FFFFFF).
-
-        Has no effect if "foregroundImage" is not specified.
-      */
-      "backgroundColor": STRING,
-
-      /*
-        Local path or remote url to a background image for
-        the background of your app's icon on Android.
-
-        If specified, this overrides the "backgroundColor" key.
-        Must have the same dimensions as "foregroundImage", and has no effect if
-        "foregroundImage" is not specified.
-      */
-      "backgroundImage": STRING
-    },
-
-    /*
-      URL to your app on the Google Play Store, if you have deployed it there.
-      This is used to link to your store page from your Expo project page if your app is public.
-    */
-    "playStoreUrl": STRING,
-
-    /*
-      List of additional permissions the standalone app will request upon installation,
-      along with the minimum necessary for an Expo app to function.
-
-      To use ALL permissions supported by Expo, do not specify the "permissions" key.
-
-      To use ONLY the following minimum necessary permissions and none of the extras supported
-      by Expo, set "permissions" to []. The minimum necessary permissions do not require a
-      Privacy Policy when uploading to Google Play Store and are:
-
-      • receive data from Internet
-      • view network connections
-      • full network access
-      • change your audio settings
-      • draw over other apps
-      • prevent device from sleeping
-
-      To use the minimum necessary permissions ALONG with certain additional permissions,
-      specify those extras in "permissions", e.g.
-
-      ["CAMERA", "RECORD_AUDIO"]
-
-      ExpoKit: to change the permissions your app requests, you'll need to edit
-      AndroidManifest.xml manually. To prevent your app from requesting one of the
-      permissions listed below, you'll need to explicitly add it to `AndroidManifest.xml`
-      along with a `tools:node="remove"` tag.
-    */
-    "permissions": [
-      "ACCESS_COARSE_LOCATION",
-      "ACCESS_FINE_LOCATION",
-      "CAMERA",
-      "MANAGE_DOCUMENTS",
-      "READ_CONTACTS",
-      "READ_CALENDAR",
-      "WRITE_CALENDAR",
-      "READ_EXTERNAL_STORAGE",
-      "READ_PHONE_STATE",
-      "RECORD_AUDIO",
-      "USE_FINGERPRINT",
-      "VIBRATE",
-      "WAKE_LOCK",
-      "WRITE_EXTERNAL_STORAGE",
-      "com.anddoes.launcher.permission.UPDATE_COUNT",
-      "com.android.launcher.permission.INSTALL_SHORTCUT",
-      "com.google.android.c2dm.permission.RECEIVE",
-      "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
-      "com.google.android.providers.gsf.permission.READ_GSERVICES",
-      "com.htc.launcher.permission.READ_SETTINGS",
-      "com.htc.launcher.permission.UPDATE_SHORTCUT",
-      "com.majeur.launcher.permission.UPDATE_BADGE",
-      "com.sec.android.provider.badge.permission.READ",
-      "com.sec.android.provider.badge.permission.WRITE",
-      "com.sonyericsson.home.permission.BROADCAST_BADGE"
+    [
+      "Plou",
+      "Le Cube",
+      "Face Nord 1",
+      "Face Nord 2",
+      "Face Ouest",
+      "Face Sud",
+      "L'Angle",
+      "Pilier du Chien",
+      "Impérator",
+      "Bloc",
+      "Dalle de Coeur",
+      "Dalle de Verre",
+      "Le Dièdre Noir",
+      "L'X",
+      "Le Lierre",
+      "La Magnonne",
+      "Impératrice",
+      "Arbre Foudroyé ",
+      "Fer à Cheval",
+      "Feuilles mortes",
+      "Grand Toit",
+      "Initiation 1",
+      "Initiation 2",
+      "J'y va t'y",
+      "Le Fennec",
+      "Trou de Godille",
+      "Le Serpent"
     ],
-
-    /*
-      Location of the google-services.json file for configuring Firebase. Including this
-      key automatically enables FCM in your standalone app.
-
-      For ExpoKit apps, add or edit the file directly at `android/app/google-services.json`.
-      To enable FCM, edit the value of `FCM_ENABLED` in
-      `android/app/src/main/java/host/exp/exponent/generated/AppConstants.java`.
-    */
-    "googleServicesFile": STRING,
-
-    /*
-      Extra module configuration to be added to your app's native AndroidManifest.xml.
-
-      For ExpoKit apps, just add these to the AndroidManifest.xml file directly.
-    */
-    "config": {
-      /*
-        Branch (https://branch.io/) key to hook up Branch linking services.
-      */
-      "branch": {
-        /*
-          Your Branch API key
-        */
-        "apiKey": STRING
-      },
-
-      /*
-        Google Maps Android SDK key for your standalone app.
-        developers.google.com/maps/documentation/android-api/signup
-      */
-      "googleMaps": {
-        /*
-          Your Google Maps Android SDK API key
-        */
-        "apiKey": STRING
-      },
-
-      /*
-        Google Mobile Ads App ID for your standalone app.
-
-        https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml
-      */
-      "googleMobileAdsAppId": STRING,
-
-      /*
-        A boolean indicating whether to initialize Google App Measurement and begin sending
-        user-level event data to Google immediately when the app starts. The default in Expo
-        (Client and in standalone apps) is `false`.
-
-        Sets the opposite of the given value to the following tag in AndroidManifest.xml:
-        https://developers.google.com/admob/android/eu-consent#delay_app_measurement_optional
-      */
-      "googleMobileAdsAutoInit": BOOLEAN,
-
-      /*
-        Google Sign-In Android SDK keys for your standalone app.
-        developers.google.com/identity/sign-in/android/start-integrating
-      */
-      "googleSignIn": {
-        /*
-          The Android API key.
-          Can be found in the credentials section of the developer console
-          or in "google-services.json"
-        */
-        "apiKey": STRING,
-
-        /*
-          The SHA-1 hash of the signing certificate used to build the apk without any separator `:`.
-          Can be found in "google-services.json".
-          developers.google.com/android/guides/client-auth
-        */
-        "certificateHash": STRING
-      }
-    },
-
-    /*
-      Configuration for loading and splash screen for standalone Android apps.
-    */
-    "splash": {
-      /*
-        Color to fill the loading screen background
-        6 character long hex color string, eg: "#000000"
-      */
-      "backgroundColor": STRING,
-
-      /*
-        Determines how the "image" will be displayed in the splash loading screen.
-        Must be one of "cover", "contain" or "native", defaults to "contain".
-        Valid values: "cover", "contain", "native"
-      */
-      "resizeMode": STRING,
-
-      /*
-        Local path or remote url to an image to fill the background of the loading screen in 'cover' mode.
-        Image size and aspect ratio are up to you.
-        Pay extra attention to the size of each image.
-        See here: https://docs.expo.io/versions/latest/guides/splash-screens.html#differences-between-environments-android
-        Must be a .png
-        For more information see https://developer.android.com/training/multiscreen/screendensities
-      */
-      "mdpi": STRING,   // natural sized image (baseline)
-      "hdpi": STRING,   // scale 1.5x
-      "xhdpi": STRING,  // scale 2x
-      "xxhdpi": STRING, // scale 3x
-      "xxxhdpi": STRING // scale 4x
-    },
-
-    /*
-      Configuration for setting custom intent filters in Android manifest.
-      The following example demonstrates how to set up deep links. When
-      the user taps a link matching *.myapp.io, they will be shown a
-      dialog asking whether the link should be handled by your app or by
-      the web browser.
-
-      The data attribute may either be an object or an array of objects.
-      The object may have the following keys to specify attributes of URLs matched by the filter:
-
-      - scheme (string): the scheme of the URL, e.g. "https"
-      - host (string): the host, e.g. "myapp.io"
-      - port (string): the port, e.g. "3000"
-      - path (string): an exact path for URLs that should be matched by the filter, e.g. "/records"
-      - pathPattern (string): a regex for paths that should be matched by the filter, e.g. ".*"
-      - pathPrefix (string): a prefix for paths that should be matched by the filter, e.g. "/records/" will match "/records/123"
-      - mimeType (string): a mime type for URLs that should be matched by the filter
-
-      See Android's documentation for more details on intent filter matching:
-
-      developer.android.com/guide/components/intents-filters
-
-      You may also use an intent filter to set your app as the default handler
-      for links (without showing the user a dialog with options). To do so, you
-      must set "autoVerify": true on the filter object below, and then
-      configure your server to serve a JSON file verifying that you own the
-      domain. See Android's documentation for details:
-
-      developer.android.com/training/app-links
-
-      To add or edit intent filters in an ExpoKit project, edit AndroidManifest.xml directly.
-    */
-    "intentFilters": [
+    "routes": [
       {
-        "action": "VIEW",
-        "data": {
-          "scheme": "https",
-          "host": "*.myapp.io"
-        },
-        "category": [
-          "BROWSABLE",
-          "DEFAULT"
-        ]
+        "name": "Plou",
+        "key": "Plou-zaJlKSxxBZt8tDrWqs97W"
+      },
+      {
+        "name": "Le Cube",
+        "key": "Le Cube-EYKPNVVNl73jOmjQSOqmp"
+      },
+      {
+        "name": "Face Nord 1",
+        "key": "Face Nord 1-saEuNeYyx5ZoOf-a3QoTi"
+      },
+      {
+        "name": "Face Nord 2",
+        "key": "Face Nord 2-PeQOgS-ejSvZKfNxkiWsk"
+      },
+      {
+        "name": "Face Ouest",
+        "key": "Face Ouest-40mTYZlrja7gpO9cQPMFu"
+      },
+      {
+        "name": "Face Sud",
+        "key": "Face Sud-ML58uwUIZdZk9m_0QCH0X"
+      },
+      {
+        "name": "L'Angle",
+        "key": "L'Angle-mdYWLfEi-PuIfrFd5s2Vs"
+      },
+      {
+        "name": "Pilier du Chien",
+        "key": "Pilier du Chien-DTUwJzWW5ogWmPGl9sw5m"
+      },
+      {
+        "name": "Impérator",
+        "key": "Impérator-0yjmmqKbDDfcKVZo8yW2z"
+      },
+      {
+        "name": "Bloc",
+        "key": "Bloc-kaB33yTqaK0mP5Gw6gEYW"
+      },
+      {
+        "name": "Dalle de Coeur",
+        "key": "Dalle de Coeur-dSZ8q2vPlDRXGePd2FccD"
+      },
+      {
+        "name": "Dalle de Verre",
+        "key": "Dalle de Verre-L0WL6BnVWb0Lb861Jog-V"
+      },
+      {
+        "name": "Le Dièdre Noir",
+        "key": "Le Dièdre Noir-7KHR8HREiG6Dy0vAskyHG"
+      },
+      {
+        "name": "L'X",
+        "key": "L'X-JwCailwP94eeiMqwmrsjh"
+      },
+      {
+        "name": "Le Lierre",
+        "key": "Le Lierre-GcT00MQePc5H_PuavXP48"
+      },
+      {
+        "name": "La Magnonne",
+        "key": "La Magnonne-jt1vUxAohYH_WJl6RHk3B"
+      },
+      {
+        "name": "Impératrice",
+        "key": "Impératrice-ssXk2FuNZ87utOuCE4iwX"
+      },
+      {
+        "name": "Arbre Foudroyé ",
+        "key": "Arbre Foudroyé -PxjxnOI4AUzmwT9qKFIx5"
+      },
+      {
+        "name": "Fer à Cheval",
+        "key": "Fer à Cheval-Mv_rYSk3jw__yon6iah3j"
+      },
+      {
+        "name": "Feuilles mortes",
+        "key": "Feuilles mortes-rRn_lrFgsljdKugtEnFZb"
+      },
+      {
+        "name": "Grand Toit",
+        "key": "Grand Toit-zXIWTEASvhj1VEYUAFIWq"
+      },
+      {
+        "name": "Initiation 1",
+        "key": "Initiation 1-wvB9QZWSVBdvDnfODyVih"
+      },
+      {
+        "name": "Initiation 2",
+        "key": "Initiation 2-Suqdn8BlJZAEmsvytqUHW"
+      },
+      {
+        "name": "J'y va t'y",
+        "key": "J'y va t'y-2KEVF2yFcwN9MXEzzuo8j"
+      },
+      {
+        "name": "Le Fennec",
+        "key": "Le Fennec--PKq612YyU-Msx3EefF3E"
+      },
+      {
+        "name": "Trou de Godille",
+        "key": "Trou de Godille-x9qdj28LJE2PrIFwHe53t"
+      },
+      {
+        "name": "Le Serpent",
+        "key": "Le Serpent-7KuZXvimqMQvV5RQdIIQ0"
+      }
+    ],
+    "type": "drawer",
+    "key": "drawer-r6IvZdzfXC7nsNNptx7ot",
+    "index": 2,
+    "history": [
+      {
+        "type": "route",
+        "key": "Plou-zaJlKSxxBZt8tDrWqs97W"
+      },
+      {
+        "type": "route",
+        "key": "Le Cube-EYKPNVVNl73jOmjQSOqmp"
+      },
+      {
+        "type": "route",
+        "key": "Impérator-0yjmmqKbDDfcKVZo8yW2z"
+      },
+      {
+        "type": "route",
+        "key": "Le Dièdre Noir-7KHR8HREiG6Dy0vAskyHG"
+      },
+      {
+        "type": "route",
+        "key": "Face Nord 1-saEuNeYyx5ZoOf-a3QoTi"
       }
     ]
-  }
-}
-"web"
-{
-  "web": {
-
-    /*
-      Extra web-specific configuration options.
-    */
-    "config": {
-
-      /*
-        Firebase web configuration.
-        Used by the expo-firebase packages on both web and native.
-        See here: https://firebase.google.com/docs/reference/js/firebase.html#initializeapp
-      */
-      "firebase": {
-        "apiKey": STRING,
-        "authDomain": STRING,
-        "databaseURL": STRING,
-        "projectId": STRING,
-        "storageBucket": STRING,
-        "messagingSenderId": STRING,
-        "appId": STRING,
-        "measurementId": STRING
-      }
-    }
   }
 }

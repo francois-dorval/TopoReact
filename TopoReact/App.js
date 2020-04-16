@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    View, Text,Button
+    View, Text, Button
 } from 'react-native';
 
 import {createDrawerNavigator} from '@react-navigation/drawer';
@@ -10,7 +10,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
 import SecteurData from './util/SecteurData'
-import Voie from "./components/Voie";
+import HamburgerButton from "./components/HamburgerButton";
+import { DrawerActions } from '@react-navigation/native';
 
 
 class HomeScreen extends React.Component {
@@ -61,86 +62,74 @@ const Drawer = createDrawerNavigator();
 
 const Stack = createStackNavigator();
 
-const someData="yaa"
-const someData1="yaaouuu"
+function getHeaderTitle(route) {
+    // Access the tab navigator's state using `route.state`
+    const routeName = route.state
+        ? // Get the currently active route name in the tab navigator
+        route.state.routes[route.state.index].name
+        : // If state doesn't exist, we need to default to `screen` param if available, or the initial screen
+          // In our case, it's "Feed" as that's the first screen inside the navigator
+        route.params?.screen || 'Feed';
 
-
-function getTitle(route){
-    if (route.params&&route.params.params&&route.params.params.name){
-        return route.params.params.name;
-    }else{
-        return "Topo Plougastel"
+    console.log("routeName " + routeName);
+    switch (routeName) {
+        case 'Feed':
+            return 'News feed';
+        case 'Profile':
+            return 'My profile';
+        case 'Account':
+            return 'My account';
     }
+    return routeName;
 }
-// const DrawerButton = (props) => {
-//     return (
-//         <View>
-//             <TouchableOpacity onPress={() => {props.navigation.navigate('DrawerOpen')}}>
-//                 <Image
-//                     source={require('./assets/images/bloc.png')}
-//                     style={styles.icon}
-//                 />
-//             </TouchableOpacity>
-//         </View>
-//     );
-// };
 
-// function Root() {
-//     return (
-//
-//         <Stack.Navigator initialRouteName='Secteur'>
-//             <Stack.Screen name="Secteur"
-//                           component={SecteurScreen}
-//                           options={({  route }) => ({
-//
-//                               headerTitle: props => <Text>{getTitle(route)}</Text> ,
-//                               headerLeft: (navigation) => (
-//                                   <HamburgerButton navigation={navigation}/>
-//                               ),
-//
-//                           })
-//                           }
-//             />
-//         </Stack.Navigator>
-//
-//     );
-// }
 
 function Root() {
     return (
-            <Drawer.Navigator>
+        <Drawer.Navigator>
 
-                {(SecteurData.getSecteursData() || []).map((data, index) => {
-                    console.log('data '+data)
-                    return (
-                        <Drawer.Screen name={data.name} >
-                            {props => <SecteurScreen {...props} drawerSecteurId={data.id} />}
+            {(SecteurData.getSecteursData() || []).map((data, index) => {
+                console.log('data ' + data)
+                return (
+                    <Drawer.Screen name={data.name}>
+                        {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
                     </Drawer.Screen>
 
-                    );
-                })}
-            </Drawer.Navigator>
+                );
+            })}
+        </Drawer.Navigator>
     );
 }
-
-
 
 
 export default function App() {
     return (
         <NavigationContainer>
 
-        <Stack.Navigator initialRouteName='Root'>
-            <Stack.Screen name="Root" component={Root}
-                          options={({ route }) => ({ title: getTitle(route) })}
+            <Stack.Navigator initialRouteName='Root'>
+                <Stack.Screen name="Root" component={Root}
+                              options={({route,navigation}) => ({
+                                  headerTitle: getHeaderTitle(route),
 
-            />
-            <Stack.Screen name="DynamicSecteur" component={SecteurScreen}
+                                  headerLeft: () => (
+                                      <Button
 
-            />
+                                          onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())
+
+                                          }
+                                          title="..."
+                                          color="#ccc"
+                                      />)
+                              })}
 
 
-        </Stack.Navigator>
+                />
+                <Stack.Screen name="DynamicSecteur" component={SecteurScreen}
+
+                />
+
+
+            </Stack.Navigator>
         </NavigationContainer>
 
     );

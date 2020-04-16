@@ -40,8 +40,8 @@ module.exports = class SecteurMenu extends React.Component {
                 {/*            title={this.props.name}>{this.props.name}</Button>*/}
 
 
-                <Button color="info" style={styles.button} onPress={() => navigate("DynamicSecteur",{name:this.props.name, id:this.props.id})}
-
+                {/*<Button color="info" style={styles.button} onPress={() => navigate("DynamicSecteur",{name:this.props.name, id:this.props.id})}*/}
+                <Button color="info" style={styles.button} onPress={() => navigate({name})}
 
                         title={this.props.name}>{this.props.name}</Button>
 
