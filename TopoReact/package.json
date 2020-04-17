@@ -45,7 +45,8 @@
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
     "babel-preset-expo": "~8.0.0",
-    "jest-expo": "~36.0.1"
+    "jest-expo": "~36.0.1",
+    "sync-request": "^6.1.0"
   },
   "private": true
 }

@@ -1,9 +1,10 @@
 const fs = require('fs'),
     path = require('path'),
     _ = require('lodash'),
-    fsExtra = require('fs-extra')
+    fsExtra = require('fs-extra'),
+    DownloadData = require('./DownloadData');
 
-const IMAGE_DIR = "./assets/images/secteurs/"
+const IMAGE_DIR = "./assets/images/secteurs/";
 
 function parseRoutes(filename) {
     try {
@@ -20,7 +21,17 @@ function parseSecteur(filename) {
         //   console.log("probleme parsing secteur " + filename)
     }
 }
-
+//
+//
+// function cleanRoutes(arr){
+//     _.map(arr, function (it) {
+//         let newObj = {};
+//         Object.keys(it).forEach((prop) => {
+//             if (it[prop] !== ''&&it[prop] !== 0) { newObj[prop] = it[prop]; }
+//         });
+//         return newObj;
+//     })
+// }
 /**
  * subsecteurs
  * @param filename
@@ -48,12 +59,12 @@ function parseSubSecteurs(filename) {
 
 function replaceRequirePattern(string) {
 
-    function replaceAll (string, search, replacement) {
+    function replaceAll(string, search, replacement) {
         return string.replace(new RegExp(search, 'g'), replacement);
     };
 
 
-    let result =replaceAll(string,"\"BEGINREQUIREIMGTOREMOVE", "require ('../images/secteurs/");
+    let result = replaceAll(string, "\"BEGINREQUIREIMGTOREMOVE", "require ('../images/secteurs/");
     result = replaceAll(result, "ENDREQUIREIMGTOREMOVE\"", "')");
     return result;
 }
@@ -66,8 +77,8 @@ function replaceRequirePattern(string) {
  * @param id
  */
 function manageImage(secteur, filePath, id, attributeName) {
-    if (!attributeName){
-        attributeName="img"
+    if (!attributeName) {
+        attributeName = "img"
     }
     if (fs.existsSync(filePath)) {
         console.log("found " + filePath)
@@ -108,7 +119,14 @@ function dirTree(filename) {
         secteur.id = id;
         manageImages(secteur, filename, id)
         _.merge(secteur, parseSecteur(filename + '/' + "index.json"))
-        secteur.routes = parseRoutes(filename + '/' + "routes.json")
+        if (secteur.routesData) {
+            let routesData = DownloadData.get(secteur.routesData).rows
+            secteur.routes = routesData;
+        }
+        if (!secteur.routes) {
+            secteur.routes = parseRoutes(filename + '/' + "routes.json")
+        }
+       // cleanRoutes(secteur.routes)
         secteur.subsecteurs = parseSubSecteurs(filename)
         return {secteur: secteur};
 

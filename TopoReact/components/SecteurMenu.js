@@ -46,21 +46,20 @@ module.exports = class SecteurMenu extends React.Component {
 
                 {/*<Button color="info" style={styles.button} onPress={() => navigate("DynamicSecteur",{name:this.props.name, id:this.props.id})}*/}
 
-<TouchableHighlight onPress={()=>navigate({name})}>
-                <Card
-                    title={name}
-                    image={vignette}
-
-                >
-                    <Text style={{marginBottom: 10}}>
-                        {shortDescription}                    </Text>
-                    {/*<Button*/}
-                    {/*    buttonStyle={{borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0}}*/}
-                    {/*    title={name}*/}
-                    {/*    onPress={() => navigate({name})}*/}
-                    {/*/>*/}
-                </Card>
-</TouchableHighlight>
+                <TouchableHighlight onPress={() => navigate({name})}>
+                    <Card
+                        title={name}
+                        image={vignette}
+                    >
+                        <Text style={{marginBottom: 10}}>
+                            {shortDescription}                    </Text>
+                        {/*<Button*/}
+                        {/*    buttonStyle={{borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0}}*/}
+                        {/*    title={name}*/}
+                        {/*    onPress={() => navigate({name})}*/}
+                        {/*/>*/}
+                    </Card>
+                </TouchableHighlight>
 
             </View>
         );

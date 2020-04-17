@@ -2,5 +2,7 @@
   "name": "Face Ouest",
   "heigth": "20m",
   "orientation": "O",
+  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=21",
+
   "description": "Ce secteur facile est idéal pour l’initiation, ainsi que pour la bronzette et le cassecroûte. Bien équipé et orienté à l’ouest, c’est le paradis du samedi après midi des initiateurs."
 }

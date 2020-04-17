@@ -56,7 +56,7 @@ module.exports = class Voie extends React.Component {
                 </View>
                 <View style={styles.verticalContainer}>
                     <Text style={styles.routeQuotation} numberOfLines={1}>
-                        {data.quotation}
+                        {data.difficulty}
                     </Text>
                 </View>
 

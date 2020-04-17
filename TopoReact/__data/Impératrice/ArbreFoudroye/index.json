@@ -2,5 +2,7 @@
   "name": "Arbre Foudroyé ",
   "heigth": "8m",
   "orientation": "NO",
+  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=9",
+
   "description": "Il faut emprunter le sentier qui contourne l’Impératrice par la face sud et qui vous\nemmène au sommet.\nUne vue superbe sur la rade de Brest et le pont de l’Iroise vous attends. Idéal pour\nprendre le thé après quelques heures d’escalade, voire pour affronter «Chipster et\nOasis» à défaut d’infusion."
 }

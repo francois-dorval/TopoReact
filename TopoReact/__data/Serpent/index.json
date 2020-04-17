@@ -2,6 +2,8 @@
   "name": "Le Serpent",
   "heigth": "20m",
   "orientation": "NE",
+  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=24",
+
   "description": "C’est un secteur isolé et tranquille parce qu’entouré de propriétés privées, soyez discrets et profiter tranquillement de ce petit coin de paradis.",
   "shortDescription": "Secteur intéressant, de la Dalle mais pas que!"
 }

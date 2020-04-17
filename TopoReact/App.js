@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    View, Text, Button
+    View, Text, StyleSheet
 } from 'react-native';
 
 import {
@@ -15,7 +15,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
 import SecteurData from './util/SecteurData'
-import HamburgerButton from "./components/HamburgerButton";
 import { DrawerActions } from '@react-navigation/native';
 
 
@@ -110,23 +109,11 @@ export default function App() {
                                   headerTitle: getHeaderTitle(route),
 
                                   headerLeft: () => (
-                                      // <Button onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
-                                      //     title="..."
-                                      //     color="#ccc"
-                                      // />)
-
-                                      <Icon name="menu" onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
-
+                                      <Icon name="menu" style={styles.menuIcon} onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
                                   />)
-
-
                               })}
-
-
                 />
-                <Stack.Screen name="DynamicSecteur" component={SecteurScreen}
-
-                />
+                <Stack.Screen name="DynamicSecteur" component={SecteurScreen}/>
 
 
             </Stack.Navigator>
@@ -136,3 +123,8 @@ export default function App() {
 }
 
 
+const styles = StyleSheet.create({
+    menuIcon:{
+        marginLeft: 10
+    }
+})
