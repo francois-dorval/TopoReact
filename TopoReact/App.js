@@ -33,35 +33,6 @@ class HomeScreen extends React.Component {
 }
 
 
-//const Stack = createDrawerNavigator();
-
-// function getTitle(route) {
-//     if (route && route.params && route.params.name) {
-//         return route.params.name;
-//     } else {
-//         return "Topo Plougastel";
-//     }
-// }
-
-// const DrawerContent = (props) => (
-//     <View>
-//         <View
-//             style={{
-//                 backgroundColor: '#f50057',
-//                 height: 140,
-//                 alignItems: 'center',
-//                 justifyContent: 'center',
-//             }}
-//         >
-//             <Text style={{ color: 'white', fontSize: 30 }}>
-//                 Header
-//             </Text>
-//         </View>
-//         <DrawerItems {...props} />
-//     </View>
-// )
-
-
 const Drawer = createDrawerNavigator();
 
 const Stack = createStackNavigator();
@@ -73,22 +44,25 @@ function getHeaderTitle(route) {
         route.state.routes[route.state.index].name
         : // If state doesn't exist, we need to default to `screen` param if available, or the initial screen
           // In our case, it's "Feed" as that's the first screen inside the navigator
-        route.params?.screen || 'Topo Plougastel';
+        route.params?.screen || 'Les sites';
 
-    console.log("routeName " + routeName);
+    //console.log("routeName " + routeName);
 
     return routeName;
 }
+
+
 
 
 function Root() {
     return (
         <Drawer.Navigator>
 
+
             {(SecteurData.getSecteursData() || []).map((data, index) => {
-                console.log('data ' + data)
+                //console.log('data ' + data)
                 return (
-                    <Drawer.Screen name={data.name}>
+                    <Drawer.Screen key={data.name} name={data.name}>
                         {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
                     </Drawer.Screen>
 

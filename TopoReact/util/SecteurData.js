@@ -2,22 +2,18 @@ import Secteurs from '../assets/secteurs/secteurs';
 import _ from 'lodash'
 import { logger } from 'react-native-logs';
 
-let log = logger.createLogger();
+let log = logger.createLogger({ severity: 'info'});
 
 function SecteurData() {
 }
 
 
-function loog(data){
-
-}
 function getSecteur(obj,  value) {
-    //loog("getSecteur "+obj.secteur.id);
     if (!obj){
         return null;
     }
     if (obj.secteur.id=== value) {
-     //   loog("getSecteur "+value+" found "+obj.secteur.name);
+     //   log.debug("getSecteur "+value+" found "+obj.secteur.name);
         return obj.secteur;
     }
     let subs = obj.secteur.subsecteurs;
@@ -33,21 +29,21 @@ function getSecteur(obj,  value) {
 }
 
 function getSecteurs(obj) {
-    loog("getSecteurs "+obj.secteur.id);
+    log.debug("getSecteurs "+obj.secteur.id);
     let result=[]
     if (!obj){
         return null;
     }
     if (obj.secteur) {
-          loog("getSecteurs  found "+obj.secteur.name);
+          log.debug("getSecteurs  found "+obj.secteur.name);
         result.push( {id:obj.secteur.id, name:obj.secteur.name});
     }
 
     let subs = obj.secteur.subsecteurs;
-    loog("getSecteurs  subs "+subs.length);
+    log.debug("getSecteurs  subs "+subs.length);
 
     if (subs && subs.length){
-        loog("getSecteurs  suuuuuuuubs "+subs.length);
+        log.debug("getSecteurs  suuuuuuuubs "+subs.length);
 
         for (var i=0;i<subs.length;i++){
             result=result.concat( getSecteurs(subs[i]));
@@ -58,7 +54,7 @@ function getSecteurs(obj) {
 
 
 SecteurData.getData=function(id){
-   // loog('getData::', id);
+   // log.debug('getData::', id);
     if (!id){
         log.debug('getData no id::'+Secteurs.secteur.name);
         return Secteurs.secteur;

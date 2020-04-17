@@ -5,7 +5,6 @@ import {theme} from "galio-framework";
 import {argonTheme, tabs} from "../constants/";
 
 
-import {Button, Card, Select, Icon, Input, Header, Switch} from "../components/";
 
 const {width} = Dimensions.get("screen");
 
@@ -35,6 +34,15 @@ module.exports = class Voie extends React.Component {
             }
         }
 
+        function descriptionWidget(data){
+            if (!!data.description && data.description!==0){
+                return  <Text style={styles.routeDescription} numberOfLines={2}>
+                    {data.description}
+                </Text>
+            }
+        }
+
+
         return (
 
             <View style={styles.mainContainer}>
@@ -49,10 +57,7 @@ module.exports = class Voie extends React.Component {
                     <Text style={styles.routeName} numberOfLines={1}>
                         {data.name}
                     </Text>
-
-                    <Text style={styles.routeDescription} numberOfLines={2}>
-                        {data.description}
-                    </Text>
+                    {descriptionWidget(data)}
                 </View>
                 <View style={styles.verticalContainer}>
                     <Text style={styles.routeQuotation} numberOfLines={1}>

@@ -20,15 +20,11 @@ module.exports = class SecteurMenu extends React.Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        //console.log("this.props " + JSON.stringify(this.props))
         const id = this.props.id;
         const name = this.props.name;
         const vignette = this.props.vignette;
 
         const shortDescription = this.props.shortDescription;
-
-        // console.log("SecteurMenu " + id + " - " + name)
-
 
         return (
             <View style={{alignItems: 'stretch'}}>

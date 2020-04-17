@@ -101,6 +101,9 @@ function manageImages(secteur, path, id) {
     manageImage(secteur, path + "/secteur.jpg", id)
     manageImage(secteur, path + "/secteur.png", id)
     manageImage(secteur, path + "/vignette.jpg", id, "vignette")
+    manageImage(secteur, path + "/acces.png", id, "access_img")
+    manageImage(secteur, path + "/acces.jpg", id, "access_img")
+
 
 }
 

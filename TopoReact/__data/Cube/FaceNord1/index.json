@@ -3,5 +3,7 @@
   "heigth": "25m",
   "orientation": "N",
   "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=19",
-  "description": "Comme son nom l’indique, il y fait rarement chaud mais, cette exposition lui permet\nd’être sous un vent dominant qui sèche le rocher plus rapidement qu’ailleurs. De plus,\npour les amateurs de performance, toutes les voies sont des petits bijoux où il est toujours agréable de ne pas trop transpirer."
+  "shortDescription": "La partie la plus raide du site",
+
+  "description": "Comme son nom l’indique, il y fait rarement chaud mais, cette exposition lui permet  d’être sous un vent dominant qui sèche le rocher plus rapidement qu’ailleurs. De plus,  pour les amateurs de performance, toutes les voies sont des petits bijoux où il est toujours agréable de ne pas trop transpirer."
 }
