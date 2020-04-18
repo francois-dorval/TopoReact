@@ -95,7 +95,7 @@ const styles = StyleSheet.create(
             alignItems: 'stretch',
             backgroundColor: DEBUGCOLORS.dbg2,
             alignContent: 'center',
-            padding: "1%"
+            //padding: "1%"
         },
 
         textContainer: {

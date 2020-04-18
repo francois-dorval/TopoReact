@@ -40,7 +40,8 @@ module.exports = class SecteurScreen extends React.Component {
             log.debug("desc --" + JSON.stringify({data}) + "--")
             let desc = data.description
             if (!!desc) {
-                return <View><Text style={styles.h1}>Description</Text>
+                return <View>
+                    {/*<Text style={styles.h1}>Description</Text>*/}
                     <Text style={styles.description}> {desc} </Text>
                     <Divider style={styles.divider}/>
                 </View>
