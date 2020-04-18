@@ -43,7 +43,7 @@ module.exports = class SecteurScreen extends React.Component {
                 return <View>
                     {/*<Text style={styles.h1}>Description</Text>*/}
                     <Text style={styles.description}> {desc} </Text>
-                    <Divider style={styles.divider}/>
+                    {/*<Divider style={styles.divider}/>*/}
                 </View>
             }
         }
@@ -118,14 +118,16 @@ module.exports = class SecteurScreen extends React.Component {
             <ErrorBoundary>
                 <ScrollView>
                     <View style={styles.scView}>
+                        <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
+
                         {descriptionWidget(data)}
                         {accesWidget(data)}
-                        <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
                             <Image style={styles.secteurImage} source={data.img}/>
                             {subsecteurWidget(data, this.props.navigation)}
-                        </View>
                         {routesWidget(data)}
                     </View>
+                    </View>
+
                 </ScrollView>
             </ErrorBoundary>
         );

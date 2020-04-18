@@ -40,12 +40,12 @@ function parseSecteur(filename) {
  * @param filename
  * @returns {[]}
  */
-function parseSubSecteurs(filename) {
+function parseSubSecteurs(filename, level) {
     try {
         let result = []
 
         var res = fs.readdirSync(filename).map(function (child) {
-            return dirTree(filename + '/' + child);
+            return dirTree(filename + '/' + child,level+1);
         });
         if (res) {
             for (var i = 0; i < res.length; i++) {
@@ -118,7 +118,7 @@ function manageImages(secteur, path, id) {
  * @param filename
  * @returns {{secteur: {}}|{}|null}
  */
-function dirTree(filename) {
+function dirTree(filename, level) {
     var stats = fs.lstatSync(filename)
 
     if (stats.isDirectory()) {
@@ -138,7 +138,8 @@ function dirTree(filename) {
             secteur.routeNumber=secteur.routes.length;
         }
        // cleanRoutes(secteur.routes)
-        secteur.subsecteurs = parseSubSecteurs(filename)
+        secteur.subsecteurs = parseSubSecteurs(filename, level)
+        secteur.level=level;
         return {secteur: secteur};
 
     } else {
@@ -160,7 +161,7 @@ function printValues(obj) {
 
 if (module.parent == undefined) {
     fsExtra.emptyDirSync(IMAGE_DIR)
-    let result = dirTree(process.argv[2])
+    let result = dirTree(process.argv[2],0)
 
     let resultString = JSON.stringify(result, null, 2);
     ////////////

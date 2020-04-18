@@ -55,14 +55,24 @@ function getHeaderTitle(route) {
 
 
 function Root() {
+    function getName(data) {
+        if (data.level==1){
+            return "->"+data.name;
+
+        }else{
+            return data.name;
+
+        }
+    }
+
+
     return (
         <Drawer.Navigator>
 
 
             {(SecteurData.getSecteursData() || []).map((data, index) => {
-                //console.log('data ' + data)
                 return (
-                    <Drawer.Screen key={data.name} name={data.name}>
+                    <Drawer.Screen key={data.name} name={getName(data)}>
                         {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
                     </Drawer.Screen>
 
