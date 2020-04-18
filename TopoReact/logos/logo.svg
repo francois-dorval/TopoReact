@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/ordi/projets/TopoReact/TopoReact/__data/logos/logo.png"
+   inkscape:export-xdpi="49.150002"
+   inkscape:export-ydpi="49.150002">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="577.33621"
+     inkscape:cy="450.40423"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:window-width="1533"
+     inkscape:window-height="845"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-32.41665)">
+    <path
+       style="fill:#008080;stroke-width:0.28408816"
+       d="m 41.816058,250.43642 a 43.049403,22.095056 0 0 0 -42.1763404,17.676 H 83.94902 a 43.049403,22.095056 0 0 0 -42.132962,-17.676 z"
+       id="path14"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path19"
+       d="m 131.80762,250.43642 a 43.049403,22.095056 0 0 0 -42.176336,17.676 h 84.309306 a 43.049403,22.095056 0 0 0 -42.13297,-17.676 z"
+       style="fill:#008080;stroke-width:0.28408816" />
+    <path
+       style="fill:#008080;stroke-width:0.28408816"
+       d="m 221.92837,250.43642 a 43.049403,22.095056 0 0 0 -42.17633,17.676 h 84.3093 a 43.049403,22.095056 0 0 0 -42.13297,-17.676 z"
+       id="path21"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.31339484;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 0.16770788,237.72402 c 0,-2.75395 66.54427812,-137.14665 66.54427812,-137.14665 l 19.50436,32.4966 48.187234,-87.024898 C 154.4707,75.919659 230.23805,190.26537 264.81507,237.17324"
+       id="path836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.91423416px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.32285583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="127.34167"
+       y="174.64328"
+       id="text854"><tspan
+         sodipodi:role="line"
+         id="tspan852"
+         x="127.34167"
+         y="174.64328"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333333px;line-height:1;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:0.32285583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Topo</tspan><tspan
+         sodipodi:role="line"
+         x="127.34167"
+         y="209.92107"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333333px;line-height:1;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:0.32285583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan856">Plougastel</tspan></text>
+  </g>
+</svg>

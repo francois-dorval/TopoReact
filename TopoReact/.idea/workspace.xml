@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__data/Impérator/acces.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/FaceNord1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/FaceNord1/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/FaceNord2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/FaceNord2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/FaceOuest/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/FaceOuest/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/FaceSud/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/FaceSud/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/Langle/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/Langle/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/PilierChien/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/PilierChien/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Cube/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Cube/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/Blox/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/Blox/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/DiedreNoir/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/DiedreNoir/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/LX/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/LX/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/Mgnonne/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/Mgnonne/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impérator/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impérator/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/ArbreFoudroye/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/ArbreFoudroye/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/ArbreFoudroye/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FerACheval/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FeuillesMortes/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/GrandToit/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/Initiation1/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation1/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/Initiation2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation2/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/JyVaTy/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/LeFennec/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/LeFennec/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/LeFennec/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/TrouDeGodille/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/TrouDeGodille/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/TrouDeGodille/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Serpent/voies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__script/CreateAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/__script/CreateAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HamburgerButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StyledText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TabBarIcon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/splash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Voie.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/__tests__/StyledText-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/SecteurData.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/SecteurData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/__tests__/__snapshots__/StyledText-test.js.snap" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +143,7 @@
       <workItem from="1587037464573" duration="1948000" />
       <workItem from="1587124515581" duration="2020000" />
       <workItem from="1587150585214" duration="11665000" />
+      <workItem from="1587209245162" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -378,10 +338,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587159889102" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587159809009">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587163765753">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587159809009" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587163765753" />
     <state x="167" y="125" width="1333" height="675" maximized="true" key="DiffContextDialog" timestamp="1587010728896">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -418,10 +378,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587159810796">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587163767495">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587159810796" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587163767495" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

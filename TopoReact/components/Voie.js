@@ -24,13 +24,13 @@ module.exports = class Voie extends React.Component {
         function getImage(){
            // console.log("image "+data.equipment);
             if (data.equipment === "c") {
-                return require('../assets/images/coinceur_1.png')
+                return require('../assets/images/coinceur_2.png')
             }else if (data.equipment === "t"){
-                return require('../assets/images/traversee.png')
+                return require('../assets/images/traversee_2.png')
             }else if (data.equipment === "b"){
-                return require('../assets/images/bloc.png')
+                return require('../assets/images/bloc_2.png')
             }else if (data.equipment === "e"){
-                return require('../assets/images/spit_1.png')
+                return require('../assets/images/spit_2.png')
             }
         }
 
