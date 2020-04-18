@@ -21,13 +21,9 @@ let log = logger.createLogger({ severity: 'info'});
 module.exports = class SecteurScreen extends React.Component {
 
     render() {
-
-        // console.log("---------")
         log.debug("SecteurScreen.props " + JSON.stringify(this.props))
-
-        //const navigation = useNavigation();
-        //const { secteur } = route.params;
         let secteur;
+
         if (this.props.drawerSecteurId) {
             secteur = this.props.drawerSecteurId;
         } else if (this.props && this.props.route && this.props.route.params) {
@@ -35,10 +31,7 @@ module.exports = class SecteurScreen extends React.Component {
         }
 
         log.debug('secteur id ', secteur);
-
         let data = SecteurData.getData(secteur);
-        let description = (data && data.description) ? data.description : "";
-
 
         /**
          * la description
@@ -74,14 +67,16 @@ module.exports = class SecteurScreen extends React.Component {
          * les sous-secteurs
          */
         function subsecteurWidget(data, navigation) {
-
             let widgets = (data.subsecteurs || []).map((subsecteur, index) => {
                 return (
                     <SecteurMenu key={subsecteur.secteur.id} id={subsecteur.secteur.id} name={subsecteur.secteur.name}
                                  vignette={subsecteur.secteur.vignette}
                                  shortDescription={subsecteur.secteur.shortDescription}
-                                 navigation={navigation}
+                                 routeNumber={subsecteur.secteur.routeNumber}
+                                 orientation={subsecteur.secteur.orientation}
+                                 heigth={subsecteur.secteur.heigth}
 
+                                 navigation={navigation}
                     />
                 );
             });
@@ -111,35 +106,30 @@ module.exports = class SecteurScreen extends React.Component {
                     {widgets}
                     <Divider style={styles.divider}/>
                 </View>
-
             }
         }
 
 
+        /**
+         * la page!
+         */
         return (
             <ErrorBoundary>
                 <ScrollView>
-
                     <View style={styles.scView}>
                         {descriptionWidget(data)}
                         {accesWidget(data)}
-
                         <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
-
                             <Image style={styles.secteurImage} source={data.img}/>
                             {subsecteurWidget(data, this.props.navigation)}
                         </View>
-
                         {routesWidget(data)}
-
                     </View>
                 </ScrollView>
             </ErrorBoundary>
-
         );
     }
 }
-
 
 const styles = StyleSheet.create(
     {

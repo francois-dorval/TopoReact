@@ -4,6 +4,9 @@ const fs = require('fs'),
     fsExtra = require('fs-extra'),
     DownloadData = require('./DownloadData');
 
+const log = require('simple-node-logger').createSimpleLogger();
+log.setLevel('info');
+
 const IMAGE_DIR = "./assets/images/secteurs/";
 
 function parseRoutes(filename) {
@@ -57,13 +60,15 @@ function parseSubSecteurs(filename) {
     }
 }
 
+/**
+ * moche: on ne peut pas avoir de require dans du json donc on le remet après
+ * @param string
+ * @returns {*}
+ */
 function replaceRequirePattern(string) {
-
     function replaceAll(string, search, replacement) {
         return string.replace(new RegExp(search, 'g'), replacement);
     };
-
-
     let result = replaceAll(string, "\"BEGINREQUIREIMGTOREMOVE", "require ('../images/secteurs/");
     result = replaceAll(result, "ENDREQUIREIMGTOREMOVE\"", "')");
     return result;
@@ -81,7 +86,7 @@ function manageImage(secteur, filePath, id, attributeName) {
         attributeName = "img"
     }
     if (fs.existsSync(filePath)) {
-        console.log("found " + filePath)
+        log.info("found " + filePath)
         let fileName = id + "_" + path.basename(filePath)
         fs.copyFile(filePath, IMAGE_DIR + fileName, (err) => {
             if (err) throw err;
@@ -128,6 +133,9 @@ function dirTree(filename) {
         }
         if (!secteur.routes) {
             secteur.routes = parseRoutes(filename + '/' + "routes.json")
+        }
+        if (secteur.routes){
+            secteur.routeNumber=secteur.routes.length;
         }
        // cleanRoutes(secteur.routes)
         secteur.subsecteurs = parseSubSecteurs(filename)
