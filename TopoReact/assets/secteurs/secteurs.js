@@ -1,20 +1,20 @@
 const Secteurs ={
   "secteur": {
-    "id": "k68fcg",
+    "id": "agciw",
     "name": "Topo Plougastel",
     "subsecteurs": [
       {
         "secteur": {
-          "id": "3sprn",
-          "vignette": require ('../images/secteurs/3sprn_vignette.jpg'),
+          "id": "h0ya8",
+          "vignette": require ('../images/secteurs/h0ya8_vignette.jpg'),
           "name": "Le Cube",
           "description": "De Brest, prendre la RN 165 en direction de Quimper, juste après le pont de  l’Iroise, prendre la sortie Kéraliou. Au STOP prendre à droite, puis la 1ère à gauche  (petite route étroite et raide). 150 m après le virage à droite, se garer sur le petit parking.  Le chemin d’accès vers le Cube se situe juste en face du parking, celui du Serpent 500 m plus loin en prenant à gauche, puis à droite, puis de nouveau à gauche  après la deuxième maison.",
           "shortDescription": "Belle vue, une belle face",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "n9wfp",
-                "img": require ('../images/secteurs/n9wfp_secteur.jpg'),
+                "id": "wrbc3",
+                "img": require ('../images/secteurs/wrbc3_secteur.jpg'),
                 "name": "Face Nord 1",
                 "heigth": "25m",
                 "orientation": "N",
@@ -79,8 +79,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "bittt",
-                "img": require ('../images/secteurs/bittt_secteur.jpg'),
+                "id": "bftj6",
+                "img": require ('../images/secteurs/bftj6_secteur.jpg'),
                 "name": "Face Nord 2",
                 "heigth": "25m",
                 "orientation": "N",
@@ -124,8 +124,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "avln6",
-                "img": require ('../images/secteurs/avln6_secteur.png'),
+                "id": "me964",
+                "img": require ('../images/secteurs/me964_secteur.png'),
                 "name": "Face Ouest",
                 "heigth": "20m",
                 "orientation": "O",
@@ -197,8 +197,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "hk9lo",
-                "img": require ('../images/secteurs/hk9lo_secteur.png'),
+                "id": "m4p67",
+                "img": require ('../images/secteurs/m4p67_secteur.png'),
                 "name": "Face Sud",
                 "heigth": "10m",
                 "orientation": "S",
@@ -277,8 +277,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "kut0x",
-                "img": require ('../images/secteurs/kut0x_secteur.png'),
+                "id": "dfbnw",
+                "img": require ('../images/secteurs/dfbnw_secteur.png'),
                 "name": "L'Angle",
                 "heigth": "25m",
                 "orientation": "N/NO",
@@ -335,8 +335,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "ayy7r",
-                "img": require ('../images/secteurs/ayy7r_secteur.jpg'),
+                "id": "l3zay",
+                "img": require ('../images/secteurs/l3zay_secteur.jpg'),
                 "name": "Pilier du Chien",
                 "heigth": "6m",
                 "orientation": "N",
@@ -377,17 +377,18 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "o2qieh",
-          "vignette": require ('../images/secteurs/o2qieh_vignette.jpg'),
-          "access_img": require ('../images/secteurs/o2qieh_acces.png'),
-          "name": "Impérator",
-          "description": "Nouveau nom : l'Impératrice! C'est le rocher le plus proche de la route. De belles voies, dans tous les niveaux.",
-          "shortDescription": "Nouveau nom : l'Impératrice! C'est le rocher le plus proche de la route.",
+          "id": "ohrit",
+          "vignette": require ('../images/secteurs/ohrit_vignette.jpg'),
+          "access_img": require ('../images/secteurs/ohrit_acces.png'),
+          "name": "Impératrice",
+          "acces": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» jusqu'à trouver un parking sur la droite. Ensuite, prendre le sentier qui grimpe : le rocher est immanquable.",
+          "description": "Ancien nom : l'Impérator! Le rocher le plus proche de la route. De belles voies, dans tous les niveaux.",
+          "shortDescription": "Ancien nom : l'Impérator! Mais historiquement l'imperator est un pilier au profil reconnaissable faisant partie du rocher de l'Impératrice...\nCe secteur est le plus proche de la route et du parking. De belles voies, dans tous les niveaux.",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "y5jqa",
-                "img": require ('../images/secteurs/y5jqa_secteur.jpg'),
+                "id": "5mcqv",
+                "img": require ('../images/secteurs/5mcqv_secteur.jpg'),
                 "name": "Bloc",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=13",
                 "description": "Au pied de la dalle de cœur, orienté NE/SO, vous trouverez des pas de bloc en dalle  fine ou en jetés furieux.  Attention CHUTE DANGEREUSE : CRASH-PAD ET PARADE OBLIGATOIRE",
@@ -442,8 +443,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "sefgf",
-                "img": require ('../images/secteurs/sefgf_secteur.png'),
+                "id": "qpfwd",
+                "img": require ('../images/secteurs/qpfwd_secteur.png'),
                 "name": "Dalle de Coeur",
                 "heigth": "18m",
                 "orientation": "NE",
@@ -485,8 +486,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "r7yzgj",
-                "img": require ('../images/secteurs/r7yzgj_secteur.jpg'),
+                "id": "6cmkt",
+                "img": require ('../images/secteurs/6cmkt_secteur.jpg'),
                 "name": "Dalle de Verre",
                 "heigth": "15m",
                 "orientation": "NO",
@@ -570,8 +571,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "w1z2sf",
-                "img": require ('../images/secteurs/w1z2sf_secteur.png'),
+                "id": "3uxoj",
+                "img": require ('../images/secteurs/3uxoj_secteur.png'),
                 "name": "Le Dièdre Noir",
                 "heigth": "35m",
                 "orientation": "O",
@@ -621,13 +622,13 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "9tt94",
-                "img": require ('../images/secteurs/9tt94_secteur.png'),
+                "id": "g8egn",
+                "img": require ('../images/secteurs/g8egn_secteur.png'),
                 "name": "L'X",
                 "heigth": "20m",
                 "orientation": "NNE",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=16",
-                "description": "L’accès à ce secteur se fait par le chemin sud-ouest (celui qui passe au dessus de  l’Imperator). Une superbe vue sur la rade vous y attends.",
+                "description": "L’accès à ce secteur se fait par le chemin sud-ouest (celui qui passe au dessus de  l’Imperator). Une superbe vue sur la rade vous y attend.",
                 "routes": [
                   {
                     "number": 29,
@@ -665,8 +666,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "g130vf",
-                "img": require ('../images/secteurs/g130vf_secteur.png'),
+                "id": "8e9zc",
+                "img": require ('../images/secteurs/8e9zc_secteur.png'),
                 "name": "Le Lierre",
                 "heigth": "25m",
                 "orientation": "SO",
@@ -750,8 +751,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "85ldm",
-                "img": require ('../images/secteurs/85ldm_secteur.png'),
+                "id": "ujuu4",
+                "img": require ('../images/secteurs/ujuu4_secteur.png'),
                 "name": "La Magnonne",
                 "heigth": "35m",
                 "orientation": "NNO",
@@ -791,19 +792,18 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "o38fp",
-          "img": require ('../images/secteurs/o38fp_secteur.png'),
-          "vignette": require ('../images/secteurs/o38fp_vignette.jpg'),
-          "access_img": require ('../images/secteurs/o38fp_acces.png'),
-          "name": "Impératrice",
-          "acces": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» et au 2ème rond point prendre en face vers  «Toull Ar Rohou».  Les alentours offrent de nombreuses possibilités de Parking, sachant que de  nombreux chemins permettent d’accéder aux sites. Au choix : de suite à droite après la patte d’oie (le chemin d’accès étant 50 m plus bas), ou dans le grand parking aménagé en bas.",
-          "description": "Nouveau nom : Rocher Noël! 'Grandes' voies et secteur initiation",
-          "shortDescription": "Nouveau nom : Rocher Noël! 'Grandes' voies et secteur initiation",
+          "id": "nmrrk",
+          "vignette": require ('../images/secteurs/nmrrk_vignette.jpg'),
+          "access_img": require ('../images/secteurs/nmrrk_acces.png'),
+          "name": "Rocher Noël",
+          "acces": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» jusqu'à trouver un parking sur la droite. Ensuite, prendre le sentier, et dépasser l'Impératice. C'est fléché!",
+          "description": "Ancien nom : l'Impératrice! 'Grandes' voies et secteur initiation",
+          "shortDescription": "Ancien nom : l'Impératrice! Les panneaux respectent la nouvelle nomenclature... 'Grandes' voies, secteur initiation, il y en a pour tous les goûts!",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "7frr9",
-                "img": require ('../images/secteurs/7frr9_secteur.png'),
+                "id": "dinttg",
+                "img": require ('../images/secteurs/dinttg_secteur.png'),
                 "name": "Arbre Foudroyé ",
                 "heigth": "8m",
                 "orientation": "NO",
@@ -846,8 +846,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "5d7ac",
-                "img": require ('../images/secteurs/5d7ac_secteur.png'),
+                "id": "otidzh",
+                "img": require ('../images/secteurs/otidzh_secteur.png'),
                 "name": "Fer à Cheval",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -945,8 +945,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "7316zf",
-                "img": require ('../images/secteurs/7316zf_secteur.png'),
+                "id": "th8rsk",
+                "img": require ('../images/secteurs/th8rsk_secteur.png'),
                 "name": "Feuilles mortes",
                 "heigth": "20m",
                 "orientation": "SO",
@@ -982,8 +982,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "7fcec",
-                "img": require ('../images/secteurs/7fcec_secteur.png'),
+                "id": "4wn4h",
+                "img": require ('../images/secteurs/4wn4h_secteur.png'),
                 "name": "Grand Toit",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -1082,8 +1082,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "w56ag",
-                "img": require ('../images/secteurs/w56ag_secteur.jpg'),
+                "id": "dpo3q",
+                "img": require ('../images/secteurs/dpo3q_secteur.jpg'),
                 "name": "Initiation 1",
                 "heigth": "20m",
                 "orientation": "SE",
@@ -1154,9 +1154,9 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "zn66hh",
-                "img": require ('../images/secteurs/zn66hh_secteur.jpg'),
-                "vignette": require ('../images/secteurs/zn66hh_vignette.jpg'),
+                "id": "q8xi9",
+                "img": require ('../images/secteurs/q8xi9_secteur.jpg'),
+                "vignette": require ('../images/secteurs/q8xi9_vignette.jpg'),
                 "name": "Initiation 2",
                 "heigth": "20m",
                 "orientation": "SE",
@@ -1213,8 +1213,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "0zgx6",
-                "img": require ('../images/secteurs/0zgx6_secteur.png'),
+                "id": "qw6gp",
+                "img": require ('../images/secteurs/qw6gp_secteur.png'),
                 "name": "J'y va t'y",
                 "heigth": "40m",
                 "orientation": "NO",
@@ -1306,8 +1306,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "zpzg7",
-                "img": require ('../images/secteurs/zpzg7_secteur.png'),
+                "id": "093zr",
+                "img": require ('../images/secteurs/093zr_secteur.png'),
                 "name": "Le Fennec",
                 "heigth": "12m",
                 "orientation": "NNE",
@@ -1357,8 +1357,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "03z3ol",
-                "img": require ('../images/secteurs/03z3ol_secteur.jpg'),
+                "id": "kkwy9i",
+                "img": require ('../images/secteurs/kkwy9i_secteur.jpg'),
                 "name": "Trou de Godille",
                 "heigth": "35m",
                 "orientation": "NO",
@@ -1405,52 +1405,80 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "6qbyo",
-          "img": require ('../images/secteurs/6qbyo_secteur.jpg'),
+          "id": "led4r",
+          "img": require ('../images/secteurs/led4r_secteur.jpg'),
           "name": "Le Serpent",
           "heigth": "20m",
           "orientation": "NE",
           "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=24",
-          "description": "C’est un secteur isolé et tranquille parce qu’entouré de propriétés privées, soyez discrets et profiter tranquillement de ce petit coin de paradis.",
+          "description": "C’est un secteur isolé et tranquille parce qu’entouré de propriétés privées, soyez discrets et profitez tranquillement de ce petit coin de paradis. \nRécemment rééquipé, il vaut le détour!",
           "shortDescription": "Secteur intéressant, de la Dalle mais pas que!",
           "routes": [
             {
               "number": 1,
-              "name": "Dallergie",
-              "description": "Fin, très fin",
-              "difficulty": "6b",
+              "name": "Mords moi la queue",
+              "description": "Départ avec l’angle gauche du rocher puis suivre l’arête",
+              "difficulty": "5b+",
               "equipment": "e"
             },
             {
               "number": 2,
-              "name": "Pince Sans Rire",
-              "description": 0,
-              "difficulty": "6a",
+              "name": "Serpentine",
+              "description": "Départ avec une écaille à gauche...faire un pas dynamique. Le reste de la\nvoie est tranquille jusqu’au relais",
+              "difficulty": "5b",
               "equipment": "e"
             },
             {
               "number": 3,
-              "name": "Raspoutine",
-              "description": 0,
-              "difficulty": "7a-b",
-              "equipment": "c"
+              "name": "Kaa",
+              "description": "Départ à côté de la voie 2. Après le second point, basculer à droite sur la grande face puis suivre le fil de l’arête",
+              "difficulty": "6a+",
+              "equipment": "e"
             },
             {
               "number": 4,
-              "name": "Morgane",
-              "description": 0,
-              "difficulty": "7a-b",
-              "equipment": "c"
+              "name": "Dallergie",
+              "description": "Belle dalle enrichissante",
+              "difficulty": "6b+",
+              "equipment": "e"
             },
             {
               "number": 5,
-              "name": "Babaorum",
-              "description": 0,
-              "difficulty": 4,
-              "equipment": "c"
+              "name": "Pince Sans Rire",
+              "description": "Echauffement des doigts",
+              "difficulty": "6a+",
+              "equipment": "e"
+            },
+            {
+              "number": 6,
+              "name": "Is all in your head",
+              "description": "Bien suivre le tracé. Ne pas utiliser l’angle gauche.\nChauffez vos doigts et serrez bien vos chaussons !",
+              "difficulty": "6b+",
+              "equipment": "e"
+            },
+            {
+              "number": 7,
+              "name": "Morgane",
+              "description": "C’est la fête des doigts ! Venez avec un peu de gniak et d’équilibre pour\nce festival de réglettes...et de placements",
+              "difficulty": "7a/b",
+              "equipment": "e"
+            },
+            {
+              "number": 8,
+              "name": "La voie de pythons",
+              "description": "Restez sur la ligne. Ne pas s’aventurer vers la fissure de\ngauche. Ecailles et réglettes vous attendent",
+              "difficulty": "5b",
+              "equipment": "e"
+            },
+            {
+              "number": 9,
+              "name": "L’orvet",
+              "description": "Voie cool. Suivez le tracé. Petit surplomb avec de bonnes prises en sortie",
+              "difficulty": "5a",
+              "equipment": "e"
             }
           ],
-          "routeNumber": 5,
+          "routeNumber": 9,
           "subsecteurs": [],
           "level": 1
         }

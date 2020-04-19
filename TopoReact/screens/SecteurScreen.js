@@ -8,14 +8,17 @@ import {Divider} from 'react-native-elements';
 
 import SecteurMenu from "../components/SecteurMenu";
 import ErrorBoundary from "../components/ErrorBoundary"
+import CenteredImage from "../components/CenteredImage";
 import Voie from "../components/Voie";
+
 import SecteurData from '../util/SecteurData';
-import Color from '../constants/Colors'
+import AppStyles from '../constants/AppStyles'
+
 import normalize from '../util/NormalizeText'
 
 
-import { logger } from 'react-native-logs';
-let log = logger.createLogger({ severity: 'info'});
+import {logger} from 'react-native-logs';
+let log = logger.createLogger({severity: 'info'});
 
 module.exports = class SecteurScreen extends React.Component {
 
@@ -40,9 +43,7 @@ module.exports = class SecteurScreen extends React.Component {
             let desc = data.description
             if (!!desc) {
                 return <View>
-                    {/*<Text style={styles.h1}>Description</Text>*/}
-                    <Text style={styles.description}> {desc} </Text>
-                    {/*<Divider style={styles.divider}/>*/}
+                    <Text style={AppStyles.paragraph}> {desc} </Text>
                 </View>
             }
         }
@@ -54,10 +55,10 @@ module.exports = class SecteurScreen extends React.Component {
             log.debug("desc --" + JSON.stringify({data}) + "--")
             let text = data.acces
             if (!!text) {
-                return <View><Text style={styles.h1}>Acces</Text>
-                    <Text style={styles.description}> {text} </Text>
-                    <Image style={styles.secteurImage} source={data.access_img}/>
-                    <Divider style={styles.divider}/>
+                return <View><Text style={AppStyles.h1}>Acces</Text>
+                    <Text style={AppStyles.paragraph}> {text} </Text>
+                    {CenteredImage(data.access_img)}
+                    <Divider style={AppStyles.divider}/>
                 </View>
             }
         }
@@ -77,9 +78,9 @@ module.exports = class SecteurScreen extends React.Component {
             });
             if (widgets.length > 0) {
                 return <View>
-                    <Text style={styles.h1}>Secteurs</Text>
+                    <Text style={AppStyles.h1}>Secteurs</Text>
                     {widgets}
-                    <Divider style={styles.divider}/>
+                    <Divider style={AppStyles.divider}/>
                 </View>
 
             }
@@ -90,16 +91,16 @@ module.exports = class SecteurScreen extends React.Component {
          * les voies
          * */
         function routesWidget(data) {
-            let widgets =(data.routes || []).map((voie, index) => {
+            let widgets = (data.routes || []).map((voie, index) => {
                 return (
                     <Voie data={voie} key={index}></Voie>
                 );
             })
             if (widgets.length > 0) {
                 return <View>
-                    <Text style={styles.h1}>Voies</Text>
+                    <Text style={AppStyles.h1}>Voies</Text>
                     {widgets}
-                    <Divider style={styles.divider}/>
+                    <Divider style={AppStyles.divider}/>
                 </View>
             }
         }
@@ -110,16 +111,13 @@ module.exports = class SecteurScreen extends React.Component {
          */
         return (
             <ErrorBoundary>
-                <ScrollView>
-                    <View style={styles.scView}>
-                        <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
-
+                <ScrollView style={AppStyles.scView}>
+                    <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
                         {descriptionWidget(data)}
                         {accesWidget(data)}
-                            <Image style={styles.secteurImage} source={data.img}/>
-                            {subsecteurWidget(data, this.props.navigation)}
+                        {CenteredImage(data.img)}
+                        {subsecteurWidget(data, this.props.navigation)}
                         {routesWidget(data)}
-                    </View>
                     </View>
 
                 </ScrollView>
@@ -127,33 +125,3 @@ module.exports = class SecteurScreen extends React.Component {
         );
     }
 }
-
-const styles = StyleSheet.create(
-    {
-        h1: {
-            color: Color.gray1,
-            fontSize: normalize(18),
-            marginBottom: 8,
-
-        },
-        description: {
-            marginBottom: 8
-        },
-        divider: {
-            backgroundColor: Color.gray1
-        },
-        scView: {
-            marginLeft: 20,
-            marginTop: 20,
-            marginRight: 20
-        },
-        secteurImage: {
-            resizeMode: "contain",
-            //   flex: 1,
-            width: "100%",
-            //height: 1000,
-
-        }
-
-
-    });

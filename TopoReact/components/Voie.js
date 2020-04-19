@@ -9,6 +9,8 @@ import {
     View, Text, TouchableHighlight,
 } from 'react-native';
 
+import {logger} from 'react-native-logs';
+let log = logger.createLogger({severity: 'info'});
 
 module.exports = class Voie extends React.Component {
 
@@ -35,6 +37,8 @@ module.exports = class Voie extends React.Component {
                 return  <Text style={styles.routeDescription} numberOfLines={2}>
                     {data.description}
                 </Text>
+            }else{
+                log.info("no description "+data.name)
             }
         }
 
@@ -104,7 +108,8 @@ const styles = StyleSheet.create(
         verticalContainer: {
             backgroundColor: DEBUGCOLORS.dbg1,
             flexDirection: 'column',
-            justifyContent: "center"
+            justifyContent: "center",
+
         },
         routeNumber: {
             fontSize: 18,

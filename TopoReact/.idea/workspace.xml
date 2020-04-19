@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/SecteurName.js" afterDir="false" />
+    <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="menage">
+      <change afterPath="$PROJECT_DIR$/components/CenteredImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/AppStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SecteurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SecteurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/Blox/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/Blox/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/Blox/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/Blox/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DalleDeCoeur/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DalleDeCoeur/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DalleDeCoeur/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DalleDeCoeur/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DalleDeVerre/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DalleDeVerre/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DalleDeVerre/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DalleDeVerre/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DiedreNoir/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DiedreNoir/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/DiedreNoir/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/DiedreNoir/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/LX/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/LX/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/LX/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/LX/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/LeLierre/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/LeLierre/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/LeLierre/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/LeLierre/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/Mgnonne/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/Mgnonne/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/Mgnonne/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/Mgnonne/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/acces.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/acces.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impérator/vignette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Imperatrice/vignette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/ArbreFoudroye/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/ArbreFoudroye/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/ArbreFoudroye/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/ArbreFoudroye/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FerACheval/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/FerACheval/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FerACheval/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/FerACheval/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FeuillesMortes/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/FeuillesMortes/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/FeuillesMortes/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/FeuillesMortes/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/GrandToit/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/GrandToit/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/GrandToit/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/GrandToit/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation1/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/Initiation1/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation1/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/Initiation1/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/Initiation2/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation2/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/Initiation2/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/Initiation2/vignette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/Initiation2/vignette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/JyVaTy/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/JyVaTy/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/JyVaTy/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/JyVaTy/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/LeFennec/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/LeFennec/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/LeFennec/secteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/LeFennec/secteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/TrouDeGodille/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/TrouDeGodille/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/TrouDeGodille/secteur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/TrouDeGodille/secteur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/acces.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/acces.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/secteur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/vignette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/__data/RocherNoel/vignette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Serpent/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Serpent/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Voie.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AboutScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AboutScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +188,7 @@
       <workItem from="1587124515581" duration="2020000" />
       <workItem from="1587150585214" duration="11665000" />
       <workItem from="1587209245162" duration="7288000" />
-      <workItem from="1587293658831" duration="10203000" />
+      <workItem from="1587293658831" duration="15272000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -354,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587327823480</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="menage">
+      <created>1587329747767</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587329747767</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,21 +436,22 @@
     <MESSAGE value="ajout vignettes" />
     <MESSAGE value="ajout emoji montagne" />
     <MESSAGE value="about screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="about screen" />
+    <MESSAGE value="menage" />
+    <option name="LAST_COMMIT_MESSAGE" value="menage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587328013723">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587328013723" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587327823327">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587333643149">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587327823327" />
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587327920505">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587333643149" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587330002187">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587327920505" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587330002187" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586846026168">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -437,10 +484,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587327824648">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587329749070">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587327824648" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587329749070" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -471,7 +518,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/components/Voie.js</url>
-          <line>85</line>
+          <line>89</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
