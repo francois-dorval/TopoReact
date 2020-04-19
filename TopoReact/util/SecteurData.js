@@ -36,7 +36,7 @@ function getSecteurs(obj) {
     }
     if (obj.secteur) {
           log.debug("getSecteurs  found "+obj.secteur.name);
-        result.push( {id:obj.secteur.id, name:obj.secteur.name});
+        result.push( {id:obj.secteur.id, name:obj.secteur.name, level:obj.secteur.level});
     }
 
     let subs = obj.secteur.subsecteurs;

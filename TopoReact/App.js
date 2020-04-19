@@ -17,6 +17,9 @@ import SecteurScreen from './screens/SecteurScreen'
 import SecteurData from './util/SecteurData'
 import { DrawerActions } from '@react-navigation/native';
 
+import { logger } from 'react-native-logs';
+
+let log = logger.createLogger({ severity: 'debug'});
 
 class HomeScreen extends React.Component {
     render() {
@@ -55,9 +58,15 @@ function getHeaderTitle(route) {
 
 
 function Root() {
+    /**
+     * avec emoji montagne pour les sites...
+     * @param data
+     * @returns {string|*}
+     */
     function getName(data) {
-        if (data.level==1){
-            return "->"+data.name;
+        log.debug("getName "+JSON.stringify(data))
+        if (data.level===1){
+            return String.fromCodePoint(0x1F3D4)+" 🏔️🏔️"+data.name;
 
         }else{
             return data.name;
@@ -72,7 +81,8 @@ function Root() {
 
             {(SecteurData.getSecteursData() || []).map((data, index) => {
                 return (
-                    <Drawer.Screen key={data.name} name={getName(data)}>
+                    // <Drawer.Screen key={data.name} label="aa" name={getName(data)}>
+                    <Drawer.Screen key={data.name} label="aa" name={getName(data)}>
                         {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
                     </Drawer.Screen>
 

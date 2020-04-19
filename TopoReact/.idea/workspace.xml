@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__data/Cube/vignette.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__data/Impératrice/Initiation2/vignette.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__data/Impératrice/secteur.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__script/CreateAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/__script/CreateAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__data/Impératrice/acces.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/acces.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/SecteurData.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/SecteurData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/__data/Impérator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/__data/Impératrice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -81,18 +82,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/__data/Impérator" />
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/__tests__" />
-      <recent name="$PROJECT_DIR$/components" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/__tests__" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/Plougastel" />
       <recent name="$PROJECT_DIR$/assets/secteurs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__data/Impératrice" />
+      <recent name="$PROJECT_DIR$/__data/Impérator" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/components" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -147,7 +148,8 @@
       <workItem from="1587037464573" duration="1948000" />
       <workItem from="1587124515581" duration="2020000" />
       <workItem from="1587150585214" duration="11665000" />
-      <workItem from="1587209245162" duration="4385000" />
+      <workItem from="1587209245162" duration="7288000" />
+      <workItem from="1587293658831" duration="6493000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587212572659</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ajout vignettes">
+      <created>1587213643478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1587213643478</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,21 +366,22 @@
     <MESSAGE value="ajout menu" />
     <MESSAGE value="un peu moins pires graphismes" />
     <MESSAGE value="ajout data secteurMenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout data secteurMenu" />
+    <MESSAGE value="ajout vignettes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout vignettes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587159889102">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587159889102" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587212572548">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587213643315">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587212572548" />
-    <state x="167" y="125" width="1333" height="675" maximized="true" key="DiffContextDialog" timestamp="1587212566176">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587213643315" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587325830185">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587212566176" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587325830185" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586846026168">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -392,10 +402,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585945390289" />
-    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog" timestamp="1586755953259">
+    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog" timestamp="1587216499001">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog/67.27.1533.873@67.27.1533.873" timestamp="1586755953259" />
+    <state x="598" y="175" width="461" height="575" key="RollbackChangesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587216499001" />
     <state x="322" y="97" key="SettingsEditor" timestamp="1585944477776">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -404,10 +414,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587212577205">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587213644829">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587212577205" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587213644829" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -420,14 +430,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
-    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587212473178">
+    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587325205237">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587212473178" />
-    <state x="497" y="208" width="672" height="677" key="run.anything.popup" timestamp="1587212759979">
+    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587325205237" />
+    <state x="497" y="208" width="672" height="677" key="run.anything.popup" timestamp="1587214305360">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="497" y="208" width="672" height="677" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1587212759979" />
+    <state x="497" y="208" width="672" height="677" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1587214305360" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587210149174">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
