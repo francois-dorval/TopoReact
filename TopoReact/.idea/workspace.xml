@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__data/Impératrice/secteur.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__data/Impératrice/acces.png" beforeDir="false" afterPath="$PROJECT_DIR$/__data/Impératrice/acces.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/secteurs/secteurs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/secteurs/secteurs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/SecteurData.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/SecteurData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +142,7 @@
       <workItem from="1587124515581" duration="2020000" />
       <workItem from="1587150585214" duration="11665000" />
       <workItem from="1587209245162" duration="7288000" />
-      <workItem from="1587293658831" duration="6493000" />
+      <workItem from="1587293658831" duration="7005000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -333,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587213643478</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ajout emoji montagne">
+      <created>1587325847082</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1587325847082</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,17 +367,18 @@
     <MESSAGE value="un peu moins pires graphismes" />
     <MESSAGE value="ajout data secteurMenu" />
     <MESSAGE value="ajout vignettes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout vignettes" />
+    <MESSAGE value="ajout emoji montagne" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout emoji montagne" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587159889102">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587159889102" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587213643315">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587325846690">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587213643315" />
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587325846690" />
     <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587325830185">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -414,10 +415,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587213644829">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587325848746">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587213644829" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587325848746" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

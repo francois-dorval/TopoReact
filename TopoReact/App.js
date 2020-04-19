@@ -19,7 +19,7 @@ import { DrawerActions } from '@react-navigation/native';
 
 import { logger } from 'react-native-logs';
 
-let log = logger.createLogger({ severity: 'debug'});
+let log = logger.createLogger({ severity: 'info'});
 
 class HomeScreen extends React.Component {
     render() {
@@ -64,9 +64,14 @@ function Root() {
      * @returns {string|*}
      */
     function getName(data) {
+        let mountain=String.fromCodePoint(0x1F3D4);
         log.debug("getName "+JSON.stringify(data))
         if (data.level===1){
-            return String.fromCodePoint(0x1F3D4)+" 🏔️🏔️"+data.name;
+            if (data.name.startsWith(mountain)){
+                return data.name;
+            }else{
+                return mountain+" "+data.name;
+            }
 
         }else{
             return data.name;
