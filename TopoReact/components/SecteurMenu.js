@@ -1,14 +1,15 @@
 import React from 'react';
 
 import {StyleSheet, Dimensions, Image, FlatList, Icon, Button} from "react-native";
-import {theme} from "galio-framework";
-import {argonTheme, tabs} from "../constants/";
+import SecteurName from '../util/SecteurName'
 
 import {Card} from "react-native-elements";
 
 // import {Button} from "../components/";
 
 const {width} = Dimensions.get("screen");
+import { logger } from 'react-native-logs';
+let log = logger.createLogger({ severity: 'info'});
 
 
 import {
@@ -47,31 +48,32 @@ module.exports = class SecteurMenu extends React.Component {
 
 
         const {navigate} = this.props.navigation;
-        const id = this.props.id;
-        const name = this.props.name;
-        const vignette = this.props.vignette;
-        const routeNumber = this.props.routeNumber;
+        const id = this.props.secteur.id;
+        const name = this.props.secteur.name;
+        const navigationName = SecteurName.getName(this.props.secteur);
 
+        const vignette = this.props.secteur.vignette;
+        const routeNumber = this.props.secteur.routeNumber;
 
-        const props = this.props;
+        log.info("navigationName "+navigationName);
 
         return (
             <View style={{alignItems: 'stretch'}}>
-                <TouchableHighlight onPress={() => navigate({name})}>
+                <TouchableHighlight onPress={() => navigate({name:navigationName})}>
                     <Card
                         title={name}
                         image={vignette}
                     >
-                        {this.props.shortDescription!=null &&
+                        {this.props.secteur.shortDescription!=null &&
 
                         <Text style={styles.shortDescription}>
-                            {this.props.shortDescription}
+                            {this.props.secteur.shortDescription}
                         </Text>
                         }
 
                         {routeNumber!=null &&
                         <Text style={styles.routeNumber}>
-                            {getInfoLine(this.props)}
+                            {getInfoLine(this.props.secteur)}
                         </Text>
 
                         }

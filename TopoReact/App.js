@@ -17,10 +17,11 @@ import SecteurScreen from './screens/SecteurScreen'
 import AboutScreen from './screens/AboutScreen'
 
 import SecteurData from './util/SecteurData'
+import SecteurName from './util/SecteurName'
+
 import { DrawerActions } from '@react-navigation/native';
 
 import { logger } from 'react-native-logs';
-
 let log = logger.createLogger({ severity: 'info'});
 
 class HomeScreen extends React.Component {
@@ -60,42 +61,22 @@ function getHeaderTitle(route) {
 
 
 function Root() {
-    /**
-     * avec emoji montagne pour les sites...
-     * @param data
-     * @returns {string|*}
-     */
-    function getName(data) {
-        let mountain=String.fromCodePoint(0x1F3D4);
-        log.debug("getName "+JSON.stringify(data))
-        if (data.level===1){
-            if (data.name.startsWith(mountain)){
-                return data.name;
-            }else{
-                return mountain+" "+data.name;
-            }
-
-        }else{
-            return data.name;
-
-        }
-    }
 
 
 
     let secteurDrawers=(SecteurData.getSecteursData() || []).map((data, index) => {
         return (
-            <Drawer.Screen key={data.name} name={getName(data)}>
+            <Drawer.Screen key={data.name} name={SecteurName.getName(data)}>
                 {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
             </Drawer.Screen>
 
         );
     })
-
+    secteurDrawers.splice(1,0,            <Drawer.Screen  key='apropos'  name='A propos...' component={AboutScreen}>
+        </Drawer.Screen>
+    )
     return (
-        <Drawer.Navigator>
-            <Drawer.Screen key='apropos'  name='A propos...' component={AboutScreen}>
-            </Drawer.Screen>
+        <Drawer.Navigator >
             {secteurDrawers}
         </Drawer.Navigator>
     );

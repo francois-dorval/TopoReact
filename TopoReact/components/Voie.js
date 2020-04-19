@@ -1,10 +1,6 @@
 import React from 'react';
 
 import {StyleSheet, Dimensions, Image, PixelRatio} from "react-native";
-import {theme} from "galio-framework";
-import {argonTheme, tabs} from "../constants/";
-
-
 
 const {width} = Dimensions.get("screen");
 

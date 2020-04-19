@@ -15,7 +15,6 @@ import normalize from '../util/NormalizeText'
 
 
 import { logger } from 'react-native-logs';
-
 let log = logger.createLogger({ severity: 'info'});
 
 module.exports = class SecteurScreen extends React.Component {
@@ -71,12 +70,7 @@ module.exports = class SecteurScreen extends React.Component {
             let widgets = (data.subsecteurs || []).map((subsecteur, index) => {
                 return (
                     <SecteurMenu key={subsecteur.secteur.id} id={subsecteur.secteur.id} name={subsecteur.secteur.name}
-                                 vignette={subsecteur.secteur.vignette}
-                                 shortDescription={subsecteur.secteur.shortDescription}
-                                 routeNumber={subsecteur.secteur.routeNumber}
-                                 orientation={subsecteur.secteur.orientation}
-                                 heigth={subsecteur.secteur.heigth}
-
+                                 secteur={subsecteur.secteur}
                                  navigation={navigation}
                     />
                 );
