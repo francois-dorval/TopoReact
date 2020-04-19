@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/screens/AboutScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
     </list>
@@ -142,7 +143,7 @@
       <workItem from="1587124515581" duration="2020000" />
       <workItem from="1587150585214" duration="11665000" />
       <workItem from="1587209245162" duration="7288000" />
-      <workItem from="1587293658831" duration="7005000" />
+      <workItem from="1587293658831" duration="8310000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587325847082</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ajout emoji montagne">
+      <created>1587326395898</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587326395898</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,14 +383,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587159889102" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587325846690">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587326395800">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587325846690" />
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587325830185">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587326395800" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587327813440">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587325830185" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587327813440" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586846026168">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -415,10 +423,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587325848746">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587326397098">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587325848746" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587326397098" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -431,10 +439,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
-    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587325205237">
+    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587326491684">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587325205237" />
+    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587326491684" />
     <state x="497" y="208" width="672" height="677" key="run.anything.popup" timestamp="1587214305360">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

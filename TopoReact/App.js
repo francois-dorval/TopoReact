@@ -14,6 +14,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
+import AboutScreen from './screens/AboutScreen'
+
 import SecteurData from './util/SecteurData'
 import { DrawerActions } from '@react-navigation/native';
 
@@ -80,19 +82,21 @@ function Root() {
     }
 
 
+
+    let secteurDrawers=(SecteurData.getSecteursData() || []).map((data, index) => {
+        return (
+            <Drawer.Screen key={data.name} name={getName(data)}>
+                {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
+            </Drawer.Screen>
+
+        );
+    })
+
     return (
         <Drawer.Navigator>
-
-
-            {(SecteurData.getSecteursData() || []).map((data, index) => {
-                return (
-                    // <Drawer.Screen key={data.name} label="aa" name={getName(data)}>
-                    <Drawer.Screen key={data.name} label="aa" name={getName(data)}>
-                        {props => <SecteurScreen {...props} drawerSecteurId={data.id}/>}
-                    </Drawer.Screen>
-
-                );
-            })}
+            <Drawer.Screen key='apropos'  name='A propos...' component={AboutScreen}>
+            </Drawer.Screen>
+            {secteurDrawers}
         </Drawer.Navigator>
     );
 }
@@ -109,7 +113,7 @@ export default function App() {
 
                                   headerLeft: () => (
                                       <Icon name="menu" style={styles.menuIcon} onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
-                                  />)
+                                      />)
                               })}
                 />
                 <Stack.Screen name="DynamicSecteur" component={SecteurScreen}/>
