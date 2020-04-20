@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Topo React",
+    "name": "Topo Plougastel",
     "slug": "TopoReact",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -28,7 +28,7 @@
     },
     "android": {
       "package": "com.github.dorval.francois.topo.plougastel",
-      "versionCode": 4,
+      "versionCode": 6,
       "permissions": []
 
     }

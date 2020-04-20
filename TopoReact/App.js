@@ -18,7 +18,7 @@ import AboutScreen from './screens/AboutScreen'
 
 import SecteurData from './util/SecteurData'
 import SecteurName from './util/SecteurName'
-
+import Colors from './constants/Colors'
 import { DrawerActions } from '@react-navigation/native';
 
 import { logger } from 'react-native-logs';
@@ -61,9 +61,6 @@ function getHeaderTitle(route) {
 
 
 function Root() {
-
-
-
     let secteurDrawers=(SecteurData.getSecteursData() || []).map((data, index) => {
         return (
             <Drawer.Screen key={data.name} name={SecteurName.getName(data)}>
@@ -87,18 +84,24 @@ export default function App() {
     return (
         <NavigationContainer>
 
-            <Stack.Navigator initialRouteName='Root'>
+            <Stack.Navigator initialRouteName='Root'
+                             // screenOptions={{cardStyle: { backgroundColor: 'white' }}}
+            >
                 <Stack.Screen name="Root" component={Root}
                               options={({route,navigation}) => ({
                                   headerTitle: getHeaderTitle(route),
-
+                                  headerStyle: {
+                                      backgroundColor: Colors.clearBlue,
+                                  },
+                                  headerTitleStyle: {
+                                      color: 'white'
+                                  },
                                   headerLeft: () => (
                                       <Icon name="menu" style={styles.menuIcon} onPress={() =>navigation.dispatch(DrawerActions.toggleDrawer())}
                                       />)
                               })}
                 />
-                <Stack.Screen name="DynamicSecteur" component={SecteurScreen}/>
-
+                {/*<Stack.Screen name="DynamicSecteur" component={SecteurScreen}/>*/}
 
             </Stack.Navigator>
         </NavigationContainer>
@@ -109,6 +112,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
     menuIcon:{
-        marginLeft: 10
+        marginLeft: 10,
+    color:'white'
     }
 })

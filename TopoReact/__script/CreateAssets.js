@@ -103,8 +103,12 @@ function manageImage(secteur, filePath, id, attributeName) {
  * @param id
  */
 function manageImages(secteur, path, id) {
-    manageImage(secteur, path + "/secteur.jpg", id)
+    manageImage(secteur, path + "/secteur.jpg", id )
     manageImage(secteur, path + "/secteur.png", id)
+    manageImage(secteur, path + "/secteur1.jpg", id,"secteur1")
+    manageImage(secteur, path + "/secteur1.png", id,"secteur1")
+
+
     manageImage(secteur, path + "/vignette.jpg", id, "vignette")
     manageImage(secteur, path + "/acces.png", id, "access_img")
     manageImage(secteur, path + "/acces.jpg", id, "access_img")

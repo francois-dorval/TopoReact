@@ -116,6 +116,8 @@ module.exports = class SecteurScreen extends React.Component {
                         {descriptionWidget(data)}
                         {accesWidget(data)}
                         {CenteredImage(data.img)}
+                        {CenteredImage(data.secteur1)}
+
                         {subsecteurWidget(data, this.props.navigation)}
                         {routesWidget(data)}
                     </View>

@@ -1,4 +1,5 @@
+FILE=$(ls -lart ~/Téléchargements/*aab | tail -1|cut -d ' ' -f9)
+echo $FILE
+java -jar /opt/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     bundletool-all.jar build-apks --bundle=$FILE --output=monsuperapk.apks
 
-java -jar bundletool-all.jar build-apks --bundle=TopoReact-6a5f2c52d34e4defa649e3c513ddbb2a-signed.aab --output=monsuperapk.apks
-
-java -jar bundletool-all.jar install-apks --apks=monsuperapk.apks
+java -jar /opt/bundletool-all.jar install-apks --apks=monsuperapk.apks
