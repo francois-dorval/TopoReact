@@ -126,7 +126,7 @@ const styles = StyleSheet.create(
         }
         ,
         routeQuotation: {
-            fontSize: 20,
+            fontSize: 18,
             fontWeight: "bold",
             alignItems: "center"
 
