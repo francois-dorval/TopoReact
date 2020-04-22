@@ -1,53 +1,22 @@
 import React from "react";
-import { StyleSheet, Dimensions, View } from 'react-native';
+import {StyleSheet, Dimensions, View, ScrollView} from 'react-native';
 
-import Pdf from 'react-native-pdf';
+import PDFReader from 'rn-pdf-reader-js'
 
 import { logger } from 'react-native-logs';
+import AppStyles from "../util/constants/AppStyles";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 
 let log = logger.createLogger({ severity: 'info'});
 
 module.exports= class PdfScreen extends React.Component {
     render() {
-        //const source = require('./test.pdf');  // ios only
-        const source = {uri:'bundle-assets://pdf/topoPlougastel-v_1-1.pdf'};
-
-        //const source = {uri:'file:///sdcard/test.pdf'};
-        //const source = {uri:"data:application/pdf;base64,JVBERi0xLjcKJc..."};
-
         return (
-            <View style={styles.container}>
-                <Pdf
-                    source={source}
-                    onLoadComplete={(numberOfPages,filePath)=>{
-                        console.log(`number of pages: ${numberOfPages}`);
-                    }}
-                    onPageChanged={(page,numberOfPages)=>{
-                        console.log(`current page: ${page}`);
-                    }}
-                    onError={(error)=>{
-                        console.log(error);
-                    }}
-                    onPressLink={(uri)=>{
-                        console.log(`Link presse: ${uri}`)
-                    }}
-                    style={styles.pdf}/>
+            <View style={{ flex: 1}}>
+            <PDFReader                 source={{uri: 'http://cafbrest.ffcam.fr/tzr/scripts/downloader2.php?filename=T004/fichier/a4/c7/52p3e9cfj2c8&mime=application/pdf&originalname=topoPlougastel-v_1-1.pdf'}}>
+            </PDFReader>
             </View>
         )
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        marginTop: 25,
-    },
-    pdf: {
-        flex:1,
-        width:Dimensions.get('window').width,
-        height:Dimensions.get('window').height,
-    }
-});

@@ -28,7 +28,7 @@
     },
     "android": {
       "package": "com.github.dorval.francois.topo.plougastel",
-      "versionCode": 7,
+      "versionCode": 8,
       "permissions": []
 
     }

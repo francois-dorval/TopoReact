@@ -15,7 +15,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SecteurMenu from './components/SecteurMenu';
 import SecteurScreen from './screens/SecteurScreen'
 import AboutScreen from './screens/AboutScreen'
-//import PdfScreen from './screens/PdfScreen'
+import PdfScreen from './screens/PdfScreen'
 
 import SecteurData from './util/SecteurData'
 import SecteurName from './util/SecteurName'
@@ -72,7 +72,7 @@ function Root() {
     })
     secteurDrawers.splice(1,0,            <Drawer.Screen  key='apropos'  name='A propos...' component={AboutScreen}></Drawer.Screen>)
 
-       // secteurDrawers.splice(2,0,            <Drawer.Screen  key='pdf'  name='PDF' component={PdfScreen}> </Drawer.Screen>)
+    secteurDrawers.splice(2,0,            <Drawer.Screen  key='pdf'  name='Topo PDF' component={PdfScreen}></Drawer.Screen>)
 
 
 
@@ -105,7 +105,6 @@ export default function App() {
                                       />)
                               })}
                 />
-                {/*<Stack.Screen name="DynamicSecteur" component={SecteurScreen}/>*/}
 
             </Stack.Navigator>
         </NavigationContainer>
