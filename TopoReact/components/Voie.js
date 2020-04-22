@@ -4,6 +4,8 @@ import {StyleSheet, Dimensions, Image, PixelRatio} from "react-native";
 
 const {width} = Dimensions.get("screen");
 
+import Colors from '../constants/Colors'
+import normalize from "../util/NormalizeText";
 
 import {
     View, Text, TouchableHighlight,
@@ -38,7 +40,8 @@ module.exports = class Voie extends React.Component {
                     {data.description}
                 </Text>
             }else{
-                log.info("no description "+data.name)
+                log.info("no description "+data.name);
+                return null;
             }
         }
 
@@ -102,7 +105,8 @@ const styles = StyleSheet.create(
             flex: 1,
             flexDirection: 'column',
             //justifyContent: 'space-between',
-            backgroundColor: DEBUGCOLORS.dbg1
+            backgroundColor: DEBUGCOLORS.dbg1,
+            justifyContent: 'center'
 
         },
         verticalContainer: {
@@ -112,21 +116,21 @@ const styles = StyleSheet.create(
 
         },
         routeNumber: {
-            fontSize: 18,
+            fontSize: normalize(15),
             fontStyle: 'italic',
-            backgroundColor: DEBUGCOLORS.dbg2,
+            color: Colors.gray1,
             margin: "3%",
             textAlign: 'center'
         },
         routeName: {
             //flex: 1,
-            fontSize: 18,
+            fontSize: normalize(15),
             fontWeight: '500',
             marginBottom: 2
         }
         ,
         routeQuotation: {
-            fontSize: 18,
+            fontSize: normalize(16),
             fontWeight: "bold",
             alignItems: "center"
 
@@ -136,83 +140,18 @@ const styles = StyleSheet.create(
             fontSize: 12,
         },
         equipement: {
-          //  margin:"1%",
+            //  margin:"1%",
             flex: 1,
-            width: 50,
-            height: 50,
+            width: 40,
+            height: 40,
             resizeMode: 'contain'
         }
-
-
         ,
-// cellImage: {
-//     backgroundColor: '#dddddd',
-//     height: 93,
-//     marginRight: 10,
-//     width: 60,
-// },
         cellBorder: {
             backgroundColor: 'rgba(0, 0, 0, 0.1)',
             // Trick to get the thinest line the device can display
             height: 1 / PixelRatio.get(),
             marginLeft: 4
         }
-        ,
-
-//     title: {
-//         paddingBottom: theme.SIZES.BASE,
-//         paddingHorizontal: theme.SIZES.BASE * 2,
-//         marginTop: 44,
-//         color: argonTheme.COLORS.HEADER
-//     },
-//     group: {
-//         paddingTop: theme.SIZES.BASE * 2
-//     },
-//     shadow: {
-//         shadowColor: "black",
-//         shadowOffset: {width: 0, height: 2},
-//         shadowRadius: 4,
-//         shadowOpacity: 0.2,
-//         elevation: 2
-//     },
-//     button: {
-//         marginBottom: theme.SIZES.BASE,
-//         width: width - theme.SIZES.BASE * 2
-//     },
-//     optionsButton: {
-//         width: "auto",
-//         height: 34,
-//         paddingHorizontal: theme.SIZES.BASE,
-//         paddingVertical: 10
-//     },
-//     input: {
-//         borderBottomWidth: 1
-//     },
-//     inputDefault: {
-//         borderBottomColor: argonTheme.COLORS.PLACEHOLDER
-//     },
-//     inputTheme: {
-//         borderBottomColor: argonTheme.COLORS.PRIMARY
-//     },
-//     inputInfo: {
-//         borderBottomColor: argonTheme.COLORS.INFO
-//     },
-//     inputSuccess: {
-//         borderBottomColor: argonTheme.COLORS.SUCCESS
-//     },
-//     inputWarning: {
-//         borderBottomColor: argonTheme.COLORS.WARNING
-//     },
-//     inputDanger: {
-//         borderBottomColor: argonTheme.COLORS.ERROR
-//     },
-//     social: {
-//         width: theme.SIZES.BASE * 3.5,
-//         height: theme.SIZES.BASE * 3.5,
-//         borderRadius: theme.SIZES.BASE * 1.75,
-//         justifyContent: "center"
-//     },
-    }
-    )
-;
+    })
 

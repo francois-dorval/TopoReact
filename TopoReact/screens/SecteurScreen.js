@@ -11,6 +11,13 @@ import ErrorBoundary from "../components/ErrorBoundary"
 import CenteredImage from "../components/CenteredImage";
 import Voie from "../components/Voie";
 
+import AccesWidget from './secteur/AccessWidget'
+import DescriptionWidget from './secteur/DescriptionWidget'
+import RoutesWidget from './secteur/RoutesWidget'
+import SubsecteurWidget from './secteur/SubsecteurWidget'
+
+
+
 import SecteurData from '../util/SecteurData';
 import AppStyles from '../constants/AppStyles'
 
@@ -35,77 +42,49 @@ module.exports = class SecteurScreen extends React.Component {
         log.debug('secteur id ', secteur);
         let data = SecteurData.getData(secteur);
 
-        /**
-         * la description
-         * */
-        function descriptionWidget(data) {
-            log.debug("desc --" + JSON.stringify({data}) + "--")
-            let desc = data.description
-            if (!!desc) {
-                return <View>
-                    <Text style={AppStyles.paragraph}> {desc} </Text>
-                    <Divider style={AppStyles.divider}/>
 
-                </View>
-            }
-        }
-
-        /**
-         * la description
-         * */
-        function accesWidget(data) {
-            log.debug("desc --" + JSON.stringify({data}) + "--")
-            let text = data.acces
-            if (!!text) {
-                return <View><Text style={AppStyles.h1}>Acces</Text>
-                    <Text style={AppStyles.paragraph}> {text} </Text>
-                    {CenteredImage(data.access_img)}
-                    <Divider style={AppStyles.divider}/>
-                </View>
-            }
-        }
 
 
         /**
          * les sous-secteurs
          */
-        function subsecteurWidget(data, navigation) {
-            let widgets = (data.subsecteurs || []).map((subsecteur, index) => {
-                return (
-                    <SecteurMenu key={subsecteur.secteur.id} id={subsecteur.secteur.id} name={subsecteur.secteur.name}
-                                 secteur={subsecteur.secteur}
-                                 navigation={navigation}
-                    />
-                );
-            });
-            if (widgets.length > 0) {
-                return <View>
-                    <Text style={AppStyles.h1}>Secteurs</Text>
-                    {widgets}
-                    <Divider style={AppStyles.divider}/>
-                </View>
+        // function subsecteurWidget(data, navigation) {
+        //     let widgets = (data.subsecteurs || []).map((subsecteur, index) => {
+        //         return (
+        //             <SecteurMenu key={subsecteur.secteur.id} id={subsecteur.secteur.id} name={subsecteur.secteur.name}
+        //                          secteur={subsecteur.secteur}
+        //                          navigation={navigation}
+        //             />
+        //         );
+        //     });
+        //     if (widgets.length > 0) {
+        //         return <View>
+        //             <Text style={AppStyles.h1}>Secteurs</Text>
+        //             {widgets}
+        //             <Divider style={AppStyles.divider}/>
+        //         </View>
+        //
+        //     }
+        // }
 
-            }
-        }
 
-
-        /**
-         * les voies
-         * */
-        function routesWidget(data) {
-            let widgets = (data.routes || []).map((voie, index) => {
-                return (
-                    <Voie data={voie} key={index}></Voie>
-                );
-            })
-            if (widgets.length > 0) {
-                return <View>
-                    <Text style={AppStyles.h1}>Voies</Text>
-                    {widgets}
-                    <Divider style={AppStyles.divider}/>
-                </View>
-            }
-        }
+        // /**
+        //  * les voies
+        //  * */
+        // function routesWidget(data) {
+        //     let widgets = (data.routes || []).map((voie, index) => {
+        //         return (
+        //             <Voie data={voie} key={index}></Voie>
+        //         );
+        //     })
+        //     if (widgets.length > 0) {
+        //         return <View>
+        //             <Text style={AppStyles.h1}>Voies</Text>
+        //             {widgets}
+        //             <Divider style={AppStyles.divider}/>
+        //         </View>
+        //     }
+        // }
 
 
         /**
@@ -115,13 +94,13 @@ module.exports = class SecteurScreen extends React.Component {
             <ErrorBoundary>
                 <ScrollView style={AppStyles.scView}>
                     <View style={{flex: 1, alignItems: "stretch", justifyContent: "center"}}>
-                        {descriptionWidget(data)}
-                        {accesWidget(data)}
+                        <DescriptionWidget data={data}/>
+                        <AccesWidget data={data}/>
                         {CenteredImage(data.img)}
                         {CenteredImage(data.secteur1)}
 
-                        {subsecteurWidget(data, this.props.navigation)}
-                        {routesWidget(data)}
+                        <SubsecteurWidget data={data} navigation={this.props.navigation}/>
+                        <RoutesWidget data={data}/>
                     </View>
 
                 </ScrollView>
