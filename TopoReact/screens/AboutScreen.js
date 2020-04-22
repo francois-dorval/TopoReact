@@ -5,7 +5,7 @@ import { logger } from 'react-native-logs';
 import ErrorBoundary from "../components/ErrorBoundary";
 import CenteredImage from "../components/CenteredImage";
 
-import AppStyles from "../constants/AppStyles";
+import AppStyles from "../util/constants/AppStyles";
 
 let log = logger.createLogger({ severity: 'info'});
 

@@ -19,7 +19,7 @@ import SubsecteurWidget from './secteur/SubsecteurWidget'
 
 
 import SecteurData from '../util/SecteurData';
-import AppStyles from '../constants/AppStyles'
+import AppStyles from '../util/constants/AppStyles'
 
 import normalize from '../util/NormalizeText'
 

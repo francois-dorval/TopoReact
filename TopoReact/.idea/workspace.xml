@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d01a799-5fa1-40fb-8a20-337259415f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/screens/secteur/AccessWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/secteur/DescriptionWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/secteur/RoutesWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/secteur/SubsecteurWidget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CenteredImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CenteredImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Voie.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Voie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/constants/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/constants/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/Hamburger_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/Hamburger_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/acces.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/acces.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/acces_impé.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/acces_impé.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/acces_impé_debutants.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/acces_impé_debutants.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/accescube.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/accescube.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/accescube1.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/accescube1.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/aoo_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/aoo_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/bloc.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/bloc.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/coinceur_2.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/coinceur_2.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/image_store.png" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/image_store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/serpent1.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/serpent1.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/serpent2.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/serpent2.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/spit_2.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/spit_2.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/splash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/splash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/traversee.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/__logos/traversee.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AboutScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AboutScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/SecteurScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SecteurScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/secteur/AccessWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/secteur/AccessWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/secteur/DescriptionWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/secteur/DescriptionWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/secteur/RoutesWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/secteur/RoutesWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/secteur/SubsecteurWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/secteur/SubsecteurWidget.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/__tests__" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/Plougastel" />
@@ -153,7 +173,7 @@
       <workItem from="1587365856898" duration="27000" />
       <workItem from="1587406643617" duration="5263000" />
       <workItem from="1587451014994" duration="180000" />
-      <workItem from="1587582308917" duration="3574000" />
+      <workItem from="1587582308917" duration="5610000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1578178351536</created>
@@ -407,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587583752920</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="layout voie">
+      <created>1587585895092</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587585895092</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
     <MESSAGE value="ajout images" />
     <MESSAGE value="début navigation ok" />
     <MESSAGE value="génération data ok" />
@@ -449,21 +475,22 @@
     <MESSAGE value="ajout pdf screen (ko)" />
     <MESSAGE value="ordre secteurs" />
     <MESSAGE value="secteurs sans marge" />
-    <option name="LAST_COMMIT_MESSAGE" value="secteurs sans marge" />
+    <MESSAGE value="layout voie" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout voie" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587328013723">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873@67.27.1533.873" timestamp="1587328013723" />
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587583752826">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587585894972">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587583752826" />
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587583735620">
+    <state x="398" y="59" width="860" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1587585894972" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog" timestamp="1587587680861">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587583735620" />
+    <state x="167" y="125" width="1323" height="675" maximized="true" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1587587680861" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587451192465">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -496,41 +523,41 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1533.873@67.27.1533.873" timestamp="1587042537886" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587583754106">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587585896260">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587583754106" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1587585896260" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586382396872">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1586382396872" />
-    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586033065840">
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587587543015">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1586033065840" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1587587543015" />
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586288426871">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="601" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586288426871" />
-    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587326491684">
+    <state x="478" y="199" width="870" height="592" key="find.popup" timestamp="1587586189123">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587326491684" />
+    <state x="478" y="199" width="870" height="592" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1587586189123" />
     <state x="497" y="208" width="672" height="677" key="run.anything.popup" timestamp="1587214305360">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="208" width="672" height="677" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1587214305360" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587585014809">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587586030907">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587585014809" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1587586030907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/components/Voie.js</url>
-          <line>92</line>
+          <line>121</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

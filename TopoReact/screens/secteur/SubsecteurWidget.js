@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View} from "react-native";
-import AppStyles from "../../constants/AppStyles";
+import AppStyles from "../../util/constants/AppStyles";
 import CenteredImage from "../../components/CenteredImage";
 import {Divider} from "react-native-elements";
 

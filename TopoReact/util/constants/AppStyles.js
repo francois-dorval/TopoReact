@@ -1,5 +1,5 @@
 import Color from "./Colors";
-import normalize from "../util/NormalizeText";
+import normalize from "../NormalizeText";
 
 export default {
     scView: {

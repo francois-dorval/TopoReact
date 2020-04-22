@@ -4,79 +4,103 @@ import {StyleSheet, Dimensions, Image, PixelRatio} from "react-native";
 
 const {width} = Dimensions.get("screen");
 
-import Colors from '../constants/Colors'
+import Colors from '../util/constants/Colors'
 import normalize from "../util/NormalizeText";
 
 import {
-    View, Text, TouchableHighlight,
+    View, Text, TouchableHighlight,TouchableOpacity
 } from 'react-native';
 
 import {logger} from 'react-native-logs';
+
 let log = logger.createLogger({severity: 'info'});
 
 module.exports = class Voie extends React.Component {
 
+
+    constructor(props){
+        super(props);
+
+        this.state ={
+            expandDescription: false
+        };
+    }
+
+    toggleDetail = () => {
+        console.log("expandDescription"+        this.state.expandDescription    )
+        this.setState({expandDescription: !this.state.expandDescription})  // to show it
+    }
+
+    /**
+     * description plus longue si on cliqe...
+     * @param data
+     * @returns {null|*}
+     */
+     descriptionWidget=(data) =>{
+        let lines = 1;
+        if (this.state.expandDescription ){
+            lines=4;
+        }
+        if (!!data.description && data.description !== 0 ) {
+            return  <Text style={styles.routeDescription} numberOfLines={lines}>
+                {data.description}
+            </Text>
+        } else {
+            log.info("no description " + data.name);
+            return null;
+        }
+    }
+
+
     render() {
-        // const {navigate} = this.props.navigation;
-        //console.log("this.props " + JSON.stringify(this.props))
         const data = this.props.data
 
-        function getImage(){
-           // console.log("image "+data.equipment);
+        function getImage() {
             if (data.equipment === "c") {
                 return require('../assets/images/coinceur_2.png')
-            }else if (data.equipment === "t"){
+            } else if (data.equipment === "t") {
                 return require('../assets/images/traversee_2.png')
-            }else if (data.equipment === "b"){
+            } else if (data.equipment === "b") {
                 return require('../assets/images/bloc_2.png')
-            }else if (data.equipment === "e"){
+            } else if (data.equipment === "e") {
                 return require('../assets/images/spit_2.png')
             }
         }
 
-        function descriptionWidget(data){
-            if (!!data.description && data.description!==0){
-                return  <Text style={styles.routeDescription} numberOfLines={2}>
-                    {data.description}
-                </Text>
-            }else{
-                log.info("no description "+data.name);
-                return null;
-            }
-        }
 
 
         return (
+            <TouchableOpacity onPress={this.toggleDetail}>
 
             <View style={styles.mainContainer}>
 
-                <View style={styles.verticalContainer}>
-                    <Text style={styles.routeNumber}>
-                        {data.number}
-                    </Text>
-                </View>
-                <View style={styles.textContainer}>
+                    <View style={styles.verticalContainer}>
+                        <Text style={styles.routeNumber}>
+                            {data.number}
+                        </Text>
+                    </View>
+                    <View style={styles.textContainer}>
 
-                    <Text style={styles.routeName} numberOfLines={1}>
-                        {data.name}
-                    </Text>
-                    {descriptionWidget(data)}
-                </View>
-                <View style={styles.verticalContainer}>
-                    <Text style={styles.routeQuotation} numberOfLines={1}>
-                        {data.difficulty}
-                    </Text>
-                </View>
+                        <Text style={styles.routeName} numberOfLines={1}>
+                            {data.name}
+                        </Text>
 
-                <View>
-                    <Image style={styles.equipement} source={getImage()}></Image>
-                </View>
+                        {this.descriptionWidget(data)}
+
+                    </View>
+                    <View style={styles.verticalContainer}>
+                        <Text style={styles.routeQuotation} numberOfLines={1}>
+                            {data.difficulty}
+                        </Text>
+                    </View>
+
+                    <View>
+                        <Image style={styles.equipement} source={getImage()}></Image>
+                    </View>
             </View>
+            </TouchableOpacity>
 
 
-            // <View >
-            //      <Text> {data.name}/{data.quotation}</Text>
-            // </View>
         );
     }
 }

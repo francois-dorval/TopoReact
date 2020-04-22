@@ -19,7 +19,7 @@ import AboutScreen from './screens/AboutScreen'
 
 import SecteurData from './util/SecteurData'
 import SecteurName from './util/SecteurName'
-import Colors from './constants/Colors'
+import Colors from './util/constants/Colors'
 import { DrawerActions } from '@react-navigation/native';
 
 import { logger } from 'react-native-logs';
