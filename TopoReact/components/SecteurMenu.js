@@ -58,10 +58,10 @@ module.exports = class SecteurMenu extends React.Component {
         log.info("navigationName "+navigationName);
 
         return (
-            <View style={{alignItems: 'stretch'}}>
-                <TouchableHighlight onPress={() => navigate({name:navigationName})}>
-                    <Card
-                        title={name}
+            <View style={{ alignItems: 'stretch'}}>
+                <TouchableHighlight  onPress={() => navigate({name:navigationName})}>
+                    <Card containerStyle={{marginRight: 0,marginLeft:0}}
+                          title={name}
                         image={vignette}
                     >
                         {this.props.secteur.shortDescription!=null &&

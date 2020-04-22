@@ -44,6 +44,8 @@ module.exports = class SecteurScreen extends React.Component {
             if (!!desc) {
                 return <View>
                     <Text style={AppStyles.paragraph}> {desc} </Text>
+                    <Divider style={AppStyles.divider}/>
+
                 </View>
             }
         }
