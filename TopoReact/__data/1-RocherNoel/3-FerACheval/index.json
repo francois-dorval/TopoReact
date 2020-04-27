@@ -2,5 +2,8 @@
   "name": "Fer à Cheval",
   "heigth": "35m",
   "orientation": "NO",
-  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=3"
+  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=3",
+  "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Ce secteur est le plus proche du chantier archéologique.",
+  "description": "On y trouve \"Les Luzules\" et quelques autres belles voies. La partie droite du secteur est inaccessible pour cause de fouilles archéologiques...",
+  "shortDescription": "De la petite grande voie!"
 }

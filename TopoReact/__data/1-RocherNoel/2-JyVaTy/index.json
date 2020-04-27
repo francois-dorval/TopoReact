@@ -3,6 +3,9 @@
   "heigth": "40m",
   "orientation": "NO",
   "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=2",
+  "description": "Y’en a vraiment pour tout les goûts dans ce secteur. Alors n’hésitez pas.",
+  "shortDescription": "Y’en a pour tout les goûts",
 
-  "description": "Y’en a vraiment pour tout les goûts dans ce secteur. Alors n’hésitez pas."
+  "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Ce secteur est au milieu de la face."
+
 }

@@ -1,13 +1,13 @@
 const Secteurs ={
   "secteur": {
-    "id": "5saw6",
+    "id": "i19lwj",
     "name": "Topo Plougastel",
     "subsecteurs": [
       {
         "secteur": {
-          "id": "ih573",
-          "vignette": require ('../images/secteurs/ih573_vignette.jpg'),
-          "access_img": require ('../images/secteurs/ih573_acces.png'),
+          "id": "48y35",
+          "vignette": require ('../images/secteurs/48y35_vignette.jpg'),
+          "access_img": require ('../images/secteurs/48y35_acces.png'),
           "name": "Rocher Noël",
           "acces": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» jusqu'à trouver un parking sur la droite. Ensuite, prendre le sentier, et dépasser l'Impératice. C'est fléché!",
           "shortDescription": "Ancien nom : l'Impératrice! 'Grandes' voies et secteur initiation",
@@ -15,14 +15,16 @@ const Secteurs ={
           "subsecteurs": [
             {
               "secteur": {
-                "id": "nceat",
-                "img": require ('../images/secteurs/nceat_secteur.png'),
-                "access_img": require ('../images/secteurs/nceat_acces.jpg'),
+                "id": "gfcy7",
+                "img": require ('../images/secteurs/gfcy7_secteur.png'),
+                "access_img": require ('../images/secteurs/gfcy7_acces.jpg'),
                 "name": "Grand Toit",
                 "heigth": "35m",
                 "orientation": "NO",
-                "description": "C’est ici que l’on trouve les voies les plus dures. ",
+                "shortDescription": "LE toit!",
+                "description": "C’est ici que l’on trouve les voies les plus dures.",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=1",
+                "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Le Grand Toit est tout au bout.",
                 "routes": [
                   {
                     "number": 1,
@@ -85,7 +87,7 @@ const Secteurs ={
                     "name": "Abraracourcix",
                     "description": 0,
                     "difficulty": 5,
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 10,
@@ -116,14 +118,16 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "gonlg",
-                "img": require ('../images/secteurs/gonlg_secteur.png'),
-                "access_img": require ('../images/secteurs/gonlg_acces.jpg'),
+                "id": "7ibm1i",
+                "img": require ('../images/secteurs/7ibm1i_secteur.png'),
+                "access_img": require ('../images/secteurs/7ibm1i_acces.jpg'),
                 "name": "J'y va t'y",
                 "heigth": "40m",
                 "orientation": "NO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=2",
                 "description": "Y’en a vraiment pour tout les goûts dans ce secteur. Alors n’hésitez pas.",
+                "shortDescription": "Y’en a pour tout les goûts",
+                "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Ce secteur est au milieu de la face.",
                 "routes": [
                   {
                     "number": 13,
@@ -144,7 +148,7 @@ const Secteurs ={
                     "name": "Black Girl",
                     "description": 0,
                     "difficulty": 4,
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 16,
@@ -210,14 +214,17 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "aaxaw",
-                "img": require ('../images/secteurs/aaxaw_secteur.png'),
-                "vignette": require ('../images/secteurs/aaxaw_vignette.jpg'),
-                "access_img": require ('../images/secteurs/aaxaw_acces.jpg'),
+                "id": "o938p",
+                "img": require ('../images/secteurs/o938p_secteur.png'),
+                "vignette": require ('../images/secteurs/o938p_vignette.jpg'),
+                "access_img": require ('../images/secteurs/o938p_acces.jpg'),
                 "name": "Fer à Cheval",
                 "heigth": "35m",
                 "orientation": "NO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=3",
+                "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Ce secteur est le plus proche du chantier archéologique.",
+                "description": "On y trouve \"Les Luzules\" et quelques autres belles voies. La partie droite du secteur est inaccessible pour cause de fouilles archéologiques...",
+                "shortDescription": "De la petite grande voie!",
                 "routes": [
                   {
                     "number": 23,
@@ -311,13 +318,14 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "42lum",
-                "img": require ('../images/secteurs/42lum_secteur.jpg'),
+                "id": "lgfae",
+                "img": require ('../images/secteurs/lgfae_secteur.jpg'),
                 "name": "Trou de Godille",
                 "heigth": "35m",
                 "orientation": "NO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=4",
-                "description": "Secteur où la pose des coinceurs peut être parfois difficile. A certains endroits, des  relais » sont installés.  La voie du trou de godille est intéressante et très bien équipée.",
+                "shortDescription": "Rééquipement récent! Nouvelles voies",
+                "description": "Rééquipement récent! Nouvelles voies.",
                 "routes": [
                   {
                     "number": 36,
@@ -355,12 +363,13 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "riiby",
-                "img": require ('../images/secteurs/riiby_secteur.png'),
+                "id": "7chhh",
+                "img": require ('../images/secteurs/7chhh_secteur.png'),
                 "name": "Feuilles mortes",
                 "heigth": "20m",
                 "orientation": "SO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=5",
+                "shortDescription": "Lisse en bas, découpé en haut",
                 "description": "Au sommet de la dalle, un relais ré-équipé vous attends.",
                 "routes": [
                   {
@@ -368,21 +377,21 @@ const Secteurs ={
                     "name": "Les feuilles mortes",
                     "description": 0,
                     "difficulty": 5,
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 41,
                     "name": "Pilly",
                     "description": 0,
                     "difficulty": 5,
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 42,
                     "name": "P'tite Pose",
                     "description": 0,
                     "difficulty": "5+",
-                    "equipment": "c"
+                    "equipment": "e"
                   }
                 ],
                 "routeNumber": 3,
@@ -392,15 +401,16 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "9yjnd",
-                "img": require ('../images/secteurs/9yjnd_secteur.jpg'),
-                "vignette": require ('../images/secteurs/9yjnd_vignette.jpg'),
-                "access_img": require ('../images/secteurs/9yjnd_acces.jpg'),
+                "id": "c15mj",
+                "img": require ('../images/secteurs/c15mj_secteur.jpg'),
+                "vignette": require ('../images/secteurs/c15mj_vignette.jpg'),
+                "access_img": require ('../images/secteurs/c15mj_acces.jpg'),
                 "name": "Initiation 1",
                 "heigth": "20m",
                 "orientation": "SE",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=6",
-                "description": "C’est la première partie du secteur initiation de l’impératrice, avec des voies très faciles et très bien équipées. En plus il y a peu de risques de se retrouver dans une voie  dure par accident, ces dernières sont toutes déversantes à souhait",
+                "shortDescription": "Secteur agréable, surtout des voies faciles",
+                "description": "C’est la première partie du secteur initiation du Rocher Noël, avec des voies très faciles et très bien équipées. En plus il y a peu de risques de se retrouver dans une voie dure par accident, ces dernières sont toutes déversantes à souhait",
                 "routes": [
                   {
                     "number": 43,
@@ -421,7 +431,7 @@ const Secteurs ={
                     "name": "Babar",
                     "description": 0,
                     "difficulty": 5,
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 46,
@@ -466,15 +476,16 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "yp2pd",
-                "img": require ('../images/secteurs/yp2pd_secteur.jpg'),
-                "vignette": require ('../images/secteurs/yp2pd_vignette.jpg'),
-                "access_img": require ('../images/secteurs/yp2pd_acces.jpg'),
+                "id": "mhyr",
+                "img": require ('../images/secteurs/mhyr_secteur.jpg'),
+                "vignette": require ('../images/secteurs/mhyr_vignette.jpg'),
+                "access_img": require ('../images/secteurs/mhyr_acces.jpg'),
                 "name": "Initiation 2",
                 "heigth": "20m",
                 "orientation": "SE",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=7",
-                "description": "Deuxième partie du secteur initiation de l’impératrice, avec, encore une fois, des  voies très faciles et très bien équipées.",
+                "shortDescription": "Secteur agréable, surtout des voies faciles",
+                "description": "Deuxième partie du secteur initiation du Rocher Noël, avec, encore une fois, des voies très faciles et très bien équipées. Possibilité de faire deux longeurs pour pratiquer les manips.",
                 "routes": [
                   {
                     "number": 51,
@@ -517,22 +528,37 @@ const Secteurs ={
                     "description": "Petit, mais costaud",
                     "difficulty": "6a",
                     "equipment": "e"
+                  },
+                  {
+                    "number": 57,
+                    "name": "Voie enfant",
+                    "description": 0,
+                    "difficulty": 4,
+                    "equipment": "e"
+                  },
+                  {
+                    "number": 58,
+                    "name": "Voie enfant",
+                    "description": 0,
+                    "difficulty": 3,
+                    "equipment": "e"
                   }
                 ],
-                "routeNumber": 6,
+                "routeNumber": 8,
                 "subsecteurs": [],
                 "level": 2
               }
             },
             {
               "secteur": {
-                "id": "pcjnb",
-                "img": require ('../images/secteurs/pcjnb_secteur.png'),
+                "id": "i5m11",
+                "img": require ('../images/secteurs/i5m11_secteur.png'),
                 "name": "Arbre Foudroyé ",
                 "heigth": "8m",
                 "orientation": "NO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=9",
-                "description": "Il faut emprunter le sentier qui contourne l’Impératrice par la face sud et qui vous  emmène au sommet.  Une vue superbe sur la rade de Brest et le pont de l’Iroise vous attends. Idéal pour  prendre le thé après quelques heures d’escalade, voire pour affronter «Chipster et  Oasis» à défaut d’infusion.",
+                "shortDescription": "A visiter rien que pour la vue!",
+                "description": "Il faut emprunter le sentier qui contourne le Rocher Noël par la face sud et qui vous  emmène au sommet. Une vue superbe sur la rade de Brest et le pont de l’Iroise vous attends. Idéal pour prendre le thé après quelques heures d’escalade, voire pour affronter «Chipster et Oasis» à défaut d’infusion.",
                 "routes": [
                   {
                     "number": 57,
@@ -570,12 +596,14 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "ur5bq",
-                "img": require ('../images/secteurs/ur5bq_secteur.png'),
+                "id": "1nmfn",
+                "img": require ('../images/secteurs/1nmfn_secteur.png'),
                 "name": "Le Fennec",
                 "heigth": "12m",
                 "orientation": "NNE",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=10",
+                "shortDescription": "Secteur confidentiel",
+                "acces": "On y accède en escaladant une vague rampe à gauche du secteur \"les Feuilles Mortes\"",
                 "description": "La légende voudrait que le Dieu blond en personne soit passé par là. La réalité quand  à elle veut que tout amoureux de la dalle passe par le Fennec.",
                 "routes": [
                   {
@@ -625,9 +653,9 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "6p0dw",
-          "vignette": require ('../images/secteurs/6p0dw_vignette.jpg'),
-          "access_img": require ('../images/secteurs/6p0dw_acces.png'),
+          "id": "z2q18",
+          "vignette": require ('../images/secteurs/z2q18_vignette.jpg'),
+          "access_img": require ('../images/secteurs/z2q18_acces.png'),
           "name": "Impératrice",
           "acces": "De Brest, prendre la RN 165 en direction de Quimper. Après le pont de l’Iroise prendre la 2ème sortie (Plougastel) qui mène à un 1er rond point. Faire le tour complet de celui ci en direction du «Passage» jusqu'à trouver un parking sur la droite. Ensuite, prendre le sentier qui grimpe : le rocher est immanquable.",
           "shortDescription": "Ancien nom : l'Impérator! Le rocher le plus proche de la route. De belles voies, dans tous les niveaux.",
@@ -635,11 +663,12 @@ const Secteurs ={
           "subsecteurs": [
             {
               "secteur": {
-                "id": "avo5c",
-                "img": require ('../images/secteurs/avo5c_secteur.jpg'),
+                "id": "3xo78",
+                "img": require ('../images/secteurs/3xo78_secteur.jpg'),
                 "name": "Dalle de Verre",
                 "heigth": "15m",
                 "orientation": "NO",
+                "shortDescription": "Le coin de L'Impérator",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=11",
                 "routes": [
                   {
@@ -720,8 +749,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "sh5p4",
-                "img": require ('../images/secteurs/sh5p4_secteur.png'),
+                "id": "5yg2x",
+                "img": require ('../images/secteurs/5yg2x_secteur.png'),
                 "name": "Dalle de Coeur",
                 "heigth": "18m",
                 "orientation": "NE",
@@ -763,10 +792,11 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "znn5d",
-                "img": require ('../images/secteurs/znn5d_secteur.jpg'),
+                "id": "3x8kf",
+                "img": require ('../images/secteurs/3x8kf_secteur.jpg'),
                 "name": "Bloc",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=13",
+                "shortDescription": "Du bloc!",
                 "description": "Au pied de la dalle de cœur, orienté NE/SO, vous trouverez des pas de bloc en dalle  fine ou en jetés furieux.  Attention CHUTE DANGEREUSE : CRASH-PAD ET PARADE OBLIGATOIRE",
                 "routes": [
                   {
@@ -819,12 +849,13 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "efnp9",
-                "img": require ('../images/secteurs/efnp9_secteur.png'),
+                "id": "8lrz4",
+                "img": require ('../images/secteurs/8lrz4_secteur.png'),
                 "name": "Le Dièdre Noir",
                 "heigth": "35m",
                 "orientation": "O",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=14",
+                "shortDescription": "Dièdre bien caché",
                 "description": "Secteur sauvage, non équipé, relais sur coinceurs. Pose des coinceurs délicate sur un  rocher fragile par endroit.  Entre la Queue de Cheval et la Tuchen , sur une grande vire, un gros relais sur chaîne  d’époque à contempler pour les curieux et les nostalgiques.",
                 "routes": [
                   {
@@ -870,8 +901,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "d5g9u",
-                "img": require ('../images/secteurs/d5g9u_secteur.png'),
+                "id": "o65jj",
+                "img": require ('../images/secteurs/o65jj_secteur.png'),
                 "name": "La Magnonne",
                 "heigth": "35m",
                 "orientation": "NNO",
@@ -907,13 +938,13 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "zbrug",
-                "img": require ('../images/secteurs/zbrug_secteur.png'),
+                "id": "o2puvk",
+                "img": require ('../images/secteurs/o2puvk_secteur.png'),
                 "name": "L'X",
                 "heigth": "20m",
                 "orientation": "NNE",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=16",
-                "description": "L’accès à ce secteur se fait par le chemin sud-ouest (celui qui passe au dessus de  l’Imperator). Une superbe vue sur la rade vous y attend.",
+                "description": "L’accès à ce secteur se fait par le chemin sud-ouest (celui qui passe au dessus du rocher). Une superbe vue sur la rade vous y attend.",
                 "routes": [
                   {
                     "number": 29,
@@ -923,36 +954,43 @@ const Secteurs ={
                     "equipment": "c"
                   },
                   {
+                    "number": "29 bis",
+                    "name": 0,
+                    "description": 0,
+                    "difficulty": "6a+/6b",
+                    "equipment": "e"
+                  },
+                  {
                     "number": 30,
                     "name": "Rhum Dodo",
                     "description": 0,
                     "difficulty": "6c",
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 31,
                     "name": "L'Ecaille",
                     "description": "Comme son nom l'indique",
                     "difficulty": "6b",
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 32,
                     "name": "Le Houx",
                     "description": 0,
                     "difficulty": 5,
-                    "equipment": "c"
+                    "equipment": "e"
                   }
                 ],
-                "routeNumber": 4,
+                "routeNumber": 5,
                 "subsecteurs": [],
                 "level": 2
               }
             },
             {
               "secteur": {
-                "id": "d467n",
-                "img": require ('../images/secteurs/d467n_secteur.png'),
+                "id": "1o3kz",
+                "img": require ('../images/secteurs/1o3kz_secteur.png'),
                 "name": "Le Lierre",
                 "heigth": "25m",
                 "orientation": "SO",
@@ -966,25 +1004,32 @@ const Secteurs ={
                     "equipment": "c"
                   },
                   {
+                    "number": "33bis",
+                    "name": "La Cheminée",
+                    "description": 0,
+                    "difficulty": "5a/b",
+                    "equipment": "e"
+                  },
+                  {
                     "number": 34,
                     "name": "Jolly Jumper",
                     "description": 0,
                     "difficulty": "5+",
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 35,
                     "name": "La Variante de la 36",
                     "description": 0,
                     "difficulty": "5+",
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 36,
                     "name": "Le dièdre du Départ",
                     "description": 0,
                     "difficulty": "5+",
-                    "equipment": "c"
+                    "equipment": "e"
                   },
                   {
                     "number": 37,
@@ -1029,7 +1074,7 @@ const Secteurs ={
                     "equipment": "b"
                   }
                 ],
-                "routeNumber": 10,
+                "routeNumber": 11,
                 "subsecteurs": [],
                 "level": 2
               }
@@ -1040,24 +1085,25 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "taazx",
-          "img": require ('../images/secteurs/taazx_secteur.jpg'),
-          "vignette": require ('../images/secteurs/taazx_vignette.jpg'),
-          "access_img": require ('../images/secteurs/taazx_acces.jpg'),
+          "id": "fo57z",
+          "img": require ('../images/secteurs/fo57z_secteur.jpg'),
+          "vignette": require ('../images/secteurs/fo57z_vignette.jpg'),
+          "access_img": require ('../images/secteurs/fo57z_acces.jpg'),
           "name": "Le Cube",
           "description": "De Brest, prendre la RN 165 en direction de Quimper, juste après le pont de  l’Iroise, prendre la sortie Kéraliou. Au STOP prendre à droite, puis la 1ère à gauche  (petite route étroite et raide). 150 m après le virage à droite, se garer sur le petit parking.  Le chemin d’accès vers le Cube se situe juste en face du parking, celui du Serpent 500 m plus loin en prenant à gauche, puis à droite, puis de nouveau à gauche  après la deuxième maison.",
           "shortDescription": "Belle vue, une belle face",
           "subsecteurs": [
             {
               "secteur": {
-                "id": "tngrr",
-                "img": require ('../images/secteurs/tngrr_secteur.png'),
-                "vignette": require ('../images/secteurs/tngrr_vignette.jpg'),
+                "id": "vctoc",
+                "img": require ('../images/secteurs/vctoc_secteur.png'),
+                "vignette": require ('../images/secteurs/vctoc_vignette.jpg'),
                 "name": "L'Angle",
                 "heigth": "25m",
                 "orientation": "N/NO",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=18",
-                "description": "C’est le premier secteur que vous devez trouver (sauf si vous vous êtes paumés). Facile à repérer grâce au grand dièdre qui débute par un petit toit facile.  Secteur idéal en été pour les bretons et les pingouins qui craignent le soleil.",
+                "shortDescription": "Grand dièdre caractéristique",
+                "description": "C’est le premier secteur que vous devez trouver (sauf si vous vous êtes paumés). Facile à repérer grâce au grand dièdre qui débute par un petit toit facile. Secteur idéal en été pour les bretons et les pingouins qui craignent le soleil.",
                 "routes": [
                   {
                     "number": 1,
@@ -1109,14 +1155,14 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "nufgd",
-                "img": require ('../images/secteurs/nufgd_secteur.jpg'),
+                "id": "d8rb9",
+                "img": require ('../images/secteurs/d8rb9_secteur.jpg'),
                 "name": "Face Nord 1",
                 "heigth": "25m",
                 "orientation": "N",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=19",
                 "shortDescription": "La partie la plus raide du site",
-                "description": "Comme son nom l’indique, il y fait rarement chaud mais, cette exposition lui permet  d’être sous un vent dominant qui sèche le rocher plus rapidement qu’ailleurs. De plus,  pour les amateurs de performance, toutes les voies sont des petits bijoux où il est toujours agréable de ne pas trop transpirer.",
+                "description": "Comme son nom l’indique, il y fait rarement chaud mais, cette exposition lui permet d’être sous un vent dominant qui sèche le rocher plus rapidement qu’ailleurs. De plus, pour les amateurs de performance, toutes les voies sont des petits bijoux où il est toujours agréable de ne pas trop transpirer.",
                 "routes": [
                   {
                     "number": 7,
@@ -1175,14 +1221,14 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "danaf",
-                "img": require ('../images/secteurs/danaf_secteur.jpg'),
+                "id": "byi5",
+                "img": require ('../images/secteurs/byi5_secteur.jpg'),
                 "name": "Face Nord 2",
                 "heigth": "25m",
                 "orientation": "N",
                 "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=20",
                 "shortDescription": "Un peu moins raide!",
-                "description": "Cette deuxième partie de la face, beaucoup plus facile, est le complément idéal pour  les groupes où le niveau n’est pas homogène. En effet, à 10 mètres des couennes, du  facile avec une terrasse bien exposée pour prendre le soleil.",
+                "description": "Cette deuxième partie de la face, beaucoup plus facile, est le complément idéal pour les groupes où le niveau n’est pas homogène. En effet, à 10 mètres des couennes, du  facile avec une terrasse bien exposée pour prendre le soleil.",
                 "routes": [
                   {
                     "number": 13,
@@ -1220,8 +1266,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "r49cx",
-                "img": require ('../images/secteurs/r49cx_secteur.png'),
+                "id": "s21lw",
+                "img": require ('../images/secteurs/s21lw_secteur.png'),
                 "name": "Face Ouest",
                 "heigth": "20m",
                 "orientation": "O",
@@ -1293,8 +1339,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "es4rn",
-                "img": require ('../images/secteurs/es4rn_secteur.png'),
+                "id": "hb088",
+                "img": require ('../images/secteurs/hb088_secteur.png'),
                 "name": "Face Sud",
                 "heigth": "10m",
                 "orientation": "S",
@@ -1373,8 +1419,8 @@ const Secteurs ={
             },
             {
               "secteur": {
-                "id": "s8e2j",
-                "img": require ('../images/secteurs/s8e2j_secteur.jpg'),
+                "id": "enj20i",
+                "img": require ('../images/secteurs/enj20i_secteur.jpg'),
                 "name": "Pilier du Chien",
                 "heigth": "6m",
                 "orientation": "N",
@@ -1415,10 +1461,10 @@ const Secteurs ={
       },
       {
         "secteur": {
-          "id": "h5n9l",
-          "img": require ('../images/secteurs/h5n9l_secteur.jpg'),
-          "secteur1": require ('../images/secteurs/h5n9l_secteur1.jpg'),
-          "access_img": require ('../images/secteurs/h5n9l_acces.jpg'),
+          "id": "8t3tb",
+          "img": require ('../images/secteurs/8t3tb_secteur.jpg'),
+          "secteur1": require ('../images/secteurs/8t3tb_secteur1.jpg'),
+          "access_img": require ('../images/secteurs/8t3tb_acces.jpg'),
           "name": "Le Serpent",
           "heigth": "20m",
           "orientation": "NE",

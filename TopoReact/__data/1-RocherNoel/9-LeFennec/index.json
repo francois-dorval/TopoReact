@@ -3,6 +3,8 @@
   "heigth": "12m",
   "orientation": "NNE",
   "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=10",
+  "shortDescription": "Secteur confidentiel",
+  "acces": "On y accède en escaladant une vague rampe à gauche du secteur \"les Feuilles Mortes\"",
 
   "description": "La légende voudrait que le Dieu blond en personne soit passé par là. La réalité quand  à elle veut que tout amoureux de la dalle passe par le Fennec."
 }

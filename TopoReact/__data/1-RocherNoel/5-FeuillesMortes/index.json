@@ -3,6 +3,7 @@
   "heigth": "20m",
   "orientation": "SO",
   "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=5",
+  "shortDescription": "Lisse en bas, découpé en haut",
 
   "description": "Au sommet de la dalle, un relais ré-équipé vous attends."
 }

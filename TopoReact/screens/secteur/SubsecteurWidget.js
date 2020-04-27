@@ -22,6 +22,7 @@ module.exports = class RoutesWidget extends React.Component {
 
         let widgets = (data.subsecteurs || []).map((subsecteur, index) => {
             return (
+
                 <SecteurMenu key={subsecteur.secteur.id} id={subsecteur.secteur.id} name={subsecteur.secteur.name}
                              secteur={subsecteur.secteur}
                              navigation={navigation}

@@ -2,6 +2,9 @@
   "name": "Grand Toit",
   "heigth": "35m",
   "orientation": "NO",
-  "description": "C’est ici que l’on trouve les voies les plus dures. ",
-  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=1"
+  "shortDescription": "LE toit!",
+
+  "description": "C’est ici que l’on trouve les voies les plus dures.",
+  "routesData": "http://gsx2json.com/api?id=1jjGhJJwYKgCx2nt7clCZVE3FJPXcaeqfOqmBnObKI1A&sheet=1",
+  "acces": "Suivre les panneaux \"Rocher Noël\" : la grande face sera sur la gauche. Le Grand Toit est tout au bout."
 }
